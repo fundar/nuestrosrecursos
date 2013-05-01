@@ -1,0 +1,399 @@
+
+ol.curtains li.section{
+    padding-top:50px;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+
+    width:960px;
+    height:792px;
+    max-width:960px;
+    max-height:792px;
+
+    margin:0 auto;
+    position: relative;
+
+}
+#inicio{
+    color:white;
+    text-shadow:0 1px 0 black;
+    background:#FFF url('../img/back1.jpg') no-repeat center top;
+    min-width:960px;
+    max-width:960px;
+    min-height:700px;
+    max-height:700px;
+    padding: 0px auto;
+}
+   
+    #inicio #wrapper{
+        min-width: 918px;
+        max-width: 918px;
+        margin: auto;
+    }
+
+        #inicio #back{
+            background:url('../img/banner.png') no-repeat center top;
+            min-height: 313px;
+            max-height: 313px;
+        }
+
+        #inicio #filtro{
+            background:rgba(255, 255, 255, 0.5);
+            min-height: 290px;
+            max-height: 290px;
+            padding-top:15px; 
+        }
+
+        #inicio #banner{
+            background:url('../img/letras-banner.png') no-repeat center top;
+            margin-top:10px;
+            min-height: 307px;
+            max-height: 307px;
+            margin: 0 auto;
+        }
+
+        #inicio #mensaje{
+            background:url('../img/fondo-texto.png') no-repeat center top;
+            min-width:744px;
+            min-height:120px;
+            color:#000;
+            margin-top: 20px;
+        }
+
+        #inicio #texto{
+            margin:20px 180px 0px 40px;
+            text-align: right;
+            font-family: Verdana;
+            font-style:italic;
+            font-size: 0.95em;
+        }
+
+        #inicio article #alertas{
+            min-height: 30px;
+            background-color:#059;
+            min-width: 600px;
+            margin-bottom: 30px;
+            padding: 10px 0px 0px 10px;
+            float: left;
+        }
+
+        #inicio article #mensaje{
+            font-size: 1.6em;
+        }
+
+        #inicio #video{
+            float:left;
+            margin-left: 20px;
+        }
+
+        #inicio #mapa{
+            float:right;
+            margin-right: 20px;
+        }
+
+#infografia{
+    background:rgba(155, 155, 155, 0.5) url('../img/back2.png') repeat left top;
+    min-width: 960px;
+    max-width: 960px;
+}
+
+    #infografia #brief{
+        background:transparent url('../img/brief.png') no-repeat center center ;
+        min-width: 870px;
+        max-width: 870px;
+        min-height: 86px;
+        margin: 50px auto;
+     }
+
+    #infografia #info{
+        background:transparent url('../img/info.png') no-repeat center center;
+        min-width: 900px;
+        max-width: 900px;
+        min-height: 545px;
+        max-height: 545px;
+        margin-left: -20px;
+        padding: 0px 0px 0px 50px;
+        color: #000;
+        z-index: 1;
+     }
+
+    #infografia #info #texto{
+        position: absolute;
+        z-index: -10;
+        padding: 20px 10px 0px 65px;
+        margin: 0px 0px 0px 37px;
+        min-width: 758px;
+        max-width: 758px;
+        min-height: 525px;
+        max-height: 525px;
+        background: #fff;
+        overflow-y: scroll;
+        overflow-x: hidden;
+     }
+
+h1 {
+    color: #bb3015;
+    font-size: 2.5em;
+    font-family: Verdana;
+    margin: 40px auto;
+    max-width: 925px;
+}
+
+h2{
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom:40px;
+    z-index: 1;
+    position:absolute;
+}
+
+.circle {
+    width: 90px;
+    height: 90px;
+    background: rgba(50, 50, 50, 0.8);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: -10;
+}
+
+.circle2 {
+    width: 80px;
+    height: 80px;
+    background: rgba(125, 167, 217, 0.8);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    z-index: -10;
+}
+
+#afectaciones{
+    background:#FFF url('../img/back2.png') repeat left top;
+    color:#000;
+    min-height: 980px;
+    max-height: 980px;
+}
+
+    #afectaciones #industrias{
+        max-width: 900px;
+        min-width: 900px;
+        min-height: 430px;
+        max-height: 430px;
+        padding: 0px 40px;
+        margin: 0px auto;
+
+    }
+
+    #afectaciones #desc-back{
+        background: transparent url('../img/des.png') no-repeat left top;
+        min-width: 417px;
+        max-width: 417px;
+        max-height: 25px;
+        min-height: 25px;
+    }
+
+    #afectaciones #desc-back2{
+        background: rgba(248, 128, 29, 0.6);
+        min-width: 417px;
+        max-width: 417px;
+        max-height: 25px;
+        min-height: 25px;
+    }
+
+    #afectaciones #pet{
+        background: url('../img/desc.png') no-repeat left top;
+        min-width: 78px;
+        max-width: 78px;
+        max-height: 18px;
+        min-height: 18px;
+    }
+
+    #afectaciones .ind{
+        max-width: 435px;
+        min-width: 435px;
+    }
+
+    #afectaciones #petrolera{
+        float: left;
+    }
+
+    #afectaciones #minera{
+        float: right;
+    }
+
+    #afectaciones #minera h1{     
+        margin-bottom: 20px;
+    }
+
+    #afectaciones #minera h2{     
+        float: right;
+        position: relative;
+        display: block;
+        margin: 20px 20px 20px 30px;
+        min-width: 380px;
+        text-align: right;
+    }
+
+    #afectaciones #c1{
+        margin: 20px 0px 0px -70px;
+    }
+    #afectaciones #c2{
+        margin: -130px 0px 7px -35px;
+    }
+
+    #afectaciones #c3{
+        margin: -15px -500px 0px 0px;
+        float: right;
+    }
+
+    #afectaciones #c4{
+        margin: -35px -435px 0px 0px;
+        float: right;
+    }
+
+    div.line{
+        background: url('../img/line1.png') no-repeat left top;
+        min-width: 883px;
+        max-width: 883px;
+        min-height: 7px;
+        max-height: 7px;
+        margin: 0px auto;
+    }
+
+    #afectaciones #campanias{
+        margin:0px auto;
+        min-height: 125px;
+        max-width: 900px;
+        padding: 5px 0px 0px 10px;
+    }
+    #afectaciones #campanias li{
+        min-width: 214px;
+        max-width: 214px;
+        min-height: 122px;
+        max-height: 122px;
+        float: left;
+        background: #777;
+        margin-right: 10px;
+    }
+#ind-petrolera {
+    background:#FFF url('../img/back2.png') repeat left top;
+    min-height: 1050px;
+}
+#ind-petrolera #min-head{
+    background: url('../img/min-banner.png') no-repeat left top;
+    min-width:966px;
+    max-width:966px;
+    min-height:150px;
+    max-height:150px;
+    margin-top: -50px;
+}
+
+#ind-petrolera h1 {
+    margin-left: 35px;
+    margin: 15px 0px 10px 40px;
+}
+
+#ind-petrolera ul#videos{
+    margin: 20px 100px;
+}
+
+#ind-petrolera ul#videos li{
+    min-width:650px;
+    max-width:650px;
+    max-height:185px;
+    min-height: 185px;
+    margin-bottom: 15px;
+}
+
+#ind-petrolera span{
+    color:#000;
+    display: block;
+}
+
+#ind-petrolera video{
+    background: url('../img/video2.png') no-repeat left top;
+    min-width:293px;
+    min-height:182px;
+    float:left;
+}
+
+#footer{
+    background: url('../img/footer.png') no-repeat left top;
+    min-width: 966px;
+    max-width: 966px;
+    min-height:122px;
+    max-height:122px;
+    margin-top: 20px;
+
+    position: absolute;
+    bottom:0;
+    padding:80px 20px 10px 75px;
+}
+
+#footer ol{
+    float: left;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 340px;
+    max-width: 340px;
+    position: relative;
+    color:#fff;
+    margin-right: 15px;
+}
+
+#footer ol#col2 li{
+    float:left;
+    min-width: 170px;
+    max-width: 170px;
+}
+
+#footer #col3{
+    min-width: 100px;
+}
+
+
+/* MENU */
+#menu{
+    position:fixed;
+    z-index:20;
+    min-width: 100%;
+    /*background-color:#000;*/
+    padding:0px auto;
+}
+
+#menu ul{
+    min-width: 1270px;
+    max-width: 1270px;
+    min-height: 20px;
+    padding:10px 0px 10px 30px;
+    background-color:#000;
+    margin: 0 auto;
+    display: block;
+
+}
+
+    #menu li{
+        float: left;
+        margin-right:30px;
+        font-size: 1.2em;
+        display: inline-block;
+    }
+
+    .click{
+        color: #fff;
+    }
+
+    .hover{
+        color: #bbb;
+    }
+
+    .normal{
+        color: #555;
+    }
+
+    #menu a{
+        margin:0;
+        text-decoration: none;
+        display: block; 
+    }
