@@ -1,0 +1,92 @@
+
+/* @group slide-vertical */
+.slider-vertical {
+	margin-top: 30px;
+	padding: 0;
+	max-width: 290px;
+	min-width: 290px;
+	float:left;
+	margin-right: 5px;
+	padding: 5px;
+	color:#000;
+}
+.slider-vertical h2{
+	position: relative;
+	color:#000;
+	margin-bottom: -20px;
+}
+.slider-vertical img {
+	float: left;
+}
+.slider-vertical .vinculo-especial2 {
+	margin-right: 32px;
+}
+.contenedor-slider {
+	max-width: 300px;
+	overflow: hidden;
+	position: relative;
+	border-left: 1px solid #bbb;
+	background: rgba(255,255,255,0.5);
+	max-height: 220px;
+	min-height: 220px;
+}
+.bloque-slider {
+	position: relative;
+	display: block;
+	top: 0;
+
+}
+.modulo-slider {
+	height: 80px;
+	/* los paddings los coloque independientes para que se puedan obtener por javascript */
+	padding: 13px 10px 5px 10px;
+	position: relative;
+	margin: 0 40px 0 0;
+}
+.modulo-slider h4 {
+	margin-top: 0;
+}
+.mover-slider-vertical {
+	position: absolute;
+	width: 40px;
+	right: 0;
+	top: 0;
+	margin: 0;
+	background:  url(../img/slider-vertical-bg.jpg) no-repeat 0 4px;
+}
+.mover-slider-vertical a {
+	display: block;
+	width: 21px;
+	height: 21px;
+	margin: 10px 0 40px 10px;
+	text-indent: -9999em;
+	outline: none;
+	background-image: url(../img/boton.gif);
+	background-repeat: no-repeat;
+	cursor: pointer;
+	line-height: 0;
+	font-size: 0;
+}
+.mover-slider-vertical a:hover {
+}
+.subir-slider {
+	background-position: 0 0;
+}
+.subir-slider:hover {
+	background-position: 0 -21px;
+}
+.subir-slider:active {
+	background-position: 0 0;
+}
+.bajar-slider {
+	background-position: -21px 0;
+}
+
+.bajar-slider:hover {
+	background-position: -21px -21px;
+}
+
+.bajar-slider:active {
+	background-position: -21px 0;
+} 
+/* @end slide-vertical */

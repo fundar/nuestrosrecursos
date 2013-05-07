@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/sources/css/base.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/sources/css/curtain.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/home.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/agile_carousel.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/slider-vertical.css">
   
   <link href='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.css' rel='stylesheet' />
   <style>
@@ -61,7 +63,7 @@
     <h1>Introducción a las Industrias Estractivas en México</h1>
     <div id="brief"></div>
     <div id="info">
-      <div id="texto">s
+      <div id="texto">
       </div>
     </div>
   </li>
@@ -206,7 +208,24 @@
       consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
       cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
       proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+      <br>
+      <br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <br>
+      <br>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <br>
+      <br>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -217,18 +236,88 @@
     <ul id="right">
       <li>
         <h2>Sector Petrolero</h2>
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </li>
       <li>
         <h2>Sector Minero</h2>
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </li>
       <li>
         <h2>Política Social y ambiental</h2>
+        <br>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </li>
     </ul>
   </li>
 
   <li id="publicaciones" class="section cover">
     <h1>Publicaciones y Multimedia</h1>
+
+    <div class="slideshow" id="multiple_slides_visible"></div>
+
+    <div class="nivel slider-vertical cuad">
+      <h2>Video</h2>
+        <div class="contenedor-slider">
+
+          <div class="bloque-slider">
+              <div class="modulo-slider">
+                  <br>
+                  <iframe width="260" height="180" src="http://www.youtube.com/embed/Pxoo931bWcE" frameborder="0" allowfullscreen></iframe>
+              </div>
+          </div>
+
+        </div>
+    </div>
+  
+    <div class="nivel slider-vertical cuad">
+      <h2>Audio</h2>
+        <div class="contenedor-slider">
+
+          <div class="bloque-slider">
+              <div class="modulo-slider">
+                  <br>
+                  <object id="playerList373" width="260" height="180" type="application/x-shockwave-flash" data="http://www.ivoox.com/playeriVoox_em_241_373_1.html"><param name="movie" value="http://www.ivoox.com/playeriVoox_em_241_373_1.html"></param><param name="allowFullScreen" value="true"></param><param name="wmode" value="transparent"></param><param name="AllowScriptAccess" value="always"></param><embed src="http://www.ivoox.com/playeriVoox_em_241_373_1.html" type="application/x-shockwave-flash" allowfullscreen="true" wmode="transparent" allowscriptaccess="always" width="206" height="182"></embed></object>
+              </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="nivel slider-vertical cuad">
+      <h2>Salidas en Medios</h2>
+        <div class="contenedor-slider">
+
+          <div class="bloque-slider">
+              <div class="modulo-slider">
+                  <br><br>
+                  <img src="">
+                  <p><a href="#">Lorem ipsum dolor sit amet</a></p><br>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                  tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+              <div class="modulo-slider">
+          </div>
+            <!-- fin bloque-slider -->
+        </div>
+          <p class="mover-slider-vertical"><a class="subir-slider" >Subir noticia</a> <a class="bajar-slider">Bajar noticia</a></p>
+    </div>
+  
   </li>
 
   <li id="acerca" class="section cover"> 
@@ -326,6 +415,8 @@
   </li-->
 </ol>
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url');?>/sources/js/libs/agile_carousel.js"></script>
+<script src="<?php bloginfo('template_url');?>/sources/js/libs/slider-vertical.js"></script>
  
 <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
 
@@ -333,5 +424,52 @@
 <!--script src="<?php bloginfo('template_url');?>/sources/js/libs/curtain.js"></script-->
 <!--script src="<?php bloginfo('template_url');?>/sources/js/home.js"></script-->
 
+<script>
+    //$.getJSON("agile_carousel/agile_carousel_data.php", function(data) {
+        $(document).ready(function(){
+            $(".agile_carousel").css("min-width", "900px");
+            content  = "<div class='slide_inner'>"
+            content += "  <a href='#'>"
+            content += "     <img src='<?php bloginfo('template_url');?>/img/portada.jpg'> <br> <br>  <p> Titulo </p> <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit </span></a>"
+            content += "   "
+            content += " </div> "
+            $("#multiple_slides_visible").agile_carousel({
+                carousel_data: [{ "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content},
+                                { "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content},
+                                { "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content}
+                               ],
+                carousel_outer_height: 230,
+                carousel_height: 200,
+                slide_height: 200,
+                carousel_outer_width: 480,
+                slide_width: 300,
+                number_slides_visible: 3,
+                transition_time:2500,
+                control_set_1: "previous_button,next_button",
+                control_set_2: "group_numbered_buttons",
+                persistent_content: "<p class='persistent_content'>Agile Carousel Example: Multiple Slides Visible</p>"       
+            });
+        });
+
+    //Verical Slider
+    moverSlider();
+    $(".bajar-slider").click(function(){
+        bajarSlider();
+    });
+
+    $(".subir-slider").click(function(){
+        subirSlider();
+    });
+
+    $(".slider-vertical").mouseover(function(){
+        verificar = 0;
+    });
+
+    $(".slider-vertical").mouseout(function(){
+        verificar = 1;
+    });
+
+    //});
+</script>
 </body>
 </html>

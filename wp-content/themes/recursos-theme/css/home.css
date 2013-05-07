@@ -1,4 +1,3 @@
-
 ol.curtains li.section{
     padding-top:50px;
     background-size: cover;
@@ -133,7 +132,7 @@ ol.curtains li.section{
      }
 
 h1 {
-    color: #bb3015;
+    color: #000;
     font-size: 2.5em;
     font-family: Verdana;
     margin: 40px auto;
@@ -324,7 +323,7 @@ h2{
 /******************************/
 
 #marcolegal, #ingresos, #mapainteractivo, 
-#transparencia, #publicaciones, #acerca{   
+#transparencia, #acerca{   
     background:url('../img/back2.png') repeat left top;
     min-width: 930px;
     max-width: 930px;
@@ -552,6 +551,23 @@ div.cuad, ul.cuad {
         text-align: right;
 */
 
+#multiple_slides_visible{
+    min-height: 180px;
+}
+
+.agile_carousel{
+    width: 900px;
+}
+
+
+#publicaciones{
+     background:url('../img/back2.png') repeat left top;
+    min-width: 930px;
+    max-width: 930px;
+    min-height:740px;
+    max-height:740px;
+    padding: 0px 15px;
+}
 
 #footer{
     background: url('../img/footer.png') no-repeat left top;
