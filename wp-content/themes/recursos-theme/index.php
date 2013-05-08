@@ -194,7 +194,12 @@
   </li>
 
   <li id="mapainteractivo" class="section cover">
-    <h1>Mapa Interactivo</h1>
+    <h1>Mapas</h1>
+    <ul id="menu-mapas">
+      <li><a href="fundarmexico.map-56rcfk4m" class="map_link">| Concesiones vs Lenguas |</a></li>
+      <li><a href="fundarmexico.map-g5hv3yn0" class="map_link">| Consesiones vs ANP Federal |</a></li>
+    </ul>
+    
     <div id='map'></div>
   </li>
 
@@ -317,7 +322,6 @@
         </div>
           <p class="mover-slider-vertical"><a class="subir-slider" >Subir noticia</a> <a class="bajar-slider">Bajar noticia</a></p>
     </div>
-  
   </li>
 
   <li id="acerca" class="section cover"> 
@@ -384,7 +388,7 @@
     </div> 
   </li>
 
-  <!--li id="indpetrolera" class="section cover">      
+  <li id="indpetrolera" class="section cover">      
     <div id="min-head"></div>
     <h1>Oil Industry Impacts</h1>
     <div class="line"></div>
@@ -412,15 +416,54 @@
       </li>
     </ul>
    
-  </li-->
+    <div id="footer">
+      <ol id="col1">
+        <li>Quines somos</li>
+        <li>Contacto</li>
+        <li>Fundar, Centro de Análisis e Investigación</li>
+      </ol>
+
+      <ol id="col2">
+        <li>Nuestros Recursos</li>
+        <li>Mapa Interactivo</li>
+
+        <li>Impactos</li>
+        <li>Transparencia</li>
+
+        <li>Marco Legal</li>
+        <li>Publicaciones</li>
+
+        <li>Ingresos</li>
+        <li>Sobre Nosotros</li>
+      </ol>
+
+      <ol id="col3">
+        <img src="<?php bloginfo('template_url');?>/img/fundar.png" id="logo">
+      </ol>
+    </div> 
+  </li>
 </ol>
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/agile_carousel.js"></script>
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/slider-vertical.js"></script>
+<script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.scrollTo-1.4.3.1-min.js"></script>
  
 <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
 
-<script>  mapbox.auto('map', 'fundarmexico.map-56rcfk4m');</script>
+<script>  
+  mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
+  $(".map_link").on("click", function(){
+    map_id = $(this).attr("href")
+    mapbox.auto('map', map_id);
+    return false
+  })
+
+  $(".menu a").on("click", function(){
+    section = $(this).attr("href")
+    $.scrollTo(section, 1000)
+    return false
+  })
+</script>
 <!--script src="<?php bloginfo('template_url');?>/sources/js/libs/curtain.js"></script-->
 <!--script src="<?php bloginfo('template_url');?>/sources/js/home.js"></script-->
 
