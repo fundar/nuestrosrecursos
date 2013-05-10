@@ -621,17 +621,11 @@ div.cuad, ul.cuad {
 
 
 /* MENU */
-#menu{
+
+.menu{
     position:fixed;
     z-index:20;
     min-width: 100%;
-    /*background-color:#000;*/
-    padding:0px auto;
-}
-
-#menu ul{
-    min-width: 1270px;
-    max-width: 1270px;
     min-height: 20px;
     padding:10px 0px 10px 30px;
     background-color:#000;
@@ -640,7 +634,7 @@ div.cuad, ul.cuad {
 
 }
 
-    #menu li{
+    .menu li{
         float: left;
         margin-right:30px;
         font-size: 1.2em;
@@ -659,10 +653,29 @@ div.cuad, ul.cuad {
         color: #ccc;
     }
 
-    #menu a{
+    .menu a{
         margin:0;
         text-decoration: none;
         display: block; 
     }
+
+/* NAV CONTROLERS*/
+
+.nav_controls{
+    position:fixed;
+    z-index:20;
+    min-width: 100px;
+    min-height: 300px;
+    padding:10px 0px 10px 30px;
+    background-color:#000;
+    margin: 0 auto;
+    display: block;
+    right:0;
+    top:400px;
+}
+.nav_controls li{
+    cursor: pointer;
+    margin: 15px auto;
+    max-width: 75px
+}
     
-.hola{}

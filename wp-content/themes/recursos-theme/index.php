@@ -17,21 +17,26 @@
 </head>
 <body>
 
-<div id="menu" class="menu">
-  <ul>
-    <li> <a href="#inicio"  id="_inicio" class="curtain-links normal"> Inicio </a> </li>
-    <li> <a href="#infografia"  id="_infografia" class="curtain-links normal"> Infografía </a> </li>
-    <li> <a href="#afectaciones"  id="_afectaciones" class="curtain-links normal"> Afectaciones </a> </li>
-    <!--li> <a href="#indpetrolera"  id="_indpetrolera" class="curtain-links normal"> Industria Petrolera  </a></li-->
+<ul class="menu">
+  <li> <a href="#inicio"  id="_inicio" class="curtain-links normal"> Inicio </a> </li>
+  <li> <a href="#infografia"  id="_infografia" class="curtain-links normal"> Infografía </a> </li>
+  <li> <a href="#afectaciones"  id="_afectaciones" class="curtain-links normal"> Afectaciones </a> </li>
 
-    <li> <a href="#marcolegal"  id="_marcolegal" class="curtain-links normal"> Marco Legal </a></li>
-    <li> <a href="#ingresos"  id="_ingresos" class="curtain-links normal"> Ingresos </a></li>
-    <li> <a href="#mapainteractivo"  id="_mapainteractivo" class="curtain-links normal"> Mapa Interáctivo</a></li>
-    <li> <a href="#transparencia"  id="_transparencia" class="curtain-links normal"> Transparencia</a></li>
-    <li> <a href="#publicaciones"  id="_publicaciones" class="curtain-links normal"> Publicaciones</a></li>
-    <li> <a href="#acerca"  id="_acerca" class="curtain-links normal"> Sobre Nosotros</a></li>
-  </ul>
-</div>
+  <li> <a href="#marcolegal"  id="_marcolegal" class="curtain-links normal"> Marco Legal </a></li>
+  <li> <a href="#ingresos"  id="_ingresos" class="curtain-links normal"> Ingresos </a></li>
+  <li> <a href="#mapainteractivo"  id="_mapainteractivo" class="curtain-links normal"> Mapa Interáctivo</a></li>
+  <li> <a href="#transparencia"  id="_transparencia" class="curtain-links normal"> Transparencia</a></li>
+  <li> <a href="#publicaciones"  id="_publicaciones" class="curtain-links normal"> Publicaciones</a></li>
+  <li> <a href="#acerca"  id="_acerca" class="curtain-links normal"> Sobre Nosotros</a></li>
+
+  <!--li> <a href="#indpetrolera"  id="_indpetrolera" class="curtain-links normal"> Industria Petrolera  </a></li-->
+</ul>
+
+<ul class="nav_controls">
+  <li> <a id="home" href="#inicio" class="curtain-links normal"> Inicio </a> </li>
+  <li> <a id="up" href="#up" class="curtain-links normal"> Arriba </a> </li>
+  <li> <a id="down" href="#down" class="curtain-links normal"> Abajo </a> </li>
+</ul>
 
 <ol class="curtains">
   <li id="inicio" class="section" >
@@ -451,66 +456,98 @@
 <script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
 
 <script>  
-  mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
-  $(".map_link").on("click", function(){
-    map_id = $(this).attr("href")
-    mapbox.auto('map', map_id);
-    return false
-  })
-
-  $(".menu a").on("click", function(){
-    section = $(this).attr("href")
-    $.scrollTo(section, 1000)
-    return false
-  })
+  
 </script>
 <!--script src="<?php bloginfo('template_url');?>/sources/js/libs/curtain.js"></script-->
 <!--script src="<?php bloginfo('template_url');?>/sources/js/home.js"></script-->
 
 <script>
     //$.getJSON("agile_carousel/agile_carousel_data.php", function(data) {
-        $(document).ready(function(){
-            $(".agile_carousel").css("min-width", "900px");
-            content  = "<div class='slide_inner'>"
-            content += "  <a href='#'>"
-            content += "     <img src='<?php bloginfo('template_url');?>/img/portada.jpg'> <br> <br>  <p> Titulo </p> <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit </span></a>"
-            content += "   "
-            content += " </div> "
-            $("#multiple_slides_visible").agile_carousel({
-                carousel_data: [{ "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content},
-                                { "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content},
-                                { "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content}
-                               ],
-                carousel_outer_height: 230,
-                carousel_height: 200,
-                slide_height: 200,
-                carousel_outer_width: 480,
-                slide_width: 300,
-                number_slides_visible: 3,
-                transition_time:2500,
-                control_set_1: "previous_button,next_button",
-                control_set_2: "group_numbered_buttons",
-                persistent_content: "<p class='persistent_content'>Agile Carousel Example: Multiple Slides Visible</p>"       
-            });
+    $(document).ready(function(){
+        secciones = ["#inicio", "#infografia", "#afectaciones", "#marcolegal", "#ingresos", "#mapainteractivo", "#transparencia", "#publicaciones", "#acerca"]
+        sec_idx = 0;   
+
+        if (!Array.prototype.indexOf){
+          Array.prototype.indexOf = function(elt /*, from*/){
+            var len = this.length;
+
+            var from = Number(arguments[1]) || 0;
+            from = (from < 0)
+                 ? Math.ceil(from)
+                 : Math.floor(from);
+            if (from < 0)
+              from += len;
+
+            for (; from < len; from++)
+            {
+              if (from in this &&
+                  this[from] === elt)
+                return from;
+            }
+            return -1;
+          };
+        }
+
+        mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
+
+        $(".agile_carousel").css("min-width", "900px");
+            var content  = "<div class='slide_inner'>"
+                content += "  <a href='#'>"
+                content += "     <img src='<?php bloginfo('template_url');?>/img/portada.jpg'> <br> <br>  <p> Titulo </p> <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit </span></a>"
+                content += "   "
+                content += " </div> "
+        $("#multiple_slides_visible").agile_carousel({
+
+            carousel_data: [{ "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content},
+                            { "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content},
+                            { "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content}
+                           ],
+            carousel_outer_height: 230,
+            carousel_height: 200,
+            slide_height: 200,
+            carousel_outer_width: 480,
+            slide_width: 300,
+            number_slides_visible: 3,
+            transition_time:2500,
+            control_set_1: "previous_button,next_button",
+            control_set_2: "group_numbered_buttons",
+            persistent_content: "<p class='persistent_content'>Agile Carousel Example: Multiple Slides Visible</p>"       
         });
 
-    //Verical Slider
-    moverSlider();
-    $(".bajar-slider").click(function(){
-        bajarSlider();
+        $(".map_link").on("click", function(){
+          map_id = $(this).attr("href")
+          mapbox.auto('map', map_id);
+          return false
+        })
+
+        $(".menu a").on("click", function(){
+          seccion = $(this).attr("href")
+          sec_idx = secciones.indexOf(seccion);     
+          $.scrollTo(seccion, 1000)
+          return false
+        })
+
+        $(".nav_controls a").on("click", function(e){
+          action = $(this).attr("id")
+          if (action == "up"){ 
+            if (sec_idx >= 1 ) { seccion = secciones[ --sec_idx] }
+          }else if (action == "down"){ 
+            if (sec_idx <= secciones.length - 1 ) { seccion = secciones[ ++sec_idx] }
+          }else{ seccion = secciones[sec_idx = 0]  }
+          
+          $.scrollTo(seccion, 1000)
+          return false
+        })
+        
+        //Verical Slider
+        moverSlider();
+        $(".bajar-slider").click(function(){ bajarSlider(); });
+        $(".subir-slider").click(function(){ subirSlider();});
+        $(".slider-vertical").mouseover(function(){ verificar = 0; });
+        $(".slider-vertical").mouseout(function(){ verificar = 1;   });
+
     });
 
-    $(".subir-slider").click(function(){
-        subirSlider();
-    });
-
-    $(".slider-vertical").mouseover(function(){
-        verificar = 0;
-    });
-
-    $(".slider-vertical").mouseout(function(){
-        verificar = 1;
-    });
 
     //});
 </script>
