@@ -33,9 +33,9 @@
 </ul>
 
 <ul class="nav_controls">
-  <li> <a id="home" href="#inicio" class="curtain-links normal"> Inicio </a> </li>
-  <li> <a id="up" href="#up" class="curtain-links normal"> Arriba </a> </li>
-  <li> <a id="down" href="#down" class="curtain-links normal"> Abajo </a> </li>
+  <li> <a id="home" href="#inicio" class="curtain-links normal"> Top </a> </li>
+  <li> <a id="up" href="#up" class="curtain-links normal"> ▲  </a> </li>
+  <li> <a id="down" href="#down" class="curtain-links normal"> ▼ </a> </li>
 </ul>
 
 <ol class="curtains">
@@ -464,8 +464,6 @@
 <script>
     //$.getJSON("agile_carousel/agile_carousel_data.php", function(data) {
     $(document).ready(function(){
-        secciones = ["#inicio", "#infografia", "#afectaciones", "#marcolegal", "#ingresos", "#mapainteractivo", "#transparencia", "#publicaciones", "#acerca"]
-        sec_idx = 0;   
 
         if (!Array.prototype.indexOf){
           Array.prototype.indexOf = function(elt /*, from*/){
@@ -488,7 +486,29 @@
           };
         }
 
+        secciones = ["#inicio", "#infografia", "#afectaciones", "#marcolegal", "#ingresos", "#mapainteractivo", "#transparencia", "#publicaciones", "#acerca"]
+        sec_idx = 0;   
+
+        function sections_elevator(action) {
+          if (action == "up"){ 
+            if (sec_idx >= 1 ) { seccion = secciones[ --sec_idx] }
+          }else if (action == "down"){ 
+            if (sec_idx <= secciones.length - 1 ) { seccion = secciones[ ++sec_idx] }
+          }else{ seccion = secciones[sec_idx = 0]  }
+
+          $.scrollTo(seccion, 1000)
+        }
+
         mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
+
+        $(window).on('keyup', function(e){
+          switch(e.which){
+            case 40: sections_elevator("down"); break;
+            case 38: sections_elevator("up"); break;
+            case 36: sections_elevator("home"); break;
+            default: break;
+          }
+        });
 
         $(".agile_carousel").css("min-width", "900px");
             var content  = "<div class='slide_inner'>"
@@ -496,12 +516,36 @@
                 content += "     <img src='<?php bloginfo('template_url');?>/img/portada.jpg'> <br> <br>  <p> Titulo </p> <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit </span></a>"
                 content += "   "
                 content += " </div> "
+
+        populate_carousel = function(carousel){
+          <?php query_posts( array( 'paged' => get_query_var('page'), 'posts_per_page'=>8, 'post_type'=>'publicacion')); 
+            if (have_posts() ) {
+              while ( have_posts() ) : the_post(); 
+                global $post;
+                $meta = get_post_meta($post->ID,'_my_meta',TRUE);   
+                $link =  $meta['link'];
+                ?>  
+                //<?php  if ( has_post_thumbnail() ) {  the_post_thumbnail('full');  }?>          
+                var content  = "<div class='slide_inner'>"
+                    content += "  <a href='<?php echo $link;?>'>"
+                    //content += "     <?php if ( has_post_thumbnail() ) { the_post_thumbnail('carrucel'); } ?> "
+                    content += "     <p>  <?php the_title(); ?>  </p>"
+                    content += "     <span> <?php echo get_the_excerpt(); ?></span>"
+                    content += "  </a>"
+                    content += "</div> "
+
+                carousel.push({ "content": content})
+              <?php endwhile; 
+            }
+          ?> 
+          return carousel;
+        }
+
+        //console.log(populate_carousel([]))
+
         $("#multiple_slides_visible").agile_carousel({
 
-            carousel_data: [{ "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content},
-                            { "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content},
-                            { "content": content}, { "content": content}, { "content": content}, { "content": content}, { "content": content}
-                           ],
+            carousel_data: populate_carousel([]),
             carousel_outer_height: 230,
             carousel_height: 200,
             slide_height: 200,
@@ -526,16 +570,10 @@
           $.scrollTo(seccion, 1000)
           return false
         })
-
+        
         $(".nav_controls a").on("click", function(e){
           action = $(this).attr("id")
-          if (action == "up"){ 
-            if (sec_idx >= 1 ) { seccion = secciones[ --sec_idx] }
-          }else if (action == "down"){ 
-            if (sec_idx <= secciones.length - 1 ) { seccion = secciones[ ++sec_idx] }
-          }else{ seccion = secciones[sec_idx = 0]  }
-          
-          $.scrollTo(seccion, 1000)
+          sections_elevator(action);
           return false
         })
         
@@ -545,11 +583,8 @@
         $(".subir-slider").click(function(){ subirSlider();});
         $(".slider-vertical").mouseover(function(){ verificar = 0; });
         $(".slider-vertical").mouseout(function(){ verificar = 1;   });
-
+        
     });
-
-
-    //});
 </script>
 </body>
 </html>

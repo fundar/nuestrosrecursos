@@ -664,9 +664,9 @@ div.cuad, ul.cuad {
 .nav_controls{
     position:fixed;
     z-index:20;
-    min-width: 100px;
+    min-width: 50px;
     min-height: 300px;
-    padding:10px 0px 10px 30px;
+    padding:10px 0px 10px 15px;
     background-color:#000;
     margin: 0 auto;
     display: block;
@@ -676,6 +676,17 @@ div.cuad, ul.cuad {
 .nav_controls li{
     cursor: pointer;
     margin: 15px auto;
-    max-width: 75px
+    max-width: 75px;
+    padding-left: 10px;
 }
     
+.nav_controls a{
+    text-decoration: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav_controls a#up, .nav_controls a#down{
+    max-width: 20px;
+    width: 20px;
+}

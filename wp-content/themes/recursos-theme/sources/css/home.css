@@ -116,3 +116,8 @@ ol.curtains li.section{
         text-decoration: none;
         display: block; 
     }
+
+
+.nav_controls a{
+    text-decoration: none;
+}

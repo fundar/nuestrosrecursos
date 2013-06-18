@@ -4,6 +4,12 @@ $(function(){
       rel:'infografia'
     });
   */
+  alert("ola k ase")
+
+  $('body').on('keydown',function(e){
+    //$('#log').html(e.type + ': ' +  e.which );
+  });
+
   $('.curtains').curtain({ 
     scrollSpeed: 600, 
     controls: '.menu', 
