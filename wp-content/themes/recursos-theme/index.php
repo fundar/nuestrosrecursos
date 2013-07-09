@@ -65,7 +65,8 @@
   </li>
 
   <li id="infografia" class="section cover">
-    <h1>Introducción a las Industrias Estractivas en México</h1>
+    <!--h1>Introducción a las Industrias Estractivas en México</h1-->
+    <h1> Introducción </h1>
     <div id="brief"></div>
     <div id="info">
       <div id="texto">
@@ -74,7 +75,8 @@
   </li>
  
   <li id="afectaciones" class="section cover">      
-    <h1>Afectaciones socioespaciales de las industrias extractivas</h1>
+    <!--h1>Afectaciones socioespaciales de las industrias extractivas</h1-->
+    <h1> Afectaciones </h1>
     <div id="industrias">
       <div id="petrolera" class="ind">
         <h2> Industria Petrolera </h2>
@@ -129,19 +131,95 @@
     <h1>Marco Legal</h1>
 
     <div id="marco-constitucion" class="marco">
+      
       <h2> Constitución Política</h2>
+
+      <ul>
+        <li> 
+          <a> Artículo 27 
+          <span>
+            Establece el dominio directo de los minerales y los hidrocarburos por parte de la 
+            Nación. En el caso de los minerales, excepto algunas excepciones, esta explotación 
+            se realizará a través de concesiones.
+          </span>
+          </a> 
+        </li>
+        <li> 
+          <a> Artículo 28 
+          <span>
+            Establece la existencia de áreas estratégicas cuya gestión es exclusiva del Estado, 
+            entre las que se encuentran el petróleo y los demás hidrocarburos, la petroquímica 
+            básica y los minerales radioactivos.
+          </span>
+          </a> 
+        </li>
+        <li> 
+          <a> Artículo 73 
+          <span>
+            Establece las facultades del Congreso, ente las que se encuentra la de legislar 
+            sobre hidrocarburos y minería.
+          </span>
+          </a> 
+        </li>
+        <li> 
+          <a> Artículo 123
+            <span>
+              Establece la exclusividad de las autoridades federales en la aplicación de la 
+              legislación del sector hidrocarburos y el sector minero. Además, establece la 
+              obligación de las empresas mineras de habitaciones cómodas e higiénicas a través 
+              de la realización de aportaciones a un fondo nacional de vivienda.
+            </span>
+          </a>
+        </li>
+      </ul>
+
     </div>
 
     <div id="marco-petrolera" class="marco">
       <h2> Industria Petrolera </h2>
+      <ul>
+        <li> <a href="Ley Reglamentaria del Artículo 27 Constitucional en el Ramo del Petróleo"> 1 </a> </li>
+        <li> <a href="Ley Orgánica de Petróleos Mexicanos y Organismos Subsidiarios"> 2 </a> </li>
+        <li> <a href="Ley Federal de Entidades Paraestatales"> 3 </a> </li>
+        <li> <a href="Ley de Adquisiciones, Arrendamiento y Servicios del Sector Público"> 4 </a> </li>
+        <li> <a href="Ley de Obras Públicas y Servicios Relacionados con las mismas"> 5 </a> </li>
+        <li> <a href="Ley de Petróleos Mexicanos"> 6 </a> </li>
+        <li> <a href="Ley Para el Aprovechamiento de Energías Renovables y el Financiamiento de la Transición Energética"> 7 </a> </li>
+        <li> <a href="Ley Para el Aprovechamiento Sustentable de la Energía"> 8 </a> </li>
+        <li> <a href="Ley de la Comisión Reguladora de Energía"> 9 </a> </li>
+        <li> <a href="Ley de la Comisión Nacional de Hidrocarburos"> 10 </a> </li>
+      </ul>
+      <div id="res-marco-petrolera"></div>
     </div>
 
     <div id="marco-minera" class="marco"> 
       <h2>Industria Minera</h2>
+      <ul>
+        <li> <a href="Código Fiscal de la Federación"> 1 </a> </li>
+        <li> <a href="Ley Orgánica de la Administración Pública Federal"> 2 </a> </li>
+        <li> <a href="Ley Federal de Responsabilidades Administrativas de los Servidores  Públicos"> 3 </a> </li>
+        <li> <a href="Ley General de Bienes Nacionales"> 4 </a> </li>
+        <li> <a href="Ley Federal de Procedimiento Administrativo"> 5 </a> </li>
+        <li> <a href="Ley Federal de Transparencia y Acceso a la Información Pública Gubernamental"> 6 </a> </li>
+        <li> <a href="Ley General del Equilibrio Ecológico y la Protección al Ambiente"> 7 </a> </li>
+        <li> <a href="Ley Federal sobre Metrología y Normalización"> 8 </a> </li>
+        <li> <a href="Ley Federal de Derechos"> 9 </a> </li>
+        <li> <a href="Ley General para la Prevención y Gestión Integral de Residuos"> 10 </a> </li>
+        <li> <a href="Ley de Ingresos de la Federación para el Ejercicio Fiscal de 2013"> 11 </a> </li>
+        <li> <a href="Ley Federal de Presupuesto y Responsabilidad Hacendaria"> 12 </a> </li>
+        <li> <a href="Ley del Impuesto a los Depósitos en Efectivo"> 13 </a> </li>
+      </ul>
+      <div id="res-marco-minera"></div>
     </div>
 
     <div id="marco-comun" class="marco">
       <h2> Marco Común Legal </h2>
+      <ul>
+        <li> <a href="Ley Minera"> 1 </a> </li>
+        <li> <a href="Ley de la Propiedad Industrial"> 2 </a> </li>
+        <li> <a href="Código Penal Federal"> 3 </a> </li>
+      </ul>
+      <div id="res-marco-comun"></div>
     </div>
 
     <div id="marco-propuestas" class="marco">
@@ -152,12 +230,14 @@
   <li id="ingresos" class="section cover">
     <h1>Ingresos Públicos</h1>
     <div id="text-contr">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      Como puede observarse en la gráfica, desde 2006 los ingresos petroleros han 
+      supuesto alrededor de la tercera parte de los ingresos totales del sector público. 
+      Ello supone que alrededor del 30% de los recursos que financian el presupuesto 
+      público provienen de la explotación de un recurso natural no renovable, es decir, 
+      que eventualmente se agotará (PEMEX estima que las reservas existentes alcanzará 
+      para 31 años más). Además, el precio del petróleo es altamente volátil, lo que 
+      supone que puede aumentar y disminuir en función de factores externos, lo que puede 
+      llegar a poner en riego la sostenibilidad del gasto público.
     </div>
     <div id="grafica-contr"></div>
 
@@ -211,37 +291,34 @@
   <li id="transparencia" class="section cover">
     <h1>Transparencia y acceso</h1>
     <div id="left">
-      <h2>Texto simulado</h2>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br>
-      <br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br>
-      <br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      <br>
-      <br>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      <h2>Importancia de la transparencia en las industrias extractivas</h2>
+      El petróleo y los minerales son recursos naturales, por lo cual están sujeto a las 
+      diferentes disposiciones que establece la normativa internacional en cuantoa la 
+      explotación, uso y disfrute de estos recursos. En 1945, con la creación de Naciones 
+      Unidas (ONU), se estableció la libre determinación de los pueblos. Este derecho 
+      incluyó como elemento básico para su cumplimiento el derecho de los pueblosa la 
+      soberanía permanente sobre sus recursos y riquezas naturales.
+      <br><br>
+      Con base en estos principios, en 1961 la Asamblea General de Naciones Unidas elaboró 
+      la Resolución 1803 (XVII). En esta resolución se estableció que “el derecho de los 
+      pueblos y de las naciones a la soberanía permanente sobre sus riquezas y recursos 
+      naturales debe ejercerse en interés del desarrollo nacional y del bienestar del pueblo 
+      del respectivo Estado”. En México, en línea con los pactos internacionales mencionados, 
+      el artículo 27 de la Constitución establece la propiedad del petróleo y los minerales 
+      por parte de la Nación.
+      <br><br>
+      Un elemento para caminar en este sentido, es decir, para que el manejo de los recursos 
+      naturales contribuya al desarrollo y bienestar de la población, es incluir a la misma 
+      en el monitoreo y evaluación de la política pública de la gestión de los recursos. Es 
+      en este punto donde el la transparencia y el Acceso a la Información Pública juegan un 
+      papel central, ya que el logro de una participación ciudadana efectiva depende en buena 
+      medida de la información con la que cuente la sociedad.
+      <br><br>
+      La página web “Nuestros recursos” nació con esa idea en mente: mejorar la información 
+      sobre los sectores petrolero y minero mexicanos y el acceso a la misma, para que todas 
+      y todos podamos conocer en mayor medida cómo el gobierno gestiona nuestros recursos 
+      naturales. De esta manera, podremos participar, dar seguimiento y evaluar de mejor 
+      manera en las decisiones públicas sobre este tema que nos afectan.
     </div>
     <ul id="right">
       <li>
@@ -584,6 +661,30 @@
         $(".slider-vertical").mouseover(function(){ verificar = 0; });
         $(".slider-vertical").mouseout(function(){ verificar = 1;   });
         
+        $("#marco-petrolera a").hover(function(e){
+           $("#res-marco-petrolera").empty()
+           $("#res-marco-petrolera").text( $(this).attr("href") )
+           $("#res-marco-petrolera").fadeIn();
+           return false;
+        })
+
+        $("#marco-comun a").hover(function(e){
+           $("#res-marco-comun").empty()
+           $("#res-marco-comun").text( $(this).attr("href") )
+           $("#res-marco-comun").fadeIn();
+           return false;
+        })
+
+        $("#marco-minera a").hover(function(e){
+           $("#res-marco-minera").empty()
+           $("#res-marco-minera").text( $(this).attr("href") )
+           $("#res-marco-minera").fadeIn();
+           return false;
+        })
+
+        $(".marco a").click(function(e){
+           return false;
+        })
     });
 </script>
 </body>
