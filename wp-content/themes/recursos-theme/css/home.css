@@ -20,8 +20,8 @@ ol.curtains li.section{
     background:url('../img/back1.jpg') no-repeat center top;
     min-width:960px;
     max-width:960px;
-    min-height:700px;
-    max-height:700px;
+    min-height:720px;
+    max-height:720px;
     padding: 0px auto;
 }
    
@@ -53,12 +53,86 @@ ol.curtains li.section{
         }
 
         #inicio #mensaje{
-            background:url('../img/fondo-texto.png') no-repeat center top;
-            min-width:744px;
+            /*background:url('../img/fondo-texto.png') no-repeat center top; /**/
+            min-width:700px;
             min-height:120px;
             color:#000;
-            margin-top: 20px;
+            margin: 15px 0px 20px 0px;
+            float: left;
         }
+
+       .bqstart, .bqend {
+            font-family: Helvetica;
+            color: rgba(255,255,255, 1);
+            font-size: 10em;
+            font-weight: bolder;
+        }
+        .bqstart {
+            float: left;
+            height: 45px;
+            margin-top: -51px;
+            margin-left: -54px;
+         }
+
+         .bqend {
+            float: right;
+            height: 25px;
+            margin-top: -45px;
+            margin-right: -45px;
+         }
+
+        #c5{
+            float: right;
+            padding: 20px 10px;
+            width: 65px;
+            height: 45px;
+            background: #000;
+            color:#fff;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            z-index: 35;
+            position: absolute;
+            margin-top: -110px;
+            right: 106px;
+            font-size: 0.9em;
+            text-align: center;
+            font-family: "Strait";
+            font-style: normal;
+        }
+
+        #c6{
+            float: right;
+            width: 65px;
+            height: 65px;
+            background: #7DA7D9;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            z-index: 35;
+            position: absolute;
+            margin-top: -80px;
+            right: 65px;
+        }
+
+        #c7{
+            float: right;
+            padding: 20px 10px;
+            width: 65px;
+            height: 45px;
+            background: #000;
+            color: #fff;
+            -moz-border-radius: 50px;
+            -webkit-border-radius: 50px;
+            border-radius: 50px;
+            z-index: 35;
+            position: absolute;
+            margin-top: -235px;
+            right: 325px;
+            font-size: 0.9em;
+            text-align: center;
+        }
+
 
         #inicio #texto{
             margin:20px 180px 0px 40px;
@@ -177,8 +251,8 @@ h2{
     #afectaciones #industrias{
         max-width: 900px;
         min-width: 900px;
-        min-height: 430px;
-        max-height: 430px;
+        min-height: 500px;
+        max-height: 500px;
         padding: 0px 40px;
         margin: 0px auto;
         background: rgba(255, 255, 255, 0.5);
@@ -186,23 +260,57 @@ h2{
     }
 
     #afectaciones #desc-back{
+        margin-top: 60px;
         background: transparent url('../img/des.png') no-repeat left top;
-        min-width: 417px;
+        min-width: 155px;
         max-width: 417px;
         max-height: 25px;
         min-height: 25px;
+        float: left;
+        padding: 4px 0px 0px 280px;
+    }
+
+    #afectaciones #desc-back span{
+        float:left;
+        margin-right: 10px;
+        color: #fff;
+    }
+    #afectaciones #desc-back a:hover{
+        color:#000;
+
+    }
+
+    #triangle { 
+       width: 0; 
+       height: 0;
+       border-top: 8px solid #fff;
+       border-left: 6px solid transparent; 
+       border-right: 6px solid transparent; 
+       margin:8px 0px 0px 5px;
+    }
+
+
+    #c8{
+        width: 22px;
+        height: 22px;
+        background: #F8941D;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        float:left;
+        margin: -3px 0px 0px 2px;
     }
 
     #afectaciones #desc-back2{
-        background: rgba(248, 128, 29, 0.6);
+        //background: rgba(248, 128, 29, 0.6);
         min-width: 417px;
         max-width: 417px;
         max-height: 25px;
         min-height: 25px;
+        float: left;
     }
 
     #afectaciones #pet{
-        background: url('../img/desc.png') no-repeat left top;
         min-width: 78px;
         max-width: 78px;
         max-height: 18px;
@@ -268,19 +376,20 @@ h2{
         padding: 5px 0px 0px 10px;
     }
     #afectaciones #campanias li{
-        min-width: 214px;
-        max-width: 214px;
-        min-height: 122px;
-        max-height: 122px;
+        min-width: 134px;
+        max-width: 134px;
+        min-height: 72px;
+        max-height: 72px;
         float: left;
         background: #777;
-        margin-right: 10px;
+        padding: 50px 0px 0px 80px;
+        margin: 0px 3px;
     }
-#indpetrolera {
+#entrevistas {
     background:#FFF url('../img/back2.png') repeat left top;
     min-height: 1050px;
 }
-#indpetrolera #min-head{
+#entrevistas #min-head{
     background: url('../img/min-banner.png') no-repeat left top;
     min-width:966px;
     max-width:966px;
@@ -289,16 +398,24 @@ h2{
     margin-top: -50px;
 }
 
-#indpetrolera h1 {
+#entrevistas h1, #entrevistas h2  {
     margin-left: 35px;
     margin: 15px 0px 10px 40px;
+    color:#000;
 }
 
-#indpetrolera ul#videos{
+#entrevistas h2  {
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+#entrevistas ul#videos{
     margin: 20px 100px;
+    max-height: 600px;
+    overflow-y:scroll;
 }
 
-#indpetrolera ul#videos li{
+#entrevistas ul#videos li{
     min-width:650px;
     max-width:650px;
     max-height:185px;
@@ -306,17 +423,24 @@ h2{
     margin-bottom: 15px;
 }
 
-#indpetrolera span{
+#entrevistas span{
     color:#000;
     display: block;
+    margin-top: 6px;
 }
 
-#indpetrolera video{
+#entrevistas iframe#video{
     background: url('../img/video2.png') no-repeat left top;
-    min-width:293px;
-    min-height:182px;
+    max-width:293px;
+    max-height:182px;
+    margin-right: 20px;
     float:left;
 }
+
+#entrevistas #footer {
+    margin-left: 0px;
+}
+
 
 /******************************/
 /******** Marco Legal *********/
@@ -713,7 +837,7 @@ div.cuad, ul.cuad {
     max-width: 340px;
     position: relative;
     color:#fff;
-    margin-right: 15px;
+    margin-right: 5px;
 }
 
 #footer ol#col2 li{

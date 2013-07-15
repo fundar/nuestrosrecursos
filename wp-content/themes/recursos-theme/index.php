@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Nuestros Recursos - Inicio</title>
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/sources/css/base.css">
-  <link rel="stylesheet" href="<?php bloginfo('template_url');?>/sources/css/curtain.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/home.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/agile_carousel.css">
   <link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/slider-vertical.css">
@@ -16,7 +15,6 @@
   </style>
 </head>
 <body>
-
 <ul class="menu">
   <li> <a href="#inicio"  id="_inicio" class="curtain-links normal"> Inicio </a> </li>
   <li> <a href="#infografia"  id="_infografia" class="curtain-links normal"> Infografía </a> </li>
@@ -48,10 +46,12 @@
       </div>
       <div id="mensaje"> 
         <div id="texto">
-          Los recursos petroleros y mineros pertenecen a la sociedad mexicana. El uso y destino de los mismos debe de ser decidido
+          <blockquote><span class="bqstart">&#8220;</span>Los recursos petroleros y mineros pertenecen a la sociedad mexicana. El uso y destino de los mismos debe de ser decidido
           por todas y todos, pero sobre todo por las comunidades que habitan cerca de los mismos. Infórmate y actúa
           para que decidamos como deben de ser utilizados estos recursos de tal manera que maximicemos los beneficios
-          para todas y todos, al tiempo que minimizamos los daños de su explotación.
+          para todas y todos, al tiempo que minimizamos los daños de su explotación.<span class="bqend">&#8221;</span></blockquote>
+          <div id="c6" ></div>
+          <div id="c5" >Mensage Político</div>
         </div>
       </div>
 
@@ -60,6 +60,7 @@
       </div>
       <div id="mapa">
         <img src="<?php bloginfo('template_url');?>/img/mapa.png">
+          <div id="c7" >Mapa Interactivo</div>
       </div>
     </div>
   </li>
@@ -82,6 +83,7 @@
         <h2> Industria Petrolera </h2>
         <div id="c1" class="circle2" ></div>
         <div id="c2" class="circle" ></div>
+        
         México es un país rico en hidrocarburos. Sus reservas 3P se calculan en 
         43,100 millones de barriles de petróleo crudo equivalente (mbpce). Según 
         las previsiones esta reservas alcanzarán para seguir produciendo petróleo 
@@ -92,13 +94,14 @@
         estados son especialmente relevantes: Campeche concentra el 24.6% de la 
         actividad petrolera, Veracruz el 24 % y Tabasco el 12%.
         <div id="desc-back">
-          <a id="pet" href=""></a>
-        </div>
-        <div id="desc-back2">
-          <a id="pet" href="">
-            <img src="<?php bloginfo('template_url');?>/img/desc.png">
+          <a id="pet" href="<?php bloginfo('url'); ?>/?industrias=petrolera">
+            <span> Leer Más </span> 
+            <div id="c8" >
+              <div id="triangle"></div>
+            </div>
           </a>
         </div>
+        
       </div>
 
       <div id="minera" class="ind"> 
@@ -114,15 +117,23 @@
         la producción nacional de crudo y el 99.6% de la de gas. De ellos, tres 
         estados son especialmente relevantes: Campeche concentra el 24.6% de la 
         actividad petrolera, Veracruz el 24 % y Tabasco el 12%.
+        <div id="desc-back">
+          <a id="pet" href="<?php bloginfo('url'); ?>/?industrias=minera">
+            <span> Leer Más </span> 
+            <div id="c8" >
+              <div id="triangle"></div>
+            </div>
+          </a>
+        </div>
       </div>
     </div>
 
     <div class="line"></div>
     <ul id="campanias">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li> Campañas </li>
+      <li> Campañas </li>
+      <li> Campañas </li>
+      <li> Campañas </li>
     </ul>
     <div class="line"></div>
   </li>
@@ -178,16 +189,26 @@
     <div id="marco-petrolera" class="marco">
       <h2> Industria Petrolera </h2>
       <ul>
-        <li> <a href="Ley Reglamentaria del Artículo 27 Constitucional en el Ramo del Petróleo"> 1 </a> </li>
-        <li> <a href="Ley Orgánica de Petróleos Mexicanos y Organismos Subsidiarios"> 2 </a> </li>
-        <li> <a href="Ley Federal de Entidades Paraestatales"> 3 </a> </li>
-        <li> <a href="Ley de Adquisiciones, Arrendamiento y Servicios del Sector Público"> 4 </a> </li>
-        <li> <a href="Ley de Obras Públicas y Servicios Relacionados con las mismas"> 5 </a> </li>
-        <li> <a href="Ley de Petróleos Mexicanos"> 6 </a> </li>
-        <li> <a href="Ley Para el Aprovechamiento de Energías Renovables y el Financiamiento de la Transición Energética"> 7 </a> </li>
-        <li> <a href="Ley Para el Aprovechamiento Sustentable de la Energía"> 8 </a> </li>
-        <li> <a href="Ley de la Comisión Reguladora de Energía"> 9 </a> </li>
-        <li> <a href="Ley de la Comisión Nacional de Hidrocarburos"> 10 </a> </li>
+        <li> <a href="Ley Reglamentaria del Artículo 27 Constitucional en el Ramo del Petróleo"> 1 </a> 
+        </li>
+        <li> <a href="Ley Orgánica de Petróleos Mexicanos y Organismos Subsidiarios"> 2 </a> 
+        </li>
+        <li> <a href="Ley Federal de Entidades Paraestatales"> 3 </a> 
+        </li>
+        <li> <a href="Ley de Adquisiciones, Arrendamiento y Servicios del Sector Público"> 4 </a> 
+        </li>
+        <li> <a href="Ley de Obras Públicas y Servicios Relacionados con las mismas"> 5 </a> 
+        </li>
+        <li> <a href="Ley de Petróleos Mexicanos"> 6 </a> 
+        </li>
+        <li> <a href="Ley Para el Aprovechamiento de Energías Renovables y el Financiamiento de la Transición Energética"> 7 </a> 
+        </li>
+        <li> <a href="Ley Para el Aprovechamiento Sustentable de la Energía"> 8 </a> 
+        </li>
+        <li> <a href="Ley de la Comisión Reguladora de Energía"> 9 </a> 
+        </li>
+        <li> <a href="Ley de la Comisión Nacional de Hidrocarburos"> 10 </a> 
+        </li>
       </ul>
       <div id="res-marco-petrolera"></div>
     </div>
@@ -470,60 +491,7 @@
     </div> 
   </li>
 
-  <li id="indpetrolera" class="section cover">      
-    <div id="min-head"></div>
-    <h1>Oil Industry Impacts</h1>
-    <div class="line"></div>
-
-    <ul id="videos">
-      <li>
-        <video></video> <br> 
-        <span> <b>Entrevisto/a: </b> John Smith </span>
-        <span> <b>lugar: </b> México, D.F </span>
-        <span> <b>Temática: </b> Transparencia en contratos </span>
-      </li>
-      
-      <li>
-        <video></video> <br> 
-        <span> <b>Entrevisto/a: </b> John Smith </span>
-        <span> <b>lugar: </b> México, D.F </span>
-        <span> <b>Temática: </b> Transparencia en contratos </span>
-      </li>
-
-      <li>
-        <video></video> <br> 
-        <span> <b>Entrevisto/a: </b> John Smith </span>
-        <span> <b>lugar: </b> México, D.F </span>
-        <span> <b>Temática: </b> Transparencia en contratos </span>
-      </li>
-    </ul>
-   
-    <div id="footer">
-      <ol id="col1">
-        <li>Quines somos</li>
-        <li>Contacto</li>
-        <li>Fundar, Centro de Análisis e Investigación</li>
-      </ol>
-
-      <ol id="col2">
-        <li>Nuestros Recursos</li>
-        <li>Mapa Interactivo</li>
-
-        <li>Impactos</li>
-        <li>Transparencia</li>
-
-        <li>Marco Legal</li>
-        <li>Publicaciones</li>
-
-        <li>Ingresos</li>
-        <li>Sobre Nosotros</li>
-      </ol>
-
-      <ol id="col3">
-        <img src="<?php bloginfo('template_url');?>/img/fundar.png" id="logo">
-      </ol>
-    </div> 
-  </li>
+ 
 </ol>
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.min.js"></script>
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/agile_carousel.js"></script>

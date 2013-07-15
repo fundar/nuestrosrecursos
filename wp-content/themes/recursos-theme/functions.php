@@ -10,18 +10,16 @@ function load_css_styles(){
 
 add_action('wp_enqueue_scripts', 'load_css_styles');
 
-
 //Agregar taxonomia
  function taxonomias() {
-      register_taxonomy('industrias', 'entrevista', array(
+      register_taxonomy('industrias', 'entrevistas', array(
       'hierarchical' => true, 'label' => 'Industrias',
-      'query_var' => true, 'rewrite' => true));
+      'query_var' => true, 'rewrite' => array('slug' => 'industrias')));
 
       register_taxonomy('tipo-recurso', 'post', array(
       'hierarchical' => true, 'label' => 'Tipo de Recurso',
-      'query_var' => true, 'rewrite' => true));
+      'query_var' => true, 'rewrite' => array('slug' => 'tipo-recurso')));
     }
-
     
     add_action('init', 'taxonomias', 0);
 
@@ -142,7 +140,7 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 100 );
 	//Agregar Post Types
 	 add_action( 'init', 'create_post_type_entrevistas' );
 	    function create_post_type_entrevistas() {
-	        register_post_type( 'entrevista',
+	        register_post_type( 'entrevistas',
 	            array(
 	                'labels' => array(
 	                    'name' => __( 'Entrevistas' ),
@@ -173,28 +171,40 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 100 );
 	    define('MY_THEME_FOLDER',str_replace("\\",'/',dirname(__FILE__)));
 	    define('MY_THEME_PATH','/' . substr(MY_THEME_FOLDER,stripos(MY_THEME_FOLDER,'wp-content')));
 	    
-	    add_action('admin_init','entrevista_meta_init');
-	    function entrevista_meta_init(){
-	        add_meta_box('entrevista_link_meta', 'Video_id', 'entrevista_meta_setup', 'entrevista', 'normal', 'high');
-	        add_action('save_post','entrevista_meta_save');
+	    add_action('admin_init','entrevistas_meta_init');
+	    function entrevistas_meta_init(){
+	        add_meta_box('entrevistas_link_meta', 'Datos', 'entrevistas_meta_setup', 'entrevistas', 'normal', 'high');
+	        add_action('save_post','entrevistas_meta_save');
 	    }
 
-	    function entrevista_meta_setup(){
+	    function entrevistas_meta_setup(){
 	        global $post;
 	        $meta = get_post_meta($post->ID,'_my_meta',TRUE);
 	        echo '<label>Id del Video:</label> &nbsp &nbsp
 	              <input type="text" name="_my_meta[video_id]" value="';
 	                if(!empty($meta['video_id'])) echo $meta['video_id']; echo '"/>
 	              <span style="color:#777; font-size:0.9em" > youtube.com/watch?v=<b>NTv9gqMMe48</b> </span>';
-	     
+	     	echo '<p>
+                    <label>Entrevistado(a):</label> &nbsp &nbsp
+                    <input type="text" name="_my_meta[entrevistado]" value="';
+                        if(!empty($meta['entrevistado'])) echo $meta['entrevistado']; echo '"/> <br>
+                  
+                  	<label>Lugar:</label> &nbsp &nbsp
+                    <input type="text" name="_my_meta[lugar]" value="';
+                        if(!empty($meta['lugar'])) echo $meta['lugar']; echo '"/> <br>
+
+                    <label>Temática:</label> &nbsp &nbsp
+                    <input type="text" name="_my_meta[tematica]" value="';
+                        if(!empty($meta['tematica'])) echo $meta['tematica']; echo '"/> 
+                  </p>';
 	        // create a custom nonce for submit verification later
-	        echo '<input type="hidden" name="entrevista_meta_noncename" value="' . wp_create_nonce(__FILE__) . '" />';
+	        echo '<input type="hidden" name="entrevistas_meta_noncename" value="' . wp_create_nonce(__FILE__) . '" />';
 	    }
 	     
-	    function entrevista_meta_save($post_id){
-	        if (!wp_verify_nonce($_POST['entrevista_meta_noncename'],__FILE__)) return $post_id;
+	    function entrevistas_meta_save($post_id){
+	        if (!wp_verify_nonce($_POST['entrevistas_meta_noncename'],__FILE__)) return $post_id;
 
-	        if ($_POST['post_type'] == 'entrevista'){
+	        if ($_POST['post_type'] == 'entrevistas'){
 	            if (!current_user_can('edit_page', $post_id)) return $post_id;
 	        }else{
 	            if (!current_user_can('edit_post', $post_id)) return $post_id;
@@ -202,7 +212,7 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 100 );
 
 	        $current_data = get_post_meta($post_id, '_my_meta', TRUE); 
 	        $new_data = $_POST['_my_meta'];
-	        entrevista_meta_clean($new_data);
+	        entrevistas_meta_clean($new_data);
 
 	        if ($current_data){
 	            if (is_null($new_data)) delete_post_meta($post_id,'_my_meta');
@@ -215,18 +225,17 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 100 );
 	        return $post_id;
 	    }
 	     
-	    function entrevista_meta_clean(&$arr){
+	    function entrevistas_meta_clean(&$arr){
 	        if (is_array($arr)){
 	            foreach ($arr as $i => $v){
 	                if (is_array($arr[$i])){
-	                    entrevista_meta_clean($arr[$i]); if (!count($arr[$i])){ unset($arr[$i]); }
+	                    entrevistas_meta_clean($arr[$i]); if (!count($arr[$i])){ unset($arr[$i]); }
 	                }else{ if (trim($arr[$i]) == ''){ unset($arr[$i]);  } }
 	            }
 	     
 	            if (!count($arr)){ $arr = NULL;}
 	        }
 	    }
-
 
 // PUBLICACIONES
 	//Agregar Post Types
@@ -313,7 +322,6 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 100 );
 	        }
 	    }
 
-
 // RECURSOS
 	//Agregar Post Types
 	 add_action( 'init', 'create_post_type_recursos' );
@@ -340,6 +348,6 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 100 );
 	            )
 	        );
 	    }
-
+//// Pa
 	
 ?>
