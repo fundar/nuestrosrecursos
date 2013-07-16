@@ -5,21 +5,31 @@ ol.curtains li.section{
     -o-background-size: cover;
     -webkit-background-size: cover;
 
-    width:960px;
     height:792px;
-    max-width:960px;
+    max-width:930px;
     max-height:792px;
 
     margin:0 auto;
     position: relative;
 
 }
+
+
+#inicio, #infografia, #afectaciones, #marcolegal, 
+#marcolegal, #ingresos, #mapainteractivo, 
+#transparencia, #publicaciones, #acerca{   
+    background:rgba(255,255,255, 0.3);
+    min-height:930px;
+    max-height:930px;
+    padding: 0px 15px;
+}
+
 #inicio{
     color:white;
     text-shadow:0 1px 0 black;
     background:url('../img/back1.jpg') no-repeat center top;
-    min-width:960px;
-    max-width:960px;
+    min-width:930px;
+    max-width:930px;
     min-height:720px;
     max-height:720px;
     padding: 0px auto;
@@ -53,7 +63,6 @@ ol.curtains li.section{
         }
 
         #inicio #mensaje{
-            /*background:url('../img/fondo-texto.png') no-repeat center top; /**/
             min-width:700px;
             min-height:120px;
             color:#000;
@@ -166,9 +175,7 @@ ol.curtains li.section{
         }
 
 #infografia{
-    background:rgba(155, 155, 155, 0.5) url('../img/back2.png') repeat left top;
-    min-width: 960px;
-    max-width: 960px;
+    /*background:rgba(155, 155, 155, 0.5) url('../img/back2.png') repeat left top;*/
     padding-top: 70px;
 }
 
@@ -244,7 +251,7 @@ h2{
 
 #afectaciones{
     padding-top:80px;
-    background:#FFF url('../img/back2.png') repeat left top;
+   
     color:#000;
     min-height: 980px;
     max-height: 980px;
@@ -388,7 +395,7 @@ h2{
         margin: 0px 3px;
     }
 #entrevistas {
-    background:#FFF url('../img/back2.png') repeat left top;
+   
     min-height: 1050px;
 }
 #entrevistas #min-head{
@@ -403,8 +410,7 @@ h2{
 #entrevistas h1, #entrevistas h2  {
     margin-left: 35px;
     margin: 15px 0px 10px 40px;
-    color:#000;
-}
+    color:#000;}
 
 #entrevistas h2  {
     font-size: 2.5em;
@@ -448,15 +454,6 @@ h2{
 /******** Marco Legal *********/
 /******************************/
 
-#marcolegal, #ingresos, #mapainteractivo, 
-#transparencia, #acerca{   
-    background:url('../img/back2.png') repeat left top;
-    min-width: 930px;
-    max-width: 930px;
-    min-height:960px;
-    max-height:960px;
-    padding: 0px 15px;
-}
 #mapainteractivo{
     padding-top: 70px;
 }
@@ -955,6 +952,10 @@ div.cuad, ul.cuad {
         display: block; 
     }
 
+    .menu a:hover{
+        color:#fff;
+    }
+
 /* NAV CONTROLERS*/
 
 .nav_controls{
@@ -963,11 +964,14 @@ div.cuad, ul.cuad {
     min-width: 50px;
     min-height: 300px;
     padding:10px 0px 10px 15px;
-    background-color:#000;
+    background-color:rgba(0,0,0, 0.8);
     margin: 0 auto;
     display: block;
     right:0;
     top:400px;
+}
+.nav_controls:hover{
+    background-color:#000;
 }
 .nav_controls li{
     cursor: pointer;
