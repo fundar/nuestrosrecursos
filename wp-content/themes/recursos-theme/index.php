@@ -15,17 +15,81 @@
   </style>
 </head>
 <body>
-<ul class="menu">
-  <li> <a href="#inicio"  id="_inicio" class="curtain-links normal"> Inicio </a> </li>
-  <li> <a href="#infografia"  id="_infografia" class="curtain-links normal"> Infografía </a> </li>
-  <li> <a href="#afectaciones"  id="_afectaciones" class="curtain-links normal"> Afectaciones </a> </li>
 
-  <li> <a href="#marcolegal"  id="_marcolegal" class="curtain-links normal"> Marco Legal </a></li>
-  <li> <a href="#ingresos"  id="_ingresos" class="curtain-links normal"> Ingresos </a></li>
-  <li> <a href="#mapainteractivo"  id="_mapainteractivo" class="curtain-links normal"> Mapa Interáctivo</a></li>
-  <li> <a href="#transparencia"  id="_transparencia" class="curtain-links normal"> Transparencia</a></li>
-  <li> <a href="#publicaciones"  id="_publicaciones" class="curtain-links normal"> Publicaciones</a></li>
-  <li> <a href="#acerca"  id="_acerca" class="curtain-links normal"> Sobre Nosotros</a></li>
+<ul class="menu">
+  <li>
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#inicio"  id="_inicio" class="curtain-links normal"> Inicio </a> 
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li>
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#infografia"  id="_infografia" class="curtain-links normal"> Infografía </a> 
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#afectaciones"  id="_afectaciones" class="curtain-links normal"> Afectaciones </a> 
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#marcolegal"  id="_marcolegal" class="curtain-links normal"> Marco Legal </a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#ingresos"  id="_ingresos" class="curtain-links normal"> Ingresos </a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#mapainteractivo"  id="_mapainteractivo" class="curtain-links normal"> Mapas</a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#transparencia"  id="_transparencia" class="curtain-links normal"> Transparencia</a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#publicaciones"  id="_publicaciones" class="curtain-links normal"> Publicaciones</a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#acerca"  id="_acerca" class="curtain-links normal"> Sobre Nosotros</a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
 
   <!--li> <a href="#indpetrolera"  id="_indpetrolera" class="curtain-links normal"> Industria Petrolera  </a></li-->
 </ul>
@@ -615,6 +679,28 @@
           $.scrollTo(seccion, 1000)
           return false
         })
+
+        $(".menu li a").hover(
+          function(){
+            $(this).siblings().css('background-color', '#000');
+            $(this).parent().css('background-color', '#000');
+          },
+          function(){
+            $(this).siblings().css('background-color', 'transparent');
+            $(this).parent().css('background-color', 'rgba(0, 0, 0, 0.8)');
+          }
+        )
+
+        $(".menu li ").hover(
+          function(){
+            $(this).children(".m").css('background-color', '#000');
+            $(this).css('background-color', '#000');
+          },
+          function(){
+            $(this).children(".m").css('background-color', 'transparent');
+            $(this).css('background-color', 'rgba(0, 0, 0, 0.8)');
+          }
+        )
         
         $(".nav_controls a").on("click", function(e){
           action = $(this).attr("id")
