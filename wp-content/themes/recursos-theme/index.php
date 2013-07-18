@@ -17,59 +17,10 @@
 <body>
 
 <ul class="menu">
-  <li>
-    <span class="m1 m"></span> 
-    <span class="m2 m"></span> 
-    <a href="#inicio"  id="_inicio" class="curtain-links normal"> Inicio </a> 
-    <span class="m3 m"></span> 
-    <span class="m4 m"></span> 
-    <span class="m5 m"></span> 
-  </li>
   <li> 
     <span class="m1 m"></span> 
     <span class="m2 m"></span> 
-    <a href="#infografia"  id="_infografia" class="curtain-links normal"> Infografía </a> 
-    <span class="m3 m"></span> 
-    <span class="m4 m"></span> 
-    <span class="m5 m"></span> 
-  </li> 
-  <li> 
-    <span class="m1 m"></span> 
-    <span class="m2 m"></span> 
-    <a href="#afectaciones"  id="_afectaciones" class="curtain-links normal"> Afectaciones </a> 
-    <span class="m3 m"></span> 
-    <span class="m4 m"></span> 
-    <span class="m5 m"></span> 
-  </li> 
-
-  <li> 
-    <span class="m1 m"></span> 
-    <span class="m2 m"></span> 
-    <a href="#marcolegal"  id="_marcolegal" class="curtain-links normal"> Marco Legal </a>
-    <span class="m3 m"></span> 
-    <span class="m4 m"></span> 
-    <span class="m5 m"></span> 
-  </li> 
-  <li> 
-    <span class="m1 m"></span> 
-    <span class="m2 m"></span> 
-    <a href="#ingresos"  id="_ingresos" class="curtain-links normal"> Ingresos </a>
-    <span class="m3 m"></span> 
-    <span class="m4 m"></span> 
-    <span class="m5 m"></span> 
-  </li> 
-  <li> 
-    <span class="m1 m"></span> 
-    <span class="m2 m"></span> 
-    <a href="#mapainteractivo"  id="_mapainteractivo" class="curtain-links normal"> Mapas</a>
-    <span class="m3 m"></span> 
-    <span class="m4 m"></span> 
-    <span class="m5 m"></span> 
-  </li> 
-  <li> 
-    <span class="m1 m"></span> 
-    <span class="m2 m"></span> 
-    <a href="#transparencia"  id="_transparencia" class="curtain-links normal"> Transparencia</a>
+    <a href="#acerca"  id="_acerca" class="curtain-links normal"> Sobre Nosotros</a>
     <span class="m3 m"></span> 
     <span class="m4 m"></span> 
     <span class="m5 m"></span> 
@@ -85,12 +36,59 @@
   <li> 
     <span class="m1 m"></span> 
     <span class="m2 m"></span> 
-    <a href="#acerca"  id="_acerca" class="curtain-links normal"> Sobre Nosotros</a>
+    <a href="#transparencia"  id="_transparencia" class="curtain-links normal"> Transparencia</a>
     <span class="m3 m"></span> 
     <span class="m4 m"></span> 
     <span class="m5 m"></span> 
   </li> 
-
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#mapainteractivo"  id="_mapainteractivo" class="curtain-links normal"> Mapas</a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#ingresos"  id="_ingresos" class="curtain-links normal"> Ingresos </a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#marcolegal"  id="_marcolegal" class="curtain-links normal"> Marco Legal </a>
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#afectaciones"  id="_afectaciones" class="curtain-links normal"> Afectaciones </a> 
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li> 
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#infografia"  id="_infografia" class="curtain-links normal"> Infografía </a> 
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li> 
+  <li>
+    <span class="m1 m"></span> 
+    <span class="m2 m"></span> 
+    <a href="#inicio"  id="_inicio" class="curtain-links normal"> Inicio </a> 
+    <span class="m3 m"></span> 
+    <span class="m4 m"></span> 
+    <span class="m5 m"></span> 
+  </li>
   <!--li> <a href="#indpetrolera"  id="_indpetrolera" class="curtain-links normal"> Industria Petrolera  </a></li-->
 </ul>
 
@@ -324,7 +322,9 @@
       supone que puede aumentar y disminuir en función de factores externos, lo que puede 
       llegar a poner en riego la sostenibilidad del gasto público.
     </div>
-    <div id="grafica-contr"></div>
+    <div id="grafica-contr">
+      <div id="graph">Cargando gráficas...</div>
+    </div>
 
     <!--div id="otros-datos"-->
       <h2>Otros datos de Interes</h2>
@@ -370,7 +370,7 @@
       <li><a href="fundarmexico.map-g5hv3yn0" class="map_link">| Consesiones vs ANP Federal |</a></li>
     </ul>
     
-    <div id='map'></div>
+    <!--div id='map'></div-->
   </li>
 
   <li id="transparencia" class="section cover">
@@ -562,7 +562,8 @@
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/slider-vertical.js"></script>
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.scrollTo-1.4.3.1-min.js"></script>
  
-<script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
+<script src="<?php bloginfo('template_url');?>/sources/js/libs/jscharts.js"></script>
+<!--script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script-->
 
 <script>  
   
@@ -573,7 +574,6 @@
 <script>
     //$.getJSON("agile_carousel/agile_carousel_data.php", function(data) {
     $(document).ready(function(){
-
         if (!Array.prototype.indexOf){
           Array.prototype.indexOf = function(elt /*, from*/){
             var len = this.length;
@@ -595,8 +595,30 @@
           };
         }
 
+        $.fn.scrollStopped = function(callback) {          
+          $(this).scroll(function(){
+              var self = this, $this = $(self);
+              if ($this.data('scrollTimeout')) {
+                clearTimeout($this.data('scrollTimeout'));
+              }
+              $this.data('scrollTimeout', setTimeout(callback,50,self));
+          });
+        };
+
         secciones = ["#inicio", "#infografia", "#afectaciones", "#marcolegal", "#ingresos", "#mapainteractivo", "#transparencia", "#publicaciones", "#acerca"]
         sec_idx = 0;   
+        
+        $(this).scroll(function(){
+          $(".menu li").css("background-color", "rgba(0,0,0, 0.5)")
+          $(".menu li").css("color", "#555")
+          
+        })
+
+         $(this).scrollStopped(function(){
+          $(".menu li").css("background-color", "rgba(0, 0, 0, 0.8)")
+          $(".menu li").css("color", "rgba(255,255,255 0.5)")
+        })
+
 
         function sections_elevator(action) {
           if (action == "up"){ 
@@ -608,7 +630,7 @@
           $.scrollTo(seccion, 1000)
         }
 
-        mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
+        //mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
 
         $(window).on('keyup', function(e){
           switch(e.which){
@@ -667,6 +689,430 @@
             persistent_content: "<p class='persistent_content'>Agile Carousel Example: Multiple Slides Visible</p>"       
         });
 
+
+        /*********GRAFICA PRINCIPAL**********/
+        //funtion print_main_chart(){
+          fondo = {
+            "0": {
+                "label": "2000",
+                "trimestres": {
+                    "3": {
+                        "label": "III",
+                        "total": 5839
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 9133
+                    }
+                }
+            },
+            "1": {
+                "label": "2001",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 9455,
+                        "rendimientos": 322
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 9671,
+                        "rendimientos": 538
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 8966,
+                        "rendimientos": 218,
+                        "erogaciones": -924
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 8052,
+                        "rendimientos": 192,
+                        "erogaciones": -1106
+                    }
+                }
+            },
+            "2": {
+                "label": "2002",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 196,
+                        "rendimientos": 145,
+                        "erogaciones": -8000
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 71,
+                        "rendimientos": 45,
+                        "erogaciones": -170
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 72,
+                        "rendimientos": 1.3
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 74,
+                        "rendimientos": 72,
+                        "erogaciones": 0
+                    }
+                }
+            },
+            "3": {
+                "label": "2003",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 75,
+                        "rendimientos": 1.5
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 76,
+                        "rendimientos": 1.4
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 77,
+                        "rendimientos": 0.9
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 6276,
+                        "rendimientos": 78
+                    }
+                }
+            },
+            "4": {
+                "label": "2004",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 6381,
+                        "rendimientos": 75
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 7726,
+                        "rendimientos": 179,
+                        "erogaciones": -1259
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 6238,
+                        "rendimientos": 37,
+                        "erogaciones": -3189
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 11608,
+                        "rendimientos": 114,
+                        "erogaciones": -2201
+                    }
+                }
+            },
+            "5": {
+                "label": "2005",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 11939,
+                        "rendimientos": 228,
+                        "erogaciones": 0
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 12234,
+                        "rendimientos": 295,
+                        "erogaciones": 0
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 10239,
+                        "rendimientos": 159,
+                        "erogaciones": -2258
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 16227,
+                        "rendimientos": 86,
+                        "erogaciones": 5115
+                    }
+                }
+            },
+            "6": {
+                "label": "2006",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 17010,
+                        "rendimientos": 154.8,
+                        "erogaciones": 0
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 17984,
+                        "rendimientos": 221.2,
+                        "erogaciones": 0
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 17660,
+                        "rendimientos": 223,
+                        "erogaciones": 0
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 34645,
+                        "rendimientos": 224,
+                        "erogaciones": 5691
+                    }
+                }
+            },
+            "7": {
+                "label": "2007",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 35802,
+                        "rendimientos": 371,
+                        "erogaciones": 0
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 39036,
+                        "rendimientos": 476,
+                        "erogaciones": 1061
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 51390,
+                        "rendimientos": 535,
+                        "erogaciones": 6061
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 55818,
+                        "rendimientos": 617,
+                        "erogaciones": 0
+                    }
+                }
+            },
+            "8": {
+                "label": "2008",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 54942,
+                        "rendimientos": 524,
+                        "erogaciones": 0.056
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 52825,
+                        "rendimientos": 310,
+                        "erogaciones": 0.143
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 39247,
+                        "rendimientos": 249,
+                        "erogaciones": 15497
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 56168,
+                        "rendimientos": 26189,
+                        "erogaciones": "-"
+                    }
+                }
+            },
+            "9": {
+                "label": "2009",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 56168,
+                        "rendimientos": 1667,
+                        "erogaciones": 0.1
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 56589,
+                        "rendimientos": 1.441,
+                        "erogaciones": 0.1
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 19.977,
+                        "rendimientos": 922,
+                        "erogaciones": 69.750
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 24056,
+                        "rendimientos": 4229,
+                        "erogaciones": 154893
+                    }
+                }
+            },
+            "10": {
+                "label": "2010",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 24047,
+                        "rendimientos": 247,
+                        "erogaciones": 9
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 24904,
+                        "rendimientos": 548,
+                        "erogaciones": 9
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 16051,
+                        "rendimientos": 1993,
+                        "erogaciones": 0.674
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 17206,
+                        "rendimientos": 2556,
+                        "erogaciones": 10293
+                    }
+                }
+            },
+            "11": {
+                "label": "2011",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 17286,
+                        "rendimientos": 301,
+                        "erogaciones": 0
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 18364,
+                        "rendimientos": 1610,
+                        "erogaciones": 0.1
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 5136,
+                        "rendimientos": 3025,
+                        "erogaciones": 14421
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 8046,
+                        "rendimientos": 6034,
+                        "erogaciones": 14421
+                    }
+                }
+            },
+            "12": {
+                "label": "2012",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 18467,
+                        "rendimientos": 10563,
+                        "erogaciones": 0.1
+                    },
+                    "2": {
+                        "label": "II",
+                        "total": 20399,
+                        "rendimientos": 12748,
+                        "erogaciones": 0.2
+                    },
+                    "3": {
+                        "label": "III",
+                        "total": 10251,
+                        "rendimientos": 14065,
+                        "erogaciones": 11729.3
+                    },
+                    "4": {
+                        "label": "IV",
+                        "total": 13620,
+                        "rendimientos": 18147,
+                        "erogaciones": 11729.3
+                    }
+                }
+            },
+            "13": {
+                "label": "2013",
+                "trimestres": {
+                    "1": {
+                        "label": "I",
+                        "total": 27966,
+                        "rendimientos": 10512,
+                        "erogaciones": 0.1
+                    }
+                }
+            }
+          }
+
+          var myData = new Array();
+          
+          for ( x in fondo){
+            for ( y in trimestre = fondo[x].trimestres){
+              label =  fondo[x].label + "/" +trimestre[y].label
+              myData.push( [ label, trimestre[y].total ] )
+            }
+          }
+
+
+          var myChart = new JSChart('graph', 'line');
+              myChart.setDataArray(myData);
+              myChart.setTitle('India GDP');
+              myChart.setTitleColor('#8E8E8E');
+              myChart.setTitleFontSize(8);
+              myChart.setAxisNameX('');
+              myChart.setAxisNameY('');
+              myChart.setAxisColor('#8420CA');
+              myChart.setAxisValuesColor('#949494');
+              myChart.setAxisPaddingLeft(100);
+              myChart.setAxisPaddingRight(120);
+              myChart.setAxisPaddingTop(50);
+              myChart.setAxisPaddingBottom(40);
+              myChart.setAxisValuesDecimals(3);
+              myChart.setAxisValuesNumberX(10);
+              myChart.setShowXValues(false);
+              myChart.setGridColor('#C5A2DE');
+              myChart.setLineColor('#cc2c00');
+              myChart.setLineWidth(2);
+              myChart.setFlagColor('#9D12FD');
+              myChart.setFlagRadius(4);
+              
+              for ( x in fondo){
+                for ( y in trimestre = fondo[x].trimestres ){
+                  label =  fondo[x].label + "/" + trimestre[y].label
+                  
+                  info  = "Año: " + fondo[x].label
+                  info += ", Trimestre: " +  trimestre[y].label 
+                  info += ", Total Acumulado: " + trimestre[y].total
+                  if (trimestre[y].rendimientos){ info +=  ", Rendimiento: " + trimestre[y].rendimientos }
+                  if (trimestre[y].erogaciones){ info +=  ", Erogaciones: " + trimestre[y].erogaciones } 
+                  
+                  myChart.setTooltip( [label , info] );
+                }
+              }
+
+              myChart.setSize(930, 700);
+              myChart.setBackgroundImage('chart_bg.jpg');
+              myChart.draw();
+
+        //}
+        //print_main_chart();
+    /****************************/
+
         $(".map_link").on("click", function(){
           map_id = $(this).attr("href")
           mapbox.auto('map', map_id);
@@ -677,6 +1123,10 @@
           seccion = $(this).attr("href")
           sec_idx = secciones.indexOf(seccion);     
           $.scrollTo(seccion, 1000)
+          /*
+            $(".m").css('background-color', 'transparent');
+            $(this).siblings().css('background-color', '#000');
+          */
           return false
         })
 
