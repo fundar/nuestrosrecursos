@@ -313,6 +313,7 @@
   <li id="ingresos" class="section cover">
     <h1>Ingresos Públicos</h1>
     <div id="text-contr">
+    
       Como puede observarse en la gráfica, desde 2006 los ingresos petroleros han 
       supuesto alrededor de la tercera parte de los ingresos totales del sector público. 
       Ello supone que alrededor del 30% de los recursos que financian el presupuesto 
@@ -335,9 +336,9 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua.
-            <p>  Download. 
-              <a href="#pdf"> PDF </a> - 
-              <a href="#excel"> Excel</a> 
+            <p>  
+              <?php   $page = get_page_by_title( 'Petrolera' );?>
+              <a href="<?php echo get_page_link($page->ID); ?>">Ver más >> </a>
             </p>
           </p> 
         </li>
@@ -349,13 +350,14 @@
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. 
-            <p>  Download. 
-              <a href="#pdf"> PDF </a> - 
-              <a href="#excel" Excel></a>
+            <p>  
+              <?php   $page = get_page_by_title( 'Minera' );?>
+              <a href="<?php echo get_page_link($page->ID); ?>">Ver más >> </a>
             </p>
           </p> 
         </li>
       </ul>
+  
     <!--/div-->
 
     <div id="ingr-propuestas" class="marco">
@@ -368,9 +370,9 @@
     <ul id="menu-mapas">
       <li><a href="fundarmexico.map-56rcfk4m" class="map_link">| Concesiones vs Lenguas |</a></li>
       <li><a href="fundarmexico.map-g5hv3yn0" class="map_link">| Consesiones vs ANP Federal |</a></li>
-    </ul>
+    </ul> 
     
-    <!--div id='map'></div-->
+    <div id='map'></div>
   </li>
 
   <li id="transparencia" class="section cover">
@@ -563,7 +565,7 @@
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.scrollTo-1.4.3.1-min.js"></script>
  
 <script src="<?php bloginfo('template_url');?>/sources/js/libs/jscharts.js"></script>
-<!--script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script-->
+<script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
 
 <script>  
   
@@ -630,7 +632,7 @@
           $.scrollTo(seccion, 1000)
         }
 
-        //mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
+        mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
 
         $(window).on('keyup', function(e){
           switch(e.which){

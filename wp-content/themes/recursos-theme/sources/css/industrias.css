@@ -1,0 +1,72 @@
+ol.curtains li.section{
+    padding-top:50px;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+
+    width:960px;
+    height:792px;
+    max-width:960px;
+    max-height:792px;
+
+    margin:0 auto;
+    position: relative;
+}
+
+#entrevistas {
+    background:#FFF url('../img/back2.png') repeat left top;
+    min-height: 1050px;
+}
+
+#entrevistas #min-head{
+    background: url('../img/min-banner.png') no-repeat left top;
+    min-width:966px;
+    max-width:966px;
+    min-height:150px;
+    max-height:150px;
+    margin-top: -50px;
+}
+
+#entrevistas h1, #entrevistas h2  {
+    margin-left: 35px;
+    margin: 15px 0px 10px 40px;
+    color:#000;
+}
+
+#entrevistas h2  {
+    font-size: 2.5em;
+    margin-top: 50px;
+}
+
+#entrevistas ul#videos{
+    margin: 20px 100px;
+    max-height: 600px;
+    overflow-y:scroll;
+}
+
+#entrevistas ul#videos li{
+    min-width:650px;
+    max-width:650px;
+    max-height:185px;
+    min-height: 185px;
+    margin-bottom: 15px;
+}
+
+#entrevistas span{
+    color:#000;
+    display: block;
+    margin-top: 6px;
+}
+
+#entrevistas iframe#video{
+    background: url('../img/video2.png') no-repeat left top;
+    max-width:293px;
+    max-height:182px;
+    margin-right: 20px;
+    float:left;
+}
+
+#entrevistas #footer {
+    margin-left: 0px;
+}
