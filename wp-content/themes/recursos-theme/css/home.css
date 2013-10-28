@@ -1,37 +1,27 @@
 ol.curtains li.section{
-    padding-top: 70px;
+    padding-top:50px;
     background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -webkit-background-size: cover;
 
+    width:960px;
     height:792px;
-    max-width:930px;
+    max-width:960px;
     max-height:792px;
 
     margin:0 auto;
     position: relative;
 
 }
-
-
-#inicio, #infografia, #afectaciones, #marcolegal, 
-#marcolegal, #ingresos, #mapainteractivo, 
-#transparencia, #publicaciones, #acerca{   
-    background:rgba(255,255,255, 0.3);
-    min-height:930px;
-    max-height:930px;
-    padding: 0px 15px;
-}
-
 #inicio{
     color:white;
     text-shadow:0 1px 0 black;
     background:url('../img/back1.jpg') no-repeat center top;
-    min-width:930px;
-    max-width:930px;
-    min-height:720px;
-    max-height:720px;
+    min-width:960px;
+    max-width:960px;
+    min-height:700px;
+    max-height:700px;
     padding: 0px auto;
 }
    
@@ -63,85 +53,12 @@ ol.curtains li.section{
         }
 
         #inicio #mensaje{
-            min-width:700px;
+            background:url('../img/fondo-texto.png') no-repeat center top;
+            min-width:744px;
             min-height:120px;
             color:#000;
-            margin: 15px 0px 20px 0px;
-            float: left;
+            margin-top: 20px;
         }
-
-       .bqstart, .bqend {
-            font-family: Helvetica;
-            color: rgba(255,255,255, 1);
-            font-size: 10em;
-            font-weight: bolder;
-        }
-        .bqstart {
-            float: left;
-            height: 45px;
-            margin-top: -51px;
-            margin-left: -54px;
-         }
-
-         .bqend {
-            float: right;
-            height: 25px;
-            margin-top: -45px;
-            margin-right: -45px;
-         }
-
-        #c5{
-            float: right;
-            padding: 20px 10px;
-            width: 65px;
-            height: 45px;
-            background: #000;
-            color:#fff;
-            -moz-border-radius: 50px;
-            -webkit-border-radius: 50px;
-            border-radius: 50px;
-            z-index: 35;
-            position: absolute;
-            margin-top: -110px;
-            right: 106px;
-            font-size: 0.9em;
-            text-align: center;
-            font-family: "Strait";
-            font-style: normal;
-        }
-
-        #c6{
-            float: right;
-            width: 65px;
-            height: 65px;
-            background: #7DA7D9;
-            -moz-border-radius: 50px;
-            -webkit-border-radius: 50px;
-            border-radius: 50px;
-            z-index: 35;
-            position: absolute;
-            margin-top: -80px;
-            right: 65px;
-        }
-
-        #c7{
-            float: right;
-            padding: 20px 10px;
-            width: 65px;
-            height: 45px;
-            background: #000;
-            color: #fff;
-            -moz-border-radius: 50px;
-            -webkit-border-radius: 50px;
-            border-radius: 50px;
-            z-index: 35;
-            position: absolute;
-            margin-top: -235px;
-            right: 325px;
-            font-size: 0.9em;
-            text-align: center;
-        }
-
 
         #inicio #texto{
             margin:20px 180px 0px 40px;
@@ -175,8 +92,9 @@ ol.curtains li.section{
         }
 
 #infografia{
-    /*background:rgba(155, 155, 155, 0.5) url('../img/back2.png') repeat left top;*/
-    padding-top: 70px;
+    background:rgba(155, 155, 155, 0.5) url('../img/back2.png') repeat left top;
+    min-width: 960px;
+    max-width: 960px;
 }
 
     #infografia #brief{
@@ -250,8 +168,7 @@ h2{
 }
 
 #afectaciones{
-    padding-top:80px;
-   
+    background:#FFF url('../img/back2.png') repeat left top;
     color:#000;
     min-height: 980px;
     max-height: 980px;
@@ -260,8 +177,8 @@ h2{
     #afectaciones #industrias{
         max-width: 900px;
         min-width: 900px;
-        min-height: 500px;
-        max-height: 500px;
+        min-height: 430px;
+        max-height: 430px;
         padding: 0px 40px;
         margin: 0px auto;
         background: rgba(255, 255, 255, 0.5);
@@ -269,57 +186,23 @@ h2{
     }
 
     #afectaciones #desc-back{
-        margin-top: 60px;
         background: transparent url('../img/des.png') no-repeat left top;
-        min-width: 155px;
-        max-width: 417px;
-        max-height: 25px;
-        min-height: 25px;
-        float: left;
-        padding: 4px 0px 0px 280px;
-    }
-
-    #afectaciones #desc-back span{
-        float:left;
-        margin-right: 10px;
-        color: #fff;
-    }
-    #afectaciones #desc-back a:hover{
-        color:#000;
-
-    }
-
-    #triangle { 
-       width: 0; 
-       height: 0;
-       border-top: 8px solid #fff;
-       border-left: 6px solid transparent; 
-       border-right: 6px solid transparent; 
-       margin:8px 0px 0px 5px;
-    }
-
-
-    #c8{
-        width: 22px;
-        height: 22px;
-        background: #F8941D;
-        -moz-border-radius: 50px;
-        -webkit-border-radius: 50px;
-        border-radius: 50px;
-        float:left;
-        margin: -3px 0px 0px 2px;
-    }
-
-    #afectaciones #desc-back2{
-        //background: rgba(248, 128, 29, 0.6);
         min-width: 417px;
         max-width: 417px;
         max-height: 25px;
         min-height: 25px;
-        float: left;
+    }
+
+    #afectaciones #desc-back2{
+        background: rgba(248, 128, 29, 0.6);
+        min-width: 417px;
+        max-width: 417px;
+        max-height: 25px;
+        min-height: 25px;
     }
 
     #afectaciones #pet{
+        background: url('../img/desc.png') no-repeat left top;
         min-width: 78px;
         max-width: 78px;
         max-height: 18px;
@@ -385,20 +268,19 @@ h2{
         padding: 5px 0px 0px 10px;
     }
     #afectaciones #campanias li{
-        min-width: 134px;
-        max-width: 134px;
-        min-height: 72px;
-        max-height: 72px;
+        min-width: 214px;
+        max-width: 214px;
+        min-height: 122px;
+        max-height: 122px;
         float: left;
         background: #777;
-        padding: 50px 0px 0px 80px;
-        margin: 0px 3px;
+        margin-right: 10px;
     }
-#entrevistas {
-   
+#indpetrolera {
+    background:#FFF url('../img/back2.png') repeat left top;
     min-height: 1050px;
 }
-#entrevistas #min-head{
+#indpetrolera #min-head{
     background: url('../img/min-banner.png') no-repeat left top;
     min-width:966px;
     max-width:966px;
@@ -407,23 +289,16 @@ h2{
     margin-top: -50px;
 }
 
-#entrevistas h1, #entrevistas h2  {
+#indpetrolera h1 {
     margin-left: 35px;
     margin: 15px 0px 10px 40px;
-    color:#000;}
-
-#entrevistas h2  {
-    font-size: 2.5em;
-    margin-top: 50px;
 }
 
-#entrevistas ul#videos{
+#indpetrolera ul#videos{
     margin: 20px 100px;
-    max-height: 600px;
-    overflow-y:scroll;
 }
 
-#entrevistas ul#videos li{
+#indpetrolera ul#videos li{
     min-width:650px;
     max-width:650px;
     max-height:185px;
@@ -431,34 +306,33 @@ h2{
     margin-bottom: 15px;
 }
 
-#entrevistas span{
+#indpetrolera span{
     color:#000;
     display: block;
-    margin-top: 6px;
 }
 
-#entrevistas iframe#video{
+#indpetrolera video{
     background: url('../img/video2.png') no-repeat left top;
-    max-width:293px;
-    max-height:182px;
-    margin-right: 20px;
+    min-width:293px;
+    min-height:182px;
     float:left;
 }
-
-#entrevistas #footer {
-    margin-left: 0px;
-}
-
 
 /******************************/
 /******** Marco Legal *********/
 /******************************/
 
-#mapainteractivo{
-    padding-top: 70px;
+#marcolegal, #ingresos, #mapainteractivo, 
+#transparencia, #acerca{   
+    background:url('../img/back2.png') repeat left top;
+    min-width: 930px;
+    max-width: 930px;
+    min-height:960px;
+    max-height:960px;
+    padding: 0px 15px;
 }
+
 #marcolegal{   
-    padding-top: 70px;
     min-height: 1200px;
     color:#000;             
 }
@@ -645,7 +519,6 @@ div.cuad, ul.cuad {
     }
 
 #ingresos{
-    padding-top: 70px;
     min-height: 1200px;
 }
 
@@ -661,13 +534,11 @@ div.cuad, ul.cuad {
 
 #ingresos div#grafica-contr{
     background: #ccc;
-    min-width: 860px;
-    max-width: 860px;
-    min-height: 700px;
-    max-height: 700px;
+    min-width: 700px;
+    max-width: 700px;
+    min-height: 400px;
+    max-height: 400px;
     margin: 0 auto;
-    overflow-x:hidden;
-    overflow-y:hidden;
 }
 
 #ingresos h2{
@@ -730,9 +601,6 @@ div.cuad, ul.cuad {
 }
 
 
-#transparencia {
-    padding-top: 70px;
-}
 #transparencia h2{
     position: relative;
 }
@@ -758,9 +626,6 @@ div.cuad, ul.cuad {
     max-height:250px;
 }
 
-#acerca {
-    padding-top: 70px;
-}
 #acerca .ab-txt, #acerca h2{
     position: relative;
     color:#000;
@@ -823,7 +688,7 @@ div.cuad, ul.cuad {
     max-width: 930px;
     min-height:740px;
     max-height:740px;
-    padding: 70px 15px 0px 15px;
+    padding: 0px 15px;
 }
 
 #footer{
@@ -848,7 +713,7 @@ div.cuad, ul.cuad {
     max-width: 340px;
     position: relative;
     color:#fff;
-    margin-right: 5px;
+    margin-right: 15px;
 }
 
 #footer ol#col2 li{
@@ -867,73 +732,20 @@ div.cuad, ul.cuad {
 .menu{
     position:fixed;
     z-index:20;
-    min-height: 70px;
-    padding:10px 0px;
-    background-color:transparent;
+    min-width: 100%;
+    min-height: 20px;
+    padding:10px 0px 10px 30px;
+    background-color:#000;
+    margin: 0 auto;
     display: block;
-    margin:10px auto 0 auto;
-    width: 972px;
-    
-    left: 44%;
-    margin-left: -400px;
+
 }
 
     .menu li{
-        width: 88px;
-        height: 25px;
-        background: rgba(0, 0, 0, 0.8);
-        -moz-border-radius: 50px;
-        -webkit-border-radius: 50px;
-        border-radius: 50px;
-        padding:32px 0px ;
-        z-index: -10;
-        float: right;
-        text-align: center;
-        font-size: 0.9em;
-        margin: 0px 1px;
-        cursor: pointer;
-    }
-
-    .menu li a{
-        display: block;
-    }
-
-    .m1, .m2, .m3, .m4, .m5{
-        background: transparent;
-        -moz-border-radius: 50px;
-        -webkit-border-radius: 50px;
-        border-radius: 50px;
-        position: absolute;
-        
-    }
-    .menu .m1{
-        width: 17px;
-        height: 17px;
-        margin: -44px 35px; 
-    }
-
-    .menu .m2{
-        width: 9px;
-        height: 9px;
-        margin: -51px 39px;
-    }
-
-    .menu .m3{
-        width: 5px;
-        height: 5px;
-        margin: 17px 80px;
-    }
-
-    .menu .m4{
-        width: 10px;
-        height: 10px;
-        margin: 18px 83px;
-    }
-
-    .menu .m5{
-        width: 35px;
-        height: 35px;
-        margin: 11px -10px;
+        float: left;
+        margin-right:30px;
+        font-size: 1.2em;
+        display: inline-block;
     }
 
     .click{
@@ -954,10 +766,6 @@ div.cuad, ul.cuad {
         display: block; 
     }
 
-    .menu a:hover{
-        color:#fff;
-    }
-
 /* NAV CONTROLERS*/
 
 .nav_controls{
@@ -966,14 +774,11 @@ div.cuad, ul.cuad {
     min-width: 50px;
     min-height: 300px;
     padding:10px 0px 10px 15px;
-    background-color:rgba(0,0,0, 0.8);
+    background-color:#000;
     margin: 0 auto;
     display: block;
     right:0;
     top:400px;
-}
-.nav_controls:hover{
-    background-color:#000;
 }
 .nav_controls li{
     cursor: pointer;

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title></title>
+  <script src='http://codeorigin.jquery.com/jquery-1.9.1.min.js'></script>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+  <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+  <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet'>
+  <![endif]-->
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+
+<style>
+#map-ui {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+}
+
+#map-ui ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#map-ui a {
+    font-size: 13px;
+    background: #FFF;
+    color: #3C4E5A;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #BBB;
+    border-bottom-width: 0;
+    min-width: 138px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#map-ui a:hover {
+    background: #ECF5FA;
+}
+
+#map-ui li:last-child a {
+    border-bottom-width: 1px;
+    -webkit-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+}
+
+#map-ui li:first-child a {
+    -webkit-border-radius: 3px 3px 0 0;
+    border-radius: 3px 3px 0 0;
+}
+
+#map-ui a.active {
+    background: #3887BE;
+    border-color: #3887BE;
+    border-top-color: #FFF;
+    color: #FFF;
+}
+
+#map-ui li:first-child a.active {
+    border-top-color: #3887BE;
+}
+
+#map .map-fullscreen {
+    background-color: #28353D;
+}
+
+.margin20 { margin-top:30px !important; }
+
+</style>
+<div id='map'>
+    <div id='map-ui'>
+        <ul>
+            <li><a href='#' id='g1-layer1' class='active'>Concesiones mineras</a></li>
+            <li><a href='#' id='g1-layer2'>&Aacute;reas Naturales Protegidas Federales</a></li>
+            <li><a href='#' id='g1-layer3'>&Aacute;reas Naturales Protegidas Estatales</a></li>
+            <li><a href='#' id='g1-layer4'>&Aacute;reas Naturales Protegidas Municipales</a></li>
+            <li><a href='#' id='g1-layer5'>Lenguas Indígenas</a></li>
+        </ul>
+        
+         <ul class="margin20">
+            <li><a href='#' id='g2-layer1'>Concesiones mineras</a></li>
+            <li><a href='#' id='g2-layer2' class="active">&Aacute;reas Naturales Protegidas Federales</a></li>
+            <li><a href='#' id='g2-layer3'>&Aacute;reas Naturales Protegidas Estatales</a></li>
+            <li><a href='#' id='g2-layer4'>&Aacute;reas Naturales Protegidas Municipales</a></li>
+            <li><a href='#' id='g2-layer5'>Lenguas Indígenas</a></li>
+            
+        </ul>
+    </div>
+</div>
+
+<script src='maps_layers.js' type="text/javascript"></script>
+</body>
+</html>

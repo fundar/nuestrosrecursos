@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src='http://codeorigin.jquery.com/jquery-1.9.1.min.js'></script>
+	<script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
+	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+	<!--[if lte IE 8]>
+		<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.ie.css' rel='stylesheet' >
+	<![endif]-->
+	
+	<style type='text/css'>
+		body { margin:0; padding:0; }
+		#map { position:absolute; top:0; bottom:0; width:100%; cursor:pointer; }
+		
+		
+		
+		.my-legend .legend-title {
+			text-align: left;
+			margin-bottom: 8px;
+			font-weight: bold;
+			font-size: 90%;
+		}
+		
+		.my-legend .legend-title ul { 
+			margin: 0;
+			padding: 0;
+			float: left;
+			list-style: none;
+		}
+		
+		.my-legend .legend-title ul li { 
+			cursor:pointer;
+		}
+		
+		.my-legend .legend-scale ul {
+			margin: 0;
+			padding: 0;
+			float: left;
+			list-style: none;
+		}
+		
+		.my-legend .legend-scale ul li {
+			display: block;
+			float: left;
+			width: 50px;
+			margin-bottom: 6px;
+			text-align: center;
+			font-size: 80%;
+			list-style: none;
+		}
+		
+		.my-legend ul.legend-labels li span {
+			display: block;
+			float: left;
+			height: 15px;
+			width: 50px;
+		}
+		
+		.my-legend .legend-source {
+			font-size: 70%;
+			color: #999;
+			clear: both;
+		}
+		
+		.my-legend a {
+			color: #777;
+		}
+	</style>
+</head>
+
+<body>
+
+<div id='map'>
+	<div id='legend-content' style='display: none;'>
+		<div class='my-legend'>
+			<div class='legend-title'>
+				<ul>
+					<li class="layer_control" id="layer1">Concesiones mineras</li>
+					<li class="layer_control" id="layer2">&Aacute;reas Naturales Protegidas Federales</li>
+				</ul>
+			</div>
+			
+			<div class='legend-source'>Source: <a href="http://twitter.com" title="twitter.com">twitter.com</a></div>
+			<div class='legend-source'>By: <a href="http://caarloshugo.info" title="caarloshugo.info">caarloshugo.info</a></div>
+		</div>
+	</div>
+</div>
+
+<script type='text/javascript'>  
+	var map = L.mapbox.map('map', 'fundarmexico.map-4jhimt0g', { gridControl: false, minZoom: 6, maxZoom:12, setZIndex:-1}).setView([24.577, -100.876], 6);
+	
+	map.legendControl.addLegend(document.getElementById('legend-content').innerHTML);
+	
+	var layer1 = L.mapbox.tileLayer('fundarmexico.concesiones_v1');
+	var layer2 = L.mapbox.tileLayer('fundarmexico.anp_federal_v1');
+	
+	
+	layer1.setZIndex(2);
+	layer2.setZIndex(2);
+	
+	addAllLayers();
+	removeAllLayers();
+	
+	map.touchZoom.disable();
+	map.doubleClickZoom.disable();
+	
+	function removeAllLayers() {
+		map.removeLayer(layer1);
+		map.removeLayer(layer2);
+	}
+	
+	function addAllLayers() {
+		map.addLayer(layer1);
+		map.addLayer(layer2);
+	}
+	
+	function showLayer(layer_id) {
+		removeAllLayers();
+		
+		if(layer_id == "layer1") {
+			map.addLayer(layer1);
+		} else if(layer_id == "layer2") {
+			map.addLayer(layer2);
+		}
+	}
+	
+	map.gridLayer
+    .on('mousemove',function(o) {
+		console.log(o.data);
+        //document.getElementById('count').innerHTML = (o.data && o.data.count) || '';
+    }).on('mouseout', function(o) {
+        //document.getElementById('count').innerHTML = '';
+    });
+    
+	$(document).ready(function() {
+		$(".layer_control").click( function () {
+			showLayer($(this).attr("id"));
+		});
+	});
+</script>
+
+</body>
+</html>

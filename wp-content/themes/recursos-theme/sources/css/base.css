@@ -16,8 +16,7 @@
 /* Base Style */
     body {
         font:16px/1.2 "Helvetica Neue", Arial, Helvetica, sans-serif;
-        /*background:url('../img/back2.png') repeat left top;*/
-        background:url('../../img/back2.png') repeat left top;
+        color:white;
     }
 
     h1{font-size:38px;}
@@ -38,32 +37,6 @@
         position:fixed;
         top:0;left:0;
     }
-
-html{
-    height: 100%;
-    overflow-x: hidden;
-    background:url('../img/back1.jpg') repeat left top;
-}
-
-.curtains{
-    width: 100%;
-    z-index:1;
-    position:relative;
-}
-
-.curtains>li{
-    background: white;
-    position: fixed;
-    display:block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 100%;
-    overflow: hidden;
-    z-index:1;
-}
-.curtains>li.hidden{display:none;}
-.curtains>li:first-child{z-index:2;}
 
 
 /* Specific */

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title></title>
+	<script src='http://codeorigin.jquery.com/jquery-1.9.1.min.js'></script>
+	<script src='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.js'></script>
+	<link href='http://api.tiles.mapbox.com/mapbox.js/v1.0.2/mapbox.css' rel='stylesheet' />
+  <!--[if lte IE 8]>
+    <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet'>
+  <![endif]-->
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+<div id='map'></div>
+<script type='text/javascript'>
+var map = L.map('map').setView([24.577, -100.876], 6);
+
+L.control.layers({
+    'Base Map' : L.mapbox.tileLayer('examples.map-zgrqqx0w').addTo(map),
+    'Grey Map' : L.mapbox.tileLayer('fundarmexico.map-4jhimt0g')
+}, {
+    'Map Stations': L.mapbox.tileLayer('fundarmexico.concesiones_v1').addTo(map),
+    'Maps Lanes': L.mapbox.tileLayer('fundarmexico.anp_federal_v1')
+}).addTo(map);
+
+</script>
+</body>
+</html>
