@@ -17,7 +17,9 @@
 			</ol>
 
 			<ol id="col3">
-				<img src="<?php bloginfo('template_url');?>/img/logo.png" id="logo">
+				<a href="http://fundar.org.mx" target="_blank">
+					<img src="<?php bloginfo('template_url');?>/img/logo.png" id="logo">
+				</a>
 			</ol>
 		</div>
 	</ol>
