@@ -424,21 +424,42 @@
 				<iframe src="//player.vimeo.com/video/77989512" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
 				<span><b>Entrevisto/a: </b>Juan Simbrón – Consejo Supremo Totonaco</span>
 				<span><b>lugar: </b>Municipio de Xalapa (Veracruz)</span>
-				<span><b>Temática: </b>Daños económicos de la actividad petrolera al campesinado mexicano</span>
+				<span><b>Temática: </b>daños económicos de la actividad petrolera al campesinado mexicano</span>
 			</li>
 			
 			<li>
-				<video></video><br> 
-				<span><b>Entrevisto/a: </b>John Smith</span>
-				<span><b>lugar: </b>México, D.F</span>
-				<span><b>Temática: </b>Transparencia en contratos</span>
+				<iframe src="//player.vimeo.com/video/78006254" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<span><b>Entrevisto/a: </b>Hugo Ireta – Asociación Ecológica Santo Tomás</span>
+				<span><b>lugar: </b>Villahermosa (Tabasco)</span>
+				<span><b>Temática: </b>daños de la actividad petrolera sobre el medio ambiente y la biodiversidad</span>
 			</li>
 			
 			<li>
-				<video></video><br> 
-				<span><b>Entrevisto/a: </b>John Smith</span>
-				<span><b>lugar: </b>México, D.F</span>
-				<span><b>Temática: </b>Transparencia en contratos</span>
+				<iframe src="//player.vimeo.com/video/77808794 " width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<span><b>Entrevisto/a: </b>Mario Ángel Román – Periodista e Investigador Social</span>
+				<span><b>lugar: </b>Poza Rica (Veracruz)</span>
+				<span><b>Temática: </b>afectaciones del proyecto petrolero Aceite Terciario del Golfo en el estado de Veracruz</span>
+			</li>
+			
+			<li>
+				<iframe src="//player.vimeo.com/video/77806388" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<span><b>Entrevisto/a: </b>Efraín Rodríguez – Comité de Derechos Humanos de Tabasco (CODEHUTAB)</span>
+				<span><b>lugar: </b>Colonia Los Aguilares, municipio de Cunduacán (Tabasco)</span>
+				<span><b>Temática: </b>presentación del caso de contaminación por parte de la empresa CARESA, contratada por Petróleos Mexicanos (Pemex) para realizar el tratamiento de los lodos de perforación de los proyectos petroleros</span>
+			</li>
+			
+			<li>
+				<iframe src="//player.vimeo.com/video/78002143" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<span><b>Entrevisto/a: </b>Felipe de Jesús Cantú – Diputado Federal LXI Legislatura</span>
+				<span><b>lugar: </b>México DF</span>
+				<span><b>Temática: </b>la necesidad de utilizar tecnología más avanzada en la industria petrolera nacional, que permita reducir las afectaciones sociales y ambientales de su actividad</span>
+			</li>
+			
+			<li>
+				<iframe src="//player.vimeo.com/video/78021036 " width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<span><b>Entrevisto/a: </b>Inoel Arias Marín – Representante Comunidad Francisco I Madero</span>
+				<span><b>lugar: </b>Municipio de Centla (Tabasco)</span>
+				<span><b>Temática: </b>afectaciones de la actividad petrolera en su comunidad</span>
 			</li>
 		</ul>
 	</li>
