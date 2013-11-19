@@ -17,7 +17,7 @@
 			</ol>
 
 			<ol id="col3">
-				<a href="http://fundar.org.mx" target="_blank">
+				<a href="http://fundar.org.mx" title="Fundar, Centro de Análisis e investigación"target="_blank">
 					<img src="<?php bloginfo('template_url');?>/img/logo.png" id="logo">
 				</a>
 			</ol>
