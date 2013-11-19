@@ -795,4 +795,8 @@ div.cuad, ul.cuad {
     width: 20px;
 }
 
+.nav_controls li a:hover{
+    color:#000;
+}
+
 #container { width:960px; margin:0 auto; }
