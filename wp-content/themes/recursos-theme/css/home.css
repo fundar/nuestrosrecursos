@@ -743,8 +743,8 @@ div.cuad, ul.cuad {
 
     .menu li{
         float: left;
-        margin-right:30px;
-        font-size: 1.2em;
+        font-size: 1.1em;
+		 margin-right: 18px;
         display: inline-block;
     }
 
