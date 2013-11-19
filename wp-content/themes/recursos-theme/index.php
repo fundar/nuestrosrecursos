@@ -421,10 +421,8 @@
 
 		<ul id="videos">
 			<li>
-				<video>
-					<iframe src="//player.vimeo.com/video/77989512" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-					<p><a href="http://vimeo.com/77989512">Juan Simbrón Mendez v4</a> from <a href="http://vimeo.com/user6767365">Fundar</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-				</video><br>
+				<iframe src="//player.vimeo.com/video/77989512" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/77989512">Juan Simbrón Mendez v4</a> from <a href="http://vimeo.com/user6767365">Fundar</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+				
 				<span><b>Entrevisto/a: </b>Juan Simbrón – Consejo Supremo Totonaco</span>
 				<span><b>lugar: </b>Municipio de Xalapa (Veracruz)</span>
 				<span><b>Temática: </b>Daños económicos de la actividad petrolera al campesinado mexicano</span>
