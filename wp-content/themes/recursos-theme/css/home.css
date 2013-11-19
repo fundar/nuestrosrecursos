@@ -772,7 +772,6 @@ div.cuad, ul.cuad {
     position:fixed;
     z-index:20;
     min-width: 50px;
-    min-height: 300px;
     padding:10px 0px 10px 15px;
     margin: 0 auto;
     display: block;
