@@ -704,14 +704,15 @@ div.cuad, ul.cuad {
 /*padding:80px 20px 10px 75px;*/
 
 #footer ol{
+    color: #FFFFFF;
     float: left;
-    min-height: 150px;
+    margin-left: 35px;
+    margin-top: 56px;
     max-height: 150px;
+    max-width: 337px;
+    min-height: 150px;
     min-width: 340px;
-    max-width: 340px;
     position: relative;
-    color:#fff;
-    margin-right: 15px;
 }
 
 #footer ol#col2 li{
