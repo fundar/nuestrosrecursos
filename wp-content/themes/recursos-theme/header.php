@@ -32,7 +32,7 @@
 		</ul>
 		
 		<ul class="nav_controls">
-			<li><a id="home" href="#inicio" class="curtain-links normal">Top</a></li>
+			<!-- <li><a id="home" href="#inicio" class="curtain-links normal">Top</a></li> -->
 			<li><a id="up" href="#up" class="curtain-links normal">▲</a></li>
 			<li><a id="down" href="#down" class="curtain-links normal">▼</a></li>
 		</ul>
