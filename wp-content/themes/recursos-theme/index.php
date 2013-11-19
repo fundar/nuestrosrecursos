@@ -422,44 +422,44 @@
 		<ul id="videos">
 			<li>
 				<iframe src="//player.vimeo.com/video/77989512" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<span><b>Entrevisto/a: </b>Juan Simbrón – Consejo Supremo Totonaco</span>
-				<span><b>lugar: </b>Municipio de Xalapa (Veracruz)</span>
-				<span><b>Temática: </b>daños económicos de la actividad petrolera al campesinado mexicano</span>
+				<span><b>Entrevistado: </b>Juan Simbrón – Consejo Supremo Totonaco</span>
+				<span><b>Lugar: </b>Municipio de Xalapa (Veracruz)</span>
+				<span><b>Tema: </b>daños económicos de la actividad petrolera al campesinado mexicano</span>
 			</li>
 			
 			<li>
 				<iframe src="//player.vimeo.com/video/78006254" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<span><b>Entrevisto/a: </b>Hugo Ireta – Asociación Ecológica Santo Tomás</span>
-				<span><b>lugar: </b>Villahermosa (Tabasco)</span>
-				<span><b>Temática: </b>daños de la actividad petrolera sobre el medio ambiente y la biodiversidad</span>
+				<span><b>Entrevistado: </b>Hugo Ireta – Asociación Ecológica Santo Tomás</span>
+				<span><b>Lugar: </b>Villahermosa (Tabasco)</span>
+				<span><b>Tema: </b>daños de la actividad petrolera sobre el medio ambiente y la biodiversidad</span>
 			</li>
 			
 			<li>
 				<iframe src="//player.vimeo.com/video/77808794 " width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<span><b>Entrevisto/a: </b>Mario Ángel Román – Periodista e Investigador Social</span>
-				<span><b>lugar: </b>Poza Rica (Veracruz)</span>
-				<span><b>Temática: </b>afectaciones del proyecto petrolero Aceite Terciario del Golfo en el estado de Veracruz</span>
+				<span><b>Entrevistado: </b>Mario Ángel Román – Periodista e Investigador Social</span>
+				<span><b>Lugar: </b>Poza Rica (Veracruz)</span>
+				<span><b>Tema: </b>afectaciones del proyecto petrolero Aceite Terciario del Golfo en el estado de Veracruz</span>
 			</li>
 			
 			<li>
 				<iframe src="//player.vimeo.com/video/77806388" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<span><b>Entrevisto/a: </b>Efraín Rodríguez – Comité de Derechos Humanos de Tabasco (CODEHUTAB)</span>
-				<span><b>lugar: </b>Colonia Los Aguilares, municipio de Cunduacán (Tabasco)</span>
-				<span><b>Temática: </b>presentación del caso de contaminación por parte de la empresa CARESA, contratada por Petróleos Mexicanos (Pemex) para realizar el tratamiento de los lodos de perforación de los proyectos petroleros</span>
+				<span><b>Entrevistado: </b>Efraín Rodríguez – Comité de Derechos Humanos de Tabasco (CODEHUTAB)</span>
+				<span><b>Lugar: </b>Colonia Los Aguilares, municipio de Cunduacán (Tabasco)</span>
+				<span><b>Tema: </b>presentación del caso de contaminación por parte de la empresa CARESA, contratada por Petróleos Mexicanos (Pemex) para realizar el tratamiento de los lodos de perforación de los proyectos petroleros</span>
 			</li>
 			
 			<li>
 				<iframe src="//player.vimeo.com/video/78002143" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<span><b>Entrevisto/a: </b>Felipe de Jesús Cantú – Diputado Federal LXI Legislatura</span>
-				<span><b>lugar: </b>México DF</span>
-				<span><b>Temática: </b>la necesidad de utilizar tecnología más avanzada en la industria petrolera nacional, que permita reducir las afectaciones sociales y ambientales de su actividad</span>
+				<span><b>Entrevistado: </b>Felipe de Jesús Cantú – Diputado Federal LXI Legislatura</span>
+				<span><b>Lugar: </b>México DF</span>
+				<span><b>Tema: </b>la necesidad de utilizar tecnología más avanzada en la industria petrolera nacional, que permita reducir las afectaciones sociales y ambientales de su actividad</span>
 			</li>
 			
 			<li>
 				<iframe src="//player.vimeo.com/video/78021036 " width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-				<span><b>Entrevisto/a: </b>Inoel Arias Marín – Representante Comunidad Francisco I Madero</span>
-				<span><b>lugar: </b>Municipio de Centla (Tabasco)</span>
-				<span><b>Temática: </b>afectaciones de la actividad petrolera en su comunidad</span>
+				<span><b>Entrevistado: </b>Inoel Arias Marín – Representante Comunidad Francisco I Madero</span>
+				<span><b>Lugar: </b>Municipio de Centla (Tabasco)</span>
+				<span><b>Tema: </b>afectaciones de la actividad petrolera en su comunidad</span>
 			</li>
 		</ul>
 	</li>
