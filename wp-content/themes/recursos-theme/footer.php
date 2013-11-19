@@ -2,7 +2,7 @@
 			<ol id="col1">
 				<li><a href="#acerca">Quines somos</a></li>
 				<li><a href="#acerca">Contacto</a></li>
-				<li><a href="http://fundar.org.mx" title="Fundar, Centro de Análisis e investigación">Fundar, Centro de Análisis e Investigación</a></li>
+				<li><a href="http://fundar.org.mx" title="Fundar, Centro de Análisis e investigación" target="_blank">Fundar, Centro de Análisis e Investigación</a></li>
 			</ol>
 
 			<ol id="col2">
