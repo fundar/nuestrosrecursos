@@ -777,7 +777,7 @@ div.cuad, ul.cuad {
     margin: 0 auto;
     display: block;
     right:0;
-    top:400px;
+    bottom:20px;
 }
 .nav_controls li{
     cursor: pointer;
