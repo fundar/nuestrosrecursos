@@ -151,3 +151,5 @@ h2{
 #nav li a.current {
 	background-color: orange;
 }
+
+.header { width:100%; margin:0 auto; }
