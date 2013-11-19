@@ -22,7 +22,7 @@
 			</div> 
 		</li>
 	</ol>
-</div>
+
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.min.js"></script>
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/agile_carousel.js"></script>
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/slider-vertical.js"></script>

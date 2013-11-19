@@ -16,8 +16,8 @@
 		</style>
 	</head>
 	<body>
-		<div id="container">
-			<ul class="menu">
+		<ul class="menu">
+			<div id="container">
 				<li><a href="#inicio" id="_inicio" class="curtain-links normal">Inicio</a></li>
 				<li><a href="#infografia" id="_infografia" class="curtain-links normal">Infografía</a></li>
 				<li><a href="#afectaciones" id="_afectaciones" class="curtain-links normal">Afectaciones</a></li>
@@ -27,12 +27,12 @@
 				<li><a href="#transparencia" id="_transparencia" class="curtain-links normal">Transparencia</a></li>
 				<li><a href="#publicaciones" id="_publicaciones" class="curtain-links normal">Publicaciones</a></li>
 				<li><a href="#acerca" id="_acerca" class="curtain-links normal">Sobre Nosotros</a></li>
-
 				<!--li><a href="#indpetrolera" id="_indpetrolera" class="curtain-links normal">Industria Petrolera</a></li-->
-			</ul>
-			
-			<ul class="nav_controls">
-				<li><a id="home" href="#inicio" class="curtain-links normal">Top</a></li>
-				<li><a id="up" href="#up" class="curtain-links normal">▲</a></li>
-				<li><a id="down" href="#down" class="curtain-links normal">▼</a></li>
-			</ul>
+			</div>
+		</ul>
+		
+		<ul class="nav_controls">
+			<li><a id="home" href="#inicio" class="curtain-links normal">Top</a></li>
+			<li><a id="up" href="#up" class="curtain-links normal">▲</a></li>
+			<li><a id="down" href="#down" class="curtain-links normal">▼</a></li>
+		</ul>
