@@ -18,7 +18,7 @@
 	<body>
 		<ul class="menu">
 			<div id="container">
-				<li><a href="#inicio" id="_inicio" class="curtain-links normal">Inicio</a></li>
+				<li class="margin-r0"><a href="#inicio" id="_inicio" class="curtain-links normal">Inicio</a></li>
 				<li><a href="#infografia" id="_infografia" class="curtain-links normal">Infografía</a></li>
 				<li><a href="#afectaciones" id="_afectaciones" class="curtain-links normal">Afectaciones</a></li>
 				<li><a href="#marcolegal" id="_marcolegal" class="curtain-links normal">Marco Legal</a></li>
