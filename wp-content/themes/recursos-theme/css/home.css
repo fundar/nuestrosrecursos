@@ -726,6 +726,10 @@ div.cuad, ul.cuad {
 }
 
 
+#footer a {
+	text-decoration:none;
+}
+
 /* MENU */
 
 .menu{
