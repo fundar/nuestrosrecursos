@@ -1,27 +1,25 @@
-			<div id="footer">
-				<ol id="col1">
-					<li>Quines somos</li>
-					<li>Contacto</li>
-					<li>Fundar, Centro de Análisis e Investigación</li>
-				</ol>
+	<div id="footer">
+		<ol id="col1">
+			<li>Quines somos</li>
+			<li>Contacto</li>
+			<li>Fundar, Centro de Análisis e Investigación</li>
+		</ol>
 
-				<ol id="col2">
-					<li>Nuestros Recursos</li>
-					<li>Mapa Interactivo</li>
-					<li>Impactos</li>
-					<li>Transparencia</li>
-					<li>Marco Legal</li>
-					<li>Publicaciones</li>
-					<li>Ingresos</li>
-					<li>Sobre Nosotros</li>
-				</ol>
+		<ol id="col2">
+			<li>Nuestros Recursos</li>
+			<li>Mapa Interactivo</li>
+			<li>Impactos</li>
+			<li>Transparencia</li>
+			<li>Marco Legal</li>
+			<li>Publicaciones</li>
+			<li>Ingresos</li>
+			<li>Sobre Nosotros</li>
+		</ol>
 
-				<ol id="col3">
-					<img src="<?php bloginfo('template_url');?>/img/fundar.png" id="logo">
-				</ol>
-			</div> 
-		</li>
-	</ol>
+		<ol id="col3">
+			<img src="<?php bloginfo('template_url');?>/img/fundar.png" id="logo">
+		</ol>
+	</div> 
 
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.min.js"></script>
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/agile_carousel.js"></script>

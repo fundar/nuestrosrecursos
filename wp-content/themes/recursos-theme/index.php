@@ -412,5 +412,34 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</div>
+    </li>
     
+	<li id="indpetrolera" class="section cover">      
+		<div id="min-head"></div>
+		<h1>Oil Industry Impacts</h1>
+		<div class="line"></div>
+
+		<ul id="videos">
+			<li>
+				<video></video><br> 
+				<span><b>Entrevisto/a: </b>John Smith</span>
+				<span><b>lugar: </b>México, D.F</span>
+				<span><b>Temática: </b>Transparencia en contratos</span>
+			</li>
+			
+			<li>
+				<video></video><br> 
+				<span><b>Entrevisto/a: </b>John Smith</span>
+				<span><b>lugar: </b>México, D.F</span>
+				<span><b>Temática: </b>Transparencia en contratos</span>
+			</li>
+			
+			<li>
+				<video></video><br> 
+				<span><b>Entrevisto/a: </b>John Smith</span>
+				<span><b>lugar: </b>México, D.F</span>
+				<span><b>Temática: </b>Transparencia en contratos</span>
+			</li>
+		</ul>
+	</li>
 <?php get_footer(); ?>
