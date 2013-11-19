@@ -9,9 +9,9 @@
 				<li>Nuestros Recursos</li>
 				<li>Mapa Interactivo</li>
 				<li>Impactos</li>
-				<li>Transparencia</li>
+				<li><a href="#transparencia">Transparencia</a></li>
 				<li>Marco Legal</li>
-				<li>Publicaciones</li>
+				<li><a href="#publicaciones">Publicaciones</a></li>
 				<li>Ingresos</li>
 				<li>Sobre Nosotros</li>
 			</ol>
