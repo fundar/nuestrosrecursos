@@ -442,21 +442,21 @@
 			</li>
 			
 			<li>
-				<iframe src="//player.vimeo.com/video/77806388" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<iframe src="//player.vimeo.com/video/77806388" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<span><b>Entrevisto/a: </b>Efraín Rodríguez – Comité de Derechos Humanos de Tabasco (CODEHUTAB)</span>
 				<span><b>lugar: </b>Colonia Los Aguilares, municipio de Cunduacán (Tabasco)</span>
 				<span><b>Temática: </b>presentación del caso de contaminación por parte de la empresa CARESA, contratada por Petróleos Mexicanos (Pemex) para realizar el tratamiento de los lodos de perforación de los proyectos petroleros</span>
 			</li>
 			
 			<li>
-				<iframe src="//player.vimeo.com/video/78002143" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<iframe src="//player.vimeo.com/video/78002143" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<span><b>Entrevisto/a: </b>Felipe de Jesús Cantú – Diputado Federal LXI Legislatura</span>
 				<span><b>lugar: </b>México DF</span>
 				<span><b>Temática: </b>la necesidad de utilizar tecnología más avanzada en la industria petrolera nacional, que permita reducir las afectaciones sociales y ambientales de su actividad</span>
 			</li>
 			
 			<li>
-				<iframe src="//player.vimeo.com/video/78021036 " width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<iframe src="//player.vimeo.com/video/78021036 " width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<span><b>Entrevisto/a: </b>Inoel Arias Marín – Representante Comunidad Francisco I Madero</span>
 				<span><b>lugar: </b>Municipio de Centla (Tabasco)</span>
 				<span><b>Temática: </b>afectaciones de la actividad petrolera en su comunidad</span>
