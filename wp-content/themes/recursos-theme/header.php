@@ -17,22 +17,21 @@
 	</head>
 	<body>
 		<ul class="menu">
-			<li> <a href="#inicio"  id="_inicio" class="curtain-links normal"> Inicio </a> </li>
-			<li> <a href="#infografia"  id="_infografia" class="curtain-links normal"> Infografía </a> </li>
-			<li> <a href="#afectaciones"  id="_afectaciones" class="curtain-links normal"> Afectaciones </a> </li>
+			<li><a href="#inicio" id="_inicio" class="curtain-links normal">Inicio</a></li>
+			<li><a href="#infografia" id="_infografia" class="curtain-links normal">Infografía</a></li>
+			<li><a href="#afectaciones" id="_afectaciones" class="curtain-links normal">Afectaciones</a></li>
+			<li><a href="#marcolegal" id="_marcolegal" class="curtain-links normal">Marco Legal</a></li>
+			<li><a href="#ingresos" id="_ingresos" class="curtain-links normal">Ingresos</a></li>
+			<li><a href="#mapainteractivo" id="_mapainteractivo" class="curtain-links normal">Mapa Interáctivo</a></li>
+			<li><a href="#transparencia" id="_transparencia" class="curtain-links normal">Transparencia</a></li>
+			<li><a href="#publicaciones" id="_publicaciones" class="curtain-links normal">Publicaciones</a></li>
+			<li><a href="#acerca" id="_acerca" class="curtain-links normal">Sobre Nosotros</a></li>
 
-			<li> <a href="#marcolegal"  id="_marcolegal" class="curtain-links normal"> Marco Legal </a></li>
-			<li> <a href="#ingresos"  id="_ingresos" class="curtain-links normal"> Ingresos </a></li>
-			<li> <a href="#mapainteractivo"  id="_mapainteractivo" class="curtain-links normal"> Mapa Interáctivo</a></li>
-			<li> <a href="#transparencia"  id="_transparencia" class="curtain-links normal"> Transparencia</a></li>
-			<li> <a href="#publicaciones"  id="_publicaciones" class="curtain-links normal"> Publicaciones</a></li>
-			<li> <a href="#acerca"  id="_acerca" class="curtain-links normal"> Sobre Nosotros</a></li>
-
-			<!--li> <a href="#indpetrolera"  id="_indpetrolera" class="curtain-links normal"> Industria Petrolera  </a></li-->
+			<!--li><a href="#indpetrolera" id="_indpetrolera" class="curtain-links normal">Industria Petrolera</a></li-->
 		</ul>
 		
 		<ul class="nav_controls">
-			<li><a id="home" href="#inicio" class="curtain-links normal"> Top </a></li>
-			<li><a id="up" href="#up" class="curtain-links normal"> ▲  </a></li>
-			<li><a id="down" href="#down" class="curtain-links normal"> ▼ </a></li>
+			<li><a id="home" href="#inicio" class="curtain-links normal">Top</a></li>
+			<li><a id="up" href="#up" class="curtain-links normal">▲</a></li>
+			<li><a id="down" href="#down" class="curtain-links normal">▼</a></li>
 		</ul>
