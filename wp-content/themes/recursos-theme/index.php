@@ -421,21 +421,21 @@
 
 		<ul id="videos">
 			<li>
-				<iframe src="//player.vimeo.com/video/77989512" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<iframe src="//player.vimeo.com/video/77989512" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<span><b>Entrevisto/a: </b>Juan Simbrón – Consejo Supremo Totonaco</span>
 				<span><b>lugar: </b>Municipio de Xalapa (Veracruz)</span>
 				<span><b>Temática: </b>daños económicos de la actividad petrolera al campesinado mexicano</span>
 			</li>
 			
 			<li>
-				<iframe src="//player.vimeo.com/video/78006254" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<iframe src="//player.vimeo.com/video/78006254" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<span><b>Entrevisto/a: </b>Hugo Ireta – Asociación Ecológica Santo Tomás</span>
 				<span><b>lugar: </b>Villahermosa (Tabasco)</span>
 				<span><b>Temática: </b>daños de la actividad petrolera sobre el medio ambiente y la biodiversidad</span>
 			</li>
 			
 			<li>
-				<iframe src="//player.vimeo.com/video/77808794 " width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><br/>
+				<iframe src="//player.vimeo.com/video/77808794 " width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				<span><b>Entrevisto/a: </b>Mario Ángel Román – Periodista e Investigador Social</span>
 				<span><b>lugar: </b>Poza Rica (Veracruz)</span>
 				<span><b>Temática: </b>afectaciones del proyecto petrolero Aceite Terciario del Golfo en el estado de Veracruz</span>
