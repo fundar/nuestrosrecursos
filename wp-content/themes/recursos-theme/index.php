@@ -415,7 +415,7 @@
     </li>
     
 	<li id="indpetrolera" class="section cover">      
-		<div id="min-head"></div>
+		<!-- <div id="min-head"></div> -->
 		<h1>Oil Industry Impacts</h1>
 		<div class="line"></div>
 
