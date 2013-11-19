@@ -307,8 +307,11 @@ h2{
 }
 
 #indpetrolera span{
-    color:#000;
-    display: block;
+    color: #000000;
+    float: left;
+    margin-left: 20px;
+    width: 325px;
+    margin-top: 9px
 }
 
 #indpetrolera video{
