@@ -17,7 +17,7 @@
 			</ol>
 
 			<ol id="col3">
-				<img src="<?php bloginfo('template_url');?>/img/fundar.png" id="logo">
+				<img src="<?php bloginfo('template_url');?>/img/logo.png" id="logo">
 			</ol>
 		</div>
 	</ol>
