@@ -1,23 +1,23 @@
 		<div id="footer">
 			<ol id="col1">
-				<li>Quines somos</li>
-				<li>Contacto</li>
-				<li>Fundar, Centro de Análisis e Investigación</li>
+				<li><a href="#acerca">Quines somos</a></li>
+				<li><a href="#acerca">Contacto</a></li>
+				<li><a href="http://fundar.org.mx" title="Fundar, Centro de Análisis e investigación">Fundar, Centro de Análisis e Investigación</a></li>
 			</ol>
 
 			<ol id="col2">
-				<li>Nuestros Recursos</li>
-				<li>Mapa Interactivo</li>
-				<li>Impactos</li>
+				<li><a href="#inicio">Nuestros Recursos</a></li>
+				<li><a href="#mapainteractivo">Mapa Interactivo</a></li>
+				<li><a href="#afectaciones">Afectaciones</a></li>
 				<li><a href="#transparencia">Transparencia</a></li>
-				<li>Marco Legal</li>
+				<li><a href="#marcolegal">Marco Legal</a></li>
 				<li><a href="#publicaciones">Publicaciones</a></li>
-				<li>Ingresos</li>
-				<li>Sobre Nosotros</li>
+				<li><a href="#ingresos">Ingresos</a></li>
+				<li><a href="#acerca">Sobre Nosotros</a></li>
 			</ol>
 
 			<ol id="col3">
-				<a href="http://fundar.org.mx" title="Fundar, Centro de Análisis e investigación"target="_blank">
+				<a href="http://fundar.org.mx" title="Fundar, Centro de Análisis e investigación" target="_blank">
 					<img src="<?php bloginfo('template_url');?>/img/logo.png" id="logo">
 				</a>
 			</ol>
@@ -140,7 +140,15 @@
 			  return false
 			});
 			
-			$("#footer .col1 a").on("click", function(){
+			$("#footer #col1 a").on("click", function(){
+			  seccion = $(this).attr("href")
+			  sec_idx = secciones.indexOf(seccion);     
+			  $.scrollTo(seccion, 1000)
+			  return false
+			});
+			
+			
+			$("#footer #col2 a").on("click", function(){
 			  seccion = $(this).attr("href")
 			  sec_idx = secciones.indexOf(seccion);     
 			  $.scrollTo(seccion, 1000)
