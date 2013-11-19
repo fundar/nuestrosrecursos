@@ -278,7 +278,7 @@ h2{
     }
 #indpetrolera {
     background:#FFF url('../img/back2.png') repeat left top;
-    min-height: 1050px;
+    min-height: 1450px;
 }
 #indpetrolera #min-head{
     background: url('../img/min-banner.png') no-repeat left top;
@@ -304,6 +304,7 @@ h2{
     max-height:185px;
     min-height: 185px;
     margin-bottom: 15px;
+    margin-top:30px;
 }
 
 #indpetrolera span{
