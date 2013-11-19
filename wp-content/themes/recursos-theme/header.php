@@ -16,7 +16,7 @@
 		</style>
 	</head>
 	<body>
-		<div class="header">
+		<div id="container">
 			<ul class="menu">
 				<li><a href="#inicio" id="_inicio" class="curtain-links normal">Inicio</a></li>
 				<li><a href="#infografia" id="_infografia" class="curtain-links normal">Infografía</a></li>
@@ -30,10 +30,9 @@
 
 				<!--li><a href="#indpetrolera" id="_indpetrolera" class="curtain-links normal">Industria Petrolera</a></li-->
 			</ul>
-		</div>
-		
-		<ul class="nav_controls">
-			<li><a id="home" href="#inicio" class="curtain-links normal">Top</a></li>
-			<li><a id="up" href="#up" class="curtain-links normal">▲</a></li>
-			<li><a id="down" href="#down" class="curtain-links normal">▼</a></li>
-		</ul>
+			
+			<ul class="nav_controls">
+				<li><a id="home" href="#inicio" class="curtain-links normal">Top</a></li>
+				<li><a id="up" href="#up" class="curtain-links normal">▲</a></li>
+				<li><a id="down" href="#down" class="curtain-links normal">▼</a></li>
+			</ul>

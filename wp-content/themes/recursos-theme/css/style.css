@@ -152,4 +152,4 @@ h2{
 	background-color: orange;
 }
 
-.header { width:100%; margin:0 auto; }
+#container { width:960px; margin:0 auto; }
