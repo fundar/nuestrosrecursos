@@ -318,6 +318,12 @@ h2{
     float:left;
 }
 
+#indpetrolera iframe {
+    min-width:293px;
+    min-height:182px;
+    float:left;
+}
+
 /******************************/
 /******** Marco Legal *********/
 /******************************/
