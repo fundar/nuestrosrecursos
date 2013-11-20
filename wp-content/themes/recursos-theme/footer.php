@@ -24,11 +24,11 @@
 		</div>
 	</ol>
 
+	<script src='<?php bloginfo('template_url');?>/js/maps_layers.js' type="text/javascript"></script>
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.min.js"></script>
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/agile_carousel.js"></script>
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/slider-vertical.js"></script>
 	<script src="<?php bloginfo('template_url');?>/sources/js/libs/jquery.scrollTo-1.4.3.1-min.js"></script>
-	<script src='http://api.tiles.mapbox.com/mapbox.js/v0.6.7/mapbox.js'></script>
 
 	<script>
 		//$.getJSON("agile_carousel/agile_carousel_data.php", function(data) {
@@ -67,8 +67,6 @@
 
 			  $.scrollTo(seccion, 1000)
 			}
-
-			mapbox.auto('map', 'fundarmexico.map-56rcfk4m');
 
 			$(window).on('keyup', function(e){
 			  switch(e.which){
@@ -113,7 +111,6 @@
 			//console.log(populate_carousel([]))
 
 			$("#multiple_slides_visible").agile_carousel({
-
 				carousel_data: populate_carousel([]),
 				carousel_outer_height: 230,
 				carousel_height: 200,
@@ -126,12 +123,6 @@
 				control_set_2: "group_numbered_buttons",
 				persistent_content: "<p class='persistent_content'>Agile Carousel Example: Multiple Slides Visible</p>"       
 			});
-
-			$(".map_link").on("click", function(){
-			  map_id = $(this).attr("href")
-			  mapbox.auto('map', map_id);
-			  return false
-			})
 
 			$(".menu a").on("click", function(){
 			  seccion = $(this).attr("href")
