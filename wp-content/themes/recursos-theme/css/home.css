@@ -92,7 +92,7 @@ ol.curtains li.section{
         }
 
 #infografia{
-    /*background:rgba(155, 155, 155, 0.5) url('../img/back2.png') repeat left top;*/
+    background:rgba(155, 155, 155, 0.5) url('../img/back2.png') repeat left top;
     min-width: 960px;
     max-width: 960px;
 }
