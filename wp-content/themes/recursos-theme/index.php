@@ -4,9 +4,11 @@
 	<li id="inicio" class="section" >
 		<div id="wrapper">
 			<div id="back">
+				<!--
 				<div id="filtro">
 					<div id="banner"></div>
 				</div>
+				-->
 			</div>
 			
 			<div id="mensaje"> 
@@ -17,7 +19,8 @@
 					para todas y todos, al tiempo que minimizamos los daños de su explotación.
 				</div>
 			</div>
-
+			
+			<!--
 			<div id="video">
 				<img src="<?php bloginfo('template_url');?>/img/video.png">
 			</div>
@@ -25,6 +28,7 @@
 			<div id="mapa">
 				<img src="<?php bloginfo('template_url');?>/img/mapa.png">
 			</div>
+			-->
 		</div>
 	</li>
 
