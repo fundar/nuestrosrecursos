@@ -829,7 +829,7 @@ div.cuad, ul.cuad {
     padding: 0;
 }
 
-#map-ui a {
+#map-ui span {
     font-size: 13px;
     background: #FFF;
     color: #3C4E5A;
@@ -841,31 +841,32 @@ div.cuad, ul.cuad {
     min-width: 138px;
     padding: 10px;
     text-decoration: none;
+    cursor:pointer;
 }
 
-#map-ui a:hover {
+#map-ui span:hover {
     background: #ECF5FA;
 }
 
-#map-ui li:last-child a {
+#map-ui li:last-child span {
     border-bottom-width: 1px;
     -webkit-border-radius: 0 0 3px 3px;
     border-radius: 0 0 3px 3px;
 }
 
-#map-ui li:first-child a {
+#map-ui li:first-child span {
     -webkit-border-radius: 3px 3px 0 0;
     border-radius: 3px 3px 0 0;
 }
 
-#map-ui a.active {
+#map-ui span.active {
     background: #3887BE;
     border-color: #3887BE;
     border-top-color: #FFF;
     color: #FFF;
 }
 
-#map-ui li:first-child a.active {
+#map-ui li:first-child span.active {
     border-top-color: #3887BE;
 }
 
