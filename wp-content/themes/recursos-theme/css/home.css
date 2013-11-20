@@ -861,3 +861,5 @@ div.cuad, ul.cuad {
 
 .margin20 { margin-top:30px !important; }
 #map { position:absolute; top:0; bottom:0; }
+
+.map-tooltip { color:#3887BE !important; }
