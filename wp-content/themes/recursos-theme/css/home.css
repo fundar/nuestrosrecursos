@@ -17,7 +17,7 @@ ol.curtains li.section{
 #inicio{
     color:white;
     text-shadow:0 1px 0 black;
-    background:url('../img/back1.jpg') no-repeat center top;
+    background:url('../img/fondo.png') no-repeat center top;
     min-width:960px;
     max-width:960px;
     min-height:700px;
@@ -32,7 +32,7 @@ ol.curtains li.section{
     }
 
         #inicio #back{
-            background:url('../img/banner.png') no-repeat center top;
+            /*background:url('../img/banner.png') no-repeat center top;*/
             min-height: 313px;
             max-height: 313px;
         }
@@ -45,7 +45,7 @@ ol.curtains li.section{
         }
 
         #inicio #banner{
-            background:url('../img/letras-banner.png') no-repeat center top;
+            /*background:url('../img/letras-banner.png') no-repeat center top;*/
             margin-top:10px;
             min-height: 307px;
             max-height: 307px;
@@ -53,7 +53,7 @@ ol.curtains li.section{
         }
 
         #inicio #mensaje{
-            background:url('../img/fondo-texto.png') no-repeat center top;
+            /*background:url('../img/fondo-texto.png') no-repeat center top;*/
             min-width:744px;
             min-height:120px;
             color:#000;
