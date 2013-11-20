@@ -86,7 +86,7 @@ ol.curtains li.section{
             margin-left: 20px;
         }
 
-        #inicio #mapa{
+        #inicio {
             float:right;
             margin-right: 20px;
         }
@@ -807,12 +807,11 @@ div.cuad, ul.cuad {
 
 
 /*******************      Map      ****************/
-#map { position:absolute; top:0; bottom:0; width:100%; }
-#mapainteractivo { padding:0 !important; }
-
-#map{   
-    min-width: 960px;
-    min-height: 7500px;
+#map {   
+    min-width: 930px;
+    max-width: 930px;
+    min-height: 600px;
+    max-height: 600px;
     margin-left: 0px;
     margin-top: 180px;
     float: right;
@@ -877,3 +876,4 @@ div.cuad, ul.cuad {
 }
 
 .margin20 { margin-top:30px !important; }
+#map { position:absolute; top:0; bottom:0; width:100%; }
