@@ -1,4 +1,4 @@
-var map = L.mapbox.map('map', 'fundarmexico.map-4jhimt0g', {attributionControl: false, minZoom: 6, maxZoom:12}).setView([24.577, -100.876], 6);
+var map = L.mapbox.map('map', 'fundarmexico.map-4jhimt0g', {attributionControl: false, minZoom: 6, maxZoom:12}).setView([24.577, -100.876], 5);
 	
 /*Grupo 1*/
 var g1_tileLayer1   = L.mapbox.tileLayer('fundarmexico.concesiones_v3').addTo(map);
