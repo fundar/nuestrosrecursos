@@ -808,12 +808,12 @@ div.cuad, ul.cuad {
 
 /*******************      Map      ****************/
 #map {   
-    min-width: 930px;
-    max-width: 930px;
-    min-height: 600px;
-    max-height: 600px;
-    margin-left: 0px;
-    margin-top: 180px;
+    min-width: 960px;
+    max-width: 960px;
+    min-height: 750px;
+    max-height: 750px;
+    margin-left: -15px;
+    margin-top: 100px;
     float: right;
 }
 
@@ -876,4 +876,4 @@ div.cuad, ul.cuad {
 }
 
 .margin20 { margin-top:30px !important; }
-#map { position:absolute; top:0; bottom:0; width:100%; }
+#map { position:absolute; top:0; bottom:0; }
