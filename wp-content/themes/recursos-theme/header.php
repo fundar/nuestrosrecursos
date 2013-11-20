@@ -11,13 +11,13 @@
 		<script src='http://codeorigin.jquery.com/jquery-1.9.1.min.js'></script>
 		<script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
 		<script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+		<link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
 		<!--[if lte IE 8]>
 			<link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet'>
 		<![endif]-->
 		
 		<style>
 			body { margin:0; padding:0; }
-			#map { position:absolute; top:0; bottom:0; width:100%; }
 		</style>
 	</head>
 	<body>
