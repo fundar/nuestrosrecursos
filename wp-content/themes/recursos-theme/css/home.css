@@ -127,8 +127,7 @@ ol.curtains li.section{
         min-height: 525px;
         max-height: 525px;
         background: #fff;
-        overflow-y: scroll;
-        overflow-x: hidden;
+        overflow: hidden;
      }
 
 h1 {
