@@ -648,22 +648,6 @@ div.cuad, ul.cuad {
     margin-bottom: 20px;
 } 
 
-#menu-mapas{
-}
-
-#menu-mapas li {
-    float:left;
-    margin-right: 20px;
-}
-#menu-mapas li a{
-    color:#555;
-    font-size: 1.3em;
-}
-
-#menu-mapas li a:hover{
-    color:#000;
-}
-
 /*
    
         float: right;
