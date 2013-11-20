@@ -247,19 +247,19 @@
 		<div id='map'>
 			<div id='map-ui'>
 				<ul>
-					<li><a href='#' id='g1-layer1' class='active'>Concesiones mineras</a></li>
-					<li><a href='#' id='g1-layer2'>&Aacute;reas Naturales Protegidas Federales</a></li>
-					<li><a href='#' id='g1-layer3'>&Aacute;reas Naturales Protegidas Estatales</a></li>
-					<li><a href='#' id='g1-layer4'>&Aacute;reas Naturales Protegidas Municipales</a></li>
-					<li><a href='#' id='g1-layer5'>Lenguas Indígenas</a></li>
+					<li><a href='' id='g1-layer1' class='active'>Concesiones mineras</a></li>
+					<li><a href='' id='g1-layer2'>&Aacute;reas Naturales Protegidas Federales</a></li>
+					<li><a href='' id='g1-layer3'>&Aacute;reas Naturales Protegidas Estatales</a></li>
+					<li><a href='' id='g1-layer4'>&Aacute;reas Naturales Protegidas Municipales</a></li>
+					<li><a href='' id='g1-layer5'>Lenguas Indígenas</a></li>
 				</ul>
 				
 				 <ul class="margin20">
-					<li><a href='#' id='g2-layer1'>Concesiones mineras</a></li>
-					<li><a href='#' id='g2-layer2' class="active">&Aacute;reas Naturales Protegidas Federales</a></li>
-					<li><a href='#' id='g2-layer3'>&Aacute;reas Naturales Protegidas Estatales</a></li>
-					<li><a href='#' id='g2-layer4'>&Aacute;reas Naturales Protegidas Municipales</a></li>
-					<li><a href='#' id='g2-layer5'>Lenguas Indígenas</a></li>
+					<li><a href='' id='g2-layer1'>Concesiones mineras</a></li>
+					<li><a href='' id='g2-layer2' class="active">&Aacute;reas Naturales Protegidas Federales</a></li>
+					<li><a href='' id='g2-layer3'>&Aacute;reas Naturales Protegidas Estatales</a></li>
+					<li><a href='' id='g2-layer4'>&Aacute;reas Naturales Protegidas Municipales</a></li>
+					<li><a href='' id='g2-layer5'>Lenguas Indígenas</a></li>
 					
 				</ul>
 			</div>
