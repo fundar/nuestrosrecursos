@@ -852,9 +852,11 @@ div.cuad, ul.cuad {
     cursor:pointer;
 }
 
-#map-ui span:hover {
-    background: #ECF5FA;
-}
+#g1-layer1:hover, #g2-layer1:hover { background: #C3ECAF; }
+#g1-layer2:hover, #g2-layer2:hover { background: #DABBAF; }
+#g1-layer3:hover, #g2-layer3:hover { background: #B37377; }
+#g1-layer4:hover, #g2-layer4:hover { background: #7390B3; }
+#g1-layer5:hover, #g2-layer5:hover { background: #7DA7D9; }
 
 #map-ui li:last-child span {
     border-bottom-width: 1px;
