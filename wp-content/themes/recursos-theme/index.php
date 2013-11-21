@@ -86,6 +86,16 @@
 				la producción nacional de crudo y el 99.6% de la de gas. De ellos, tres 
 				estados son especialmente relevantes: Campeche concentra el 24.6% de la 
 				actividad petrolera, Veracruz el 24 % y Tabasco el 12%.
+				
+				<div id="desc-bar">
+					<div id="desc-back"></div>
+					
+					<a href="#" title="Leer más">
+						<img src="<?php bloginfo('template_url');?>/img/arrow.png" alt="Leer más"/>
+					</a>
+					
+					<div id="desc-back2"></div>
+				</div>
 			</div>
 		</div>
 
