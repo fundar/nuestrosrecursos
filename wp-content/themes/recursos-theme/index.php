@@ -62,9 +62,7 @@
 				actividad petrolera, Veracruz el 24 % y Tabasco el 12%.
 				
 				<div id="desc-bar">
-					<div id="desc-back">
-						<span>Leer m&aacute;s</span>
-					</div>
+					<div id="desc-back"></div>
 					
 					<img src="<?php bloginfo('template_url');?>/img/arrow.png" alt="Leer más"/>
 					
