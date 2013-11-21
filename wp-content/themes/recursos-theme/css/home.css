@@ -19,8 +19,11 @@ ol.curtains li.section{
     text-shadow:0 1px 0 black;
     background:url('../img/fondo.jpg') no-repeat center top;
     min-width:960px;
+    max-width:960px;
+    min-height:700px;
+    max-height:700px;
     padding: 0px auto;
-    height:485px;
+    height:700px;
 }
    
     #inicio #wrapper{
