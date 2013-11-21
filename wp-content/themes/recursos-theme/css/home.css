@@ -185,10 +185,11 @@ h2{
     }
 
 	#afectaciones #desc-bar {
-		 min-width: 430px;
-        max-width: 430px;
-        max-height: 25px;
-        min-height: 25px;
+		min-width: 430px;
+       max-width: 430px;
+       max-height: 25px;
+       min-height: 25px;
+       margin-top: 10px;
 	}
 	
 	#afectaciones #desc-bar img {
