@@ -184,18 +184,25 @@ h2{
 
     }
 
+	#afectaciones #desc-bar {
+		 min-width: 430px;
+        max-width: 430px;
+        max-height: 25px;
+        min-height: 25px;
+	}
+	
     #afectaciones #desc-back{
-        background: transparent url('../img/des.png') no-repeat left top;
-        min-width: 417px;
-        max-width: 417px;
+        background: rgba(248, 128, 29, 0.6); 
+        min-width: 350px;
+        max-width: 350px;
         max-height: 25px;
         min-height: 25px;
     }
 
     #afectaciones #desc-back2{
         background: rgba(248, 128, 29, 0.6);
-        min-width: 417px;
-        max-width: 417px;
+        min-width: 42px;
+        max-width: 42px;
         max-height: 25px;
         min-height: 25px;
     }

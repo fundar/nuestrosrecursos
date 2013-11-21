@@ -61,14 +61,14 @@
 				estados son especialmente relevantes: Campeche concentra el 24.6% de la 
 				actividad petrolera, Veracruz el 24 % y Tabasco el 12%.
 				
-				<div id="desc-back">
-					<a id="pet" href=""></a>
-				</div>
-				
-				<div id="desc-back2">
-					<a id="pet" href="">
-						<img src="<?php bloginfo('template_url');?>/img/desc.png">
-					</a>
+				<div id="desc-bar">
+					<div id="desc-back">
+						<span>Leer m&aacute;s</span>
+					</div>
+					
+					<img src="<?php bloginfo('template_url');?>/img/arrow.png" alt="Leer más"/>
+					
+					<div id="desc-back2"></div>
 				</div>
 			</div>
 
