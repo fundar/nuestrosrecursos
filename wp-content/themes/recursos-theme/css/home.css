@@ -191,20 +191,26 @@ h2{
         min-height: 25px;
 	}
 	
-    #afectaciones #desc-back{
+	#afectaciones #desc-bar img {
+		float:left;
+	}
+	
+    #afectaciones #desc-back {
         background: rgba(248, 128, 29, 0.6); 
         min-width: 350px;
         max-width: 350px;
         max-height: 25px;
         min-height: 25px;
+        float:left;
     }
 
-    #afectaciones #desc-back2{
+    #afectaciones #desc-back2 {
         background: rgba(248, 128, 29, 0.6);
         min-width: 42px;
         max-width: 42px;
         max-height: 25px;
         min-height: 25px;
+        float:left;
     }
 
     #afectaciones #pet{
