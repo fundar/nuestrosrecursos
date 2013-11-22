@@ -24,9 +24,9 @@ var g1_gridLayer5   = L.mapbox.gridLayer('fundarmexico.lenguas_indigenas');
 var g1_gridControl5 = L.mapbox.gridControl(g1_gridLayer5, {follow: true});
 
 /*Grupo 2*/
+//var g2_tileLayer1   = L.mapbox.tileLayer('fundarmexico.concesiones_v3');
 var g2_tileLayer1   = L.mapbox.tileLayer('fundarmexico.fnqj8aor');
 var g2_gridLayer1   = L.mapbox.gridLayer('fundarmexico.fnqj8aor');
-//var g2_gridLayer1   = L.mapbox.gridLayer('fundarmexico.concesiones_v3');
 var g2_gridControl1 = L.mapbox.gridControl(g2_gridLayer1, {follow: true});
 
 var g2_tileLayer2   = L.mapbox.tileLayer('fundarmexico.ANP_Federal_v2').addTo(map);
