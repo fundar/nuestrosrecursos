@@ -11,7 +11,7 @@
 				<li><a href="#afectaciones">Afectaciones</a></li>
 				<li><a href="#transparencia">Transparencia</a></li>
 				<li><a href="#marcolegal">Marco Legal</a></li>
-				<li><a href="#publicaciones">Publicaciones</a></li>
+				<li><a href="#visualizaciones">Visualizaciones</a></li>
 				<li><a href="#ingresos">Ingresos</a></li>
 				<li><a href="#acerca">Sobre Nosotros</a></li>
 			</ol>
@@ -55,7 +55,7 @@
 			  };
 			}
 
-			secciones = ["#inicio", "#infografia", "#afectaciones", "#marcolegal", "#ingresos", "#mapainteractivo", "#transparencia", "#publicaciones", "#acerca"]
+			secciones = ["#inicio", "#infografia", "#afectaciones", "#marcolegal", "#ingresos", "#mapainteractivo", "#transparencia", '#visualizaciones', "#publicaciones", "#acerca"]
 			sec_idx = 0;   
 
 			function sections_elevator(action) {
