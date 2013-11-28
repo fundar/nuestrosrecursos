@@ -14,7 +14,17 @@ $(function () {
 		},
 		yAxis: {
 			title: {
-				text: 'Millones de pesos'
+				text: 'Miles de Millones de pesos'
+			}, 
+			labels: { 
+				formatter: function() {
+					return this.value/1000;
+				}
+			}
+		},
+		tooltip: {
+			formatter: function() {
+				return '<b>'+ this.x +'</b><br/>'+ this.series.name +': '+ (this.y/1000).toFixed(2);
 			}
 		},
 		plotOptions: {
