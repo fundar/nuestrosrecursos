@@ -12,12 +12,22 @@ $(function () {
 		yAxis: {
 			min: 0,
 			title: {
-				text: 'Millones de Dólares'
+				text: 'Miles de Millones de Dólares'
+			},
+			labels: { 
+				formatter: function() {
+					return this.value/1000;
+				}
 			}
 		},
 		legend: {
 			backgroundColor: '#FFFFFF',
 			reversed: true
+		},
+		tooltip: {
+			formatter: function() {
+				return '<b>'+ this.x +'</b><br/>'+ this.series.name +': '+ (this.y/1000).toFixed(2);
+			}
 		},
 		plotOptions: {
 			series: {
