@@ -16,7 +16,7 @@ $(function () {
 			},
 			labels: { 
 				formatter: function() {
-					return this.value/100000;
+					return this.value/1000000;
 				}
 			}
 		},
