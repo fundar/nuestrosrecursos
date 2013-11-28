@@ -1,4 +1,4 @@
-var map = L.mapbox.map('map', 'fundarmexico.map-4jhimt0g', {attributionControl: false, minZoom: 5, maxZoom:12}).setView([24.577, -100.876], 5);
+var map = L.mapbox.map('map', 'fundarmexico.map-4jhimt0g', {attributionControl: false, minZoom: 5, maxZoom:11}).setView([24.577, -100.876], 5);
 
 map.scrollWheelZoom.disable();
 
@@ -55,6 +55,7 @@ var g2_gridControl4 = L.mapbox.gridControl(g2_gridLayer4, {follow: true});
 var g2_tileLayer5   = L.mapbox.tileLayer('fundarmexico.lenguas_indigenas');
 var g2_gridLayer5   = L.mapbox.gridLayer('fundarmexico.lenguas_indigenas');
 var g2_gridControl5 = L.mapbox.gridControl(g2_gridLayer5, {follow: true});
+
 
 $(document).ready(function() {
 	//********* G1 ********
