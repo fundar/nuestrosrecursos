@@ -690,7 +690,7 @@ div.cuad, ul.cuad {
 }
 
 
-#publicaciones{
+#publicaciones, #visualizaciones {
      background:url('../img/back2.png') repeat left top;
     min-width: 930px;
     max-width: 930px;

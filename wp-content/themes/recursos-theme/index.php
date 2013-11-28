@@ -343,7 +343,7 @@
 		</ul>
 	</li>
 	
-	<li id="publicaciones" class="section cover">
+	<li id="visualizaciones" class="section cover">
 		<h1>Visualizaciones</h1>
 
 		<div id="content-charts">
