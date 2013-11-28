@@ -10,7 +10,7 @@ $(function () {
 		},
 		yAxis: {
 			title: {
-				text: 'Unidad de medida'
+				text: 'Dólares'
 			}
 		},
 		series: [{
