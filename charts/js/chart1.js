@@ -12,7 +12,17 @@ $(function () {
 		yAxis: {
 			min: 0,
 			title: {
-				text: 'Millones de pesos'
+				text: 'Billones de pesos (Millones de millones de pesos)'
+			},
+			labels: { 
+				formatter: function() {
+					return this.value/100000;
+				}
+			}
+		},
+		tooltip: {
+			formatter: function() {
+				return '<b>'+ this.x +'</b><br/>'+ this.series.name +': '+ (this.y/1000000).toFixed(2);
 			}
 		},
 		legend: {
@@ -24,7 +34,7 @@ $(function () {
 				stacking: 'normal'
 			}
 		},
-			series: [{
+		series: [{
 			name: 'Ingresos Petroleros**',
 			data: [861279.20,880698.20,1054626.20,874163.90,973038.20,1101879.00,1183895.30,580909.50]
 		}, {
