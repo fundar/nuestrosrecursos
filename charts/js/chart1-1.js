@@ -12,7 +12,12 @@ $(function () {
 		yAxis: {
 			min: 0,
 			title: {
-				text: 'Millones de pesos'
+				text: 'Porcentaje'
+			}
+		},
+		tooltip: {
+			formatter: function() {
+				return '<b>'+ this.x +'</b><br/>'+ this.series.name +': '+ this.y + '%';
 			}
 		},
 		legend: {
@@ -26,11 +31,11 @@ $(function () {
 		},
 			series: [{
 			name: 'Ingresos Petroleros',
-			data: [861279.20,880698.20,1054626.20,874163.90,973038.20,1101879.00,1183895.30,580909.50]
+			data: [38.05,35.43,36.91,31.03,32.87,33.69,33.69,32.09]
 		}, {
 			name: 'Ingresos No Petroleros',
-			data: [1402323.30,1605086.90,1802522.70,1943021.60,1987230.00,2169201.00,2330634.20,1229112.30]
+			data: [61.95,64.57,63.09,68.97,67.13,66.31,66.31,67.91]
 		}]
 	});
 });
-
+    

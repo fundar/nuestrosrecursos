@@ -1,76 +1,41 @@
 $(function () {
 	$('#container').highcharts({
 		chart: {
+			type: 'column'
 		},
 		title: {
-			text: 'Combination chart'
+			text: 'Evolución del Fondo de Estabilización de los Ingresos petroleros IV trimestre'
+		},
+		subtitle: {
+			text: 'Source: <a href="http://fundar.org.mx/nuestros-recursos" title="Base de datos Ingresos Petroleros" target="_blank">Base de datos</a>'
 		},
 		xAxis: {
-			categories: ['Apples', 'Oranges', 'Pears', 'Bananas', 'Plums']
+			categories: ['2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013*' ]
 		},
-		tooltip: {
-			formatter: function() {
-				var s;
-				if (this.point.name) { // the pie chart
-					s = ''+
-						this.point.name +': '+ this.y +' fruits';
-				} else {
-					s = ''+
-						this.x  +': '+ this.y;
-				}
-				return s;
+		yAxis: {
+			title: {
+				text: 'Millones de pesos'
 			}
 		},
-		labels: {
-			items: [{
-				html: 'Total fruit consumption',
-				style: {
-					left: '40px',
-					top: '8px',
-					color: 'black'
-				}
-			}]
+		plotOptions: {
+			column: {
+				pointPadding: 0.2,
+				borderWidth: 0
+			}
 		},
 		series: [{
-			type: 'column',
-			name: 'Jane',
-			data: [3, -2, 1, 3, 4]
+			name: 'Total Acumulado',
+			data: [9133,8052,74,6276,11608,16227,34645,55818,56168,24056,17206,8046,13620,27291]
+
 		}, {
-			type: 'column',
-			name: 'John',
-			data: [2, 3, 5, 7, 6]
+			name: 'Rendimientos',
+			data: [0,192,2,78,114,86,224,617,26189,4229,2556,6034,18147,14180]
+
 		}, {
-			type: 'column',
-			name: 'Joe',
-			data: [4, 3, 3, 9, 0]
-		}, {
-			type: 'spline',
-			name: 'Average',
-			data: [3, 2.67, 3, 6.33, 3.33],
-			marker: {
-				lineWidth: 2,
-				lineColor: Highcharts.getOptions().colors[3],
-				fillColor: 'white'
-			}
-		}, {
-			type: 'spline',
-			name: 'Average',
-			data: [1, 3.67, 2, 4.33, 5.33,2,3,4,5,6],
-			marker: {
-				lineWidth: 2,
-				lineColor: Highcharts.getOptions().colors[3],
-				fillColor: 'white'
-			}
-		}, {
-			type: 'spline',
-			name: 'Average',
-			data: [1, 3.67, 2, 4.33, 5.33,2,3,4,5,6],
-			marker: {
-				lineWidth: 2,
-				lineColor: Highcharts.getOptions().colors[3],
-				fillColor: 'white'
-			}
+			name: 'Erogaciones',
+			data: [0,-1106,0,0,-2201,5115,5691,0,0,154893,10293,14421,11729.0,0.2]
+
 		}]
 	});
 });
-    
+
