@@ -3,44 +3,55 @@ var map = L.mapbox.map('map', 'fundarmexico.map-4jhimt0g', {attributionControl: 
 map.scrollWheelZoom.disable();
 
 /*Grupo 1*/
-var g1_tileLayer1   = L.mapbox.tileLayer('fundarmexico.fnqj8aor').addTo(map);
-var g1_gridLayer1   = L.mapbox.gridLayer('fundarmexico.fnqj8aor').addTo(map);
+//concesiones
+var g1_tileLayer1   = L.mapbox.tileLayer('fundarmexico.lwzy3nmi').addTo(map);
+var g1_gridLayer1   = L.mapbox.gridLayer('fundarmexico.lwzy3nmi').addTo(map);
 var g1_gridControl1 = L.mapbox.gridControl(g1_gridLayer1, {follow: true}).addTo(map);
 
-var g1_tileLayer2   = L.mapbox.tileLayer('fundarmexico.ANP_Federal_v2');
-var g1_gridLayer2   = L.mapbox.gridLayer('fundarmexico.ANP_Federal_v2');
+//federal
+var g1_tileLayer2   = L.mapbox.tileLayer('fundarmexico.fuu40a4i');
+var g1_gridLayer2   = L.mapbox.gridLayer('fundarmexico.fuu40a4i');
 var g1_gridControl2 = L.mapbox.gridControl(g1_gridLayer2, {follow: true});
 
-var g1_tileLayer3   = L.mapbox.tileLayer('fundarmexico.ANP_Estatal_v1');
-var g1_gridLayer3   = L.mapbox.gridLayer('fundarmexico.ANP_Estatal_v1');
+//estatal
+var g1_tileLayer3   = L.mapbox.tileLayer('fundarmexico.2ittke29');
+var g1_gridLayer3   = L.mapbox.gridLayer('fundarmexico.2ittke29');
 var g1_gridControl3 = L.mapbox.gridControl(g1_gridLayer3, {follow: true});
 
-var g1_tileLayer4   = L.mapbox.tileLayer('fundarmexico.ANP_Municipal_v1');
-var g1_gridLayer4   = L.mapbox.gridLayer('fundarmexico.ANP_Municipal_v1');
+//municipal
+var g1_tileLayer4   = L.mapbox.tileLayer('fundarmexico.cuxwp14i');
+var g1_gridLayer4   = L.mapbox.gridLayer('fundarmexico.cuxwp14i');
 var g1_gridControl4 = L.mapbox.gridControl(g1_gridLayer4, {follow: true});
 
+//lenguas
 var g1_tileLayer5   = L.mapbox.tileLayer('fundarmexico.lenguas_indigenas');
 var g1_gridLayer5   = L.mapbox.gridLayer('fundarmexico.lenguas_indigenas');
 var g1_gridControl5 = L.mapbox.gridControl(g1_gridLayer5, {follow: true});
 
+
+
 /*Grupo 2*/
-//var g2_tileLayer1   = L.mapbox.tileLayer('fundarmexico.concesiones_v3');
-var g2_tileLayer1   = L.mapbox.tileLayer('fundarmexico.fnqj8aor');
-var g2_gridLayer1   = L.mapbox.gridLayer('fundarmexico.fnqj8aor');
+//concesiones
+var g2_tileLayer1   = L.mapbox.tileLayer('fundarmexico.lwzy3nmi');
+var g2_gridLayer1   = L.mapbox.gridLayer('fundarmexico.lwzy3nmi');
 var g2_gridControl1 = L.mapbox.gridControl(g2_gridLayer1, {follow: true});
 
-var g2_tileLayer2   = L.mapbox.tileLayer('fundarmexico.ANP_Federal_v2').addTo(map);
-var g2_gridLayer2   = L.mapbox.gridLayer('fundarmexico.ANP_Federal_v2').addTo(map);
+//federal
+var g2_tileLayer2   = L.mapbox.tileLayer('fundarmexico.fuu40a4i').addTo(map);
+var g2_gridLayer2   = L.mapbox.gridLayer('fundarmexico.fuu40a4i').addTo(map);
 var g2_gridControl2 = L.mapbox.gridControl(g2_gridLayer2, {follow: true}).addTo(map);
 
-var g2_tileLayer3   = L.mapbox.tileLayer('fundarmexico.ANP_Estatal_v1');
-var g2_gridLayer3   = L.mapbox.gridLayer('fundarmexico.ANP_Estatal_v1');
+//estatal
+var g2_tileLayer3   = L.mapbox.tileLayer('fundarmexico.2ittke29');
+var g2_gridLayer3   = L.mapbox.gridLayer('fundarmexico.2ittke29');
 var g2_gridControl3 = L.mapbox.gridControl(g2_gridLayer3, {follow: true});
 
-var g2_tileLayer4   = L.mapbox.tileLayer('fundarmexico.ANP_Municipal_v1');
-var g2_gridLayer4   = L.mapbox.gridLayer('fundarmexico.ANP_Municipal_v1');
+//municipal
+var g2_tileLayer4   = L.mapbox.tileLayer('fundarmexico.cuxwp14i');
+var g2_gridLayer4   = L.mapbox.gridLayer('fundarmexico.cuxwp14i');
 var g2_gridControl4 = L.mapbox.gridControl(g2_gridLayer4, {follow: true});
 
+//lenguas
 var g2_tileLayer5   = L.mapbox.tileLayer('fundarmexico.lenguas_indigenas');
 var g2_gridLayer5   = L.mapbox.gridLayer('fundarmexico.lenguas_indigenas');
 var g2_gridControl5 = L.mapbox.gridControl(g2_gridLayer5, {follow: true});
