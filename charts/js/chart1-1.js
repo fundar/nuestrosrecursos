@@ -30,7 +30,7 @@ $(function () {
 			}
 		},
 			series: [{
-			name: 'Ingresos Petroleros',
+			name: 'Ingresos Petroleros*',
 			data: [38.05,35.43,36.91,31.03,32.87,33.69,33.69,32.09]
 		}, {
 			name: 'Ingresos No Petroleros',
