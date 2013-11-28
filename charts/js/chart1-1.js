@@ -4,7 +4,7 @@ $(function () {
 			type: 'bar'
 		},
 		title: {
-			text: 'Ingresos petroleros en el sector público presupuestario'
+			text: 'Ingresos petroleros y no petroleros'
 		},
 		xAxis: {
 			categories: ['2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013*']
