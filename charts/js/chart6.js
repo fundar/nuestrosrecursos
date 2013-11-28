@@ -10,7 +10,17 @@ $(function () {
 		},
 		yAxis: {
 			title: {
-				text: 'Millones de pesos'
+				text: 'Billones de pesos (Millones de millones de pesos)'
+			},
+			labels: { 
+				formatter: function() {
+					return this.value/1000000;
+				}
+			}
+		},
+		tooltip: {
+			formatter: function() {
+				return '<b>'+ this.x +'</b><br/>'+ this.series.name +': '+ (this.y/1000000).toFixed(2);
 			}
 		},
 		series: [{
