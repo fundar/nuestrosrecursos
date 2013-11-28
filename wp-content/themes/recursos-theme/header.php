@@ -30,7 +30,8 @@
 				<li><a href="#ingresos" id="_ingresos" class="curtain-links normal">Ingresos</a></li>
 				<li><a href="#mapainteractivo" id="_mapainteractivo" class="curtain-links normal">Mapa Interáctivo</a></li>
 				<li><a href="#transparencia" id="_transparencia" class="curtain-links normal">Transparencia</a></li>
-				<li><a href="#publicaciones" id="_publicaciones" class="curtain-links normal">Publicaciones</a></li>
+				<li><a href="#visualizaciones" id="_publicaciones" class="curtain-links normal">Visualizaciones</a></li>
+				<!--<li><a href="#publicaciones" id="_publicaciones" class="curtain-links normal">Publicaciones</a></li>-->
 				<li><a href="#acerca" id="_acerca" class="curtain-links normal">Sobre Nosotros</a></li>
 				<!--li><a href="#indpetrolera" id="_indpetrolera" class="curtain-links normal">Industria Petrolera</a></li-->
 			</div>

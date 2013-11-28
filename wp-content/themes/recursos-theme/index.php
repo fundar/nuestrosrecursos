@@ -342,7 +342,17 @@
 			</li>
 		</ul>
 	</li>
+	
+	<li id="publicaciones" class="section cover">
+		<h1>Visualizaciones</h1>
 
+		<div id="content-charts">
+			
+			
+		</div>
+	</li>
+	
+	<!--
 	<li id="publicaciones" class="section cover">
 		<h1>Publicaciones y Multimedia</h1>
 		<div class="slideshow" id="multiple_slides_visible"></div>
@@ -390,7 +400,6 @@
 					</div>
 					
 					<div class="modulo-slider"></div>
-					<!-- fin bloque-slider -->
 				</div>
 				
 				<p class="mover-slider-vertical">
@@ -400,6 +409,7 @@
 			</div>
 		</div>
 	</li>
+	-->
 
 	<li id="acerca" class="section cover"> 
 		<h1>Sobre nuestros recursos</h1>
