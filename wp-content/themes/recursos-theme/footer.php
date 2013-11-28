@@ -188,14 +188,16 @@
 	
 	
 	<!-- Charts -->
-	<script src='<?php bloginfo('template_url');?>/js/chart1.js' type="text/javascript"></script>
-	<script src='<?php bloginfo('template_url');?>/js/chart1-1.js' type="text/javascript"></script>
-	<script src='<?php bloginfo('template_url');?>/js/chart3.js' type="text/javascript"></script>
-	<script src='<?php bloginfo('template_url');?>/js/chart4.js' type="text/javascript"></script>
-	<script src='<?php bloginfo('template_url');?>/js/chart5.js' type="text/javascript"></script>
-	<script src='<?php bloginfo('template_url');?>/js/chart6.js' type="text/javascript"></script>
-	<script src='<?php bloginfo('template_url');?>/js/chart7.js' type="text/javascript"></script>
-	<script src='<?php bloginfo('template_url');?>/js/chart7-1.js' type="text/javascript"></script>
-	
+		<script src="http://code.highcharts.com/highcharts.js"></script>
+		<script src="http://code.highcharts.com/modules/exporting.js"></script>
+		<script src='<?php bloginfo('template_url');?>/js/chart1.js' type="text/javascript"></script>
+		<script src='<?php bloginfo('template_url');?>/js/chart1-1.js' type="text/javascript"></script>
+		<script src='<?php bloginfo('template_url');?>/js/chart3.js' type="text/javascript"></script>
+		<script src='<?php bloginfo('template_url');?>/js/chart4.js' type="text/javascript"></script>
+		<script src='<?php bloginfo('template_url');?>/js/chart5.js' type="text/javascript"></script>
+		<script src='<?php bloginfo('template_url');?>/js/chart6.js' type="text/javascript"></script>
+		<script src='<?php bloginfo('template_url');?>/js/chart7.js' type="text/javascript"></script>
+		<script src='<?php bloginfo('template_url');?>/js/chart7-1.js' type="text/javascript"></script>
+	<!-- EndCharts -->
 	</body>
 </html>

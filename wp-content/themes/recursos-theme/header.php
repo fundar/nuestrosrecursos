@@ -8,7 +8,8 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/home.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/agile_carousel.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/slider-vertical.css">
-		<script src='http://codeorigin.jquery.com/jquery-1.9.1.min.js'></script>
+		<!--<script src='http://codeorigin.jquery.com/jquery-1.9.1.min.js'></script>-->
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
 		<script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
 		<script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
 		<link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
