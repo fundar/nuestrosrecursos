@@ -362,6 +362,11 @@
 				</div>
 			</div>
 			
+			<div id="chart_2" class="hide charts">
+				<div id="chart1-1" style="width: 900px; height: 400px; float:left;"></div>
+				<p></p>
+			</div>
+			
 			<div id="chart_3" class="hide charts">
 				<div id="chart3" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
