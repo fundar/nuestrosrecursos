@@ -349,6 +349,8 @@
 			naturales. De esta manera, podremos participar, dar seguimiento y evaluar de mejor 
 			manera en las decisiones públicas sobre este tema que nos afectan.
 			<br><br>
+			<h2>Conoce más sobre el sector extractivo</h2>
+			<br><br>
 			<a href="">Imnagen de la info...</a>
 			<a href="">Link a base de datos</a>
 		</div>
