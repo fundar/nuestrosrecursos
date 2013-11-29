@@ -345,7 +345,12 @@
 	
 	<li id="visualizaciones" class="section cover">
 		<h1>Visualizaciones</h1>
-
+		
+		<p class="mover-slider-vertical">
+			<a class="subir-slider" >Subir noticia</a>
+			<a class="bajar-slider">Bajar noticia</a>
+		</p>
+		
 		<div id="content-charts">
 			<div id="chart_1">
 				<div id="chart1" class="show" style="width: 940px; height: 400px; float:left;"></div>
