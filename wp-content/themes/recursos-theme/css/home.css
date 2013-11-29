@@ -890,3 +890,4 @@ div.cuad, ul.cuad {
 
 .hide { display:none; }
 .controls a { cursor:pointer; }
+.d-left { width:960px; float:left; margin-top:10px; font-size:10px; }
