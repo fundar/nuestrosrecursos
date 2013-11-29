@@ -346,7 +346,7 @@
 	<li id="visualizaciones" class="section cover">
 		<h1>Visualizaciones</h1>
 		
-		<p class="mover-slider-vertical">
+		<div class="controls">
 			<a id="next"><</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="prev">></a>
 		</p>
 		
