@@ -73,6 +73,8 @@ $(document).ready(function() {
 			map.addControl(g1_gridControl1);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(11);
 	});
 	
 	$("#g1-layer2").click( function () {
@@ -89,6 +91,8 @@ $(document).ready(function() {
 			map.addControl(g1_gridControl2);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(11);
 	});
 	
 	$("#g1-layer3").click( function () {
@@ -105,6 +109,8 @@ $(document).ready(function() {
 			map.addControl(g1_gridControl3);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(11);
 	});
 	
 	$("#g1-layer4").click( function () {
@@ -121,6 +127,8 @@ $(document).ready(function() {
 			map.addControl(g1_gridControl4);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(11);
 	});
 	
 	$("#g1-layer5").click( function () {
@@ -137,6 +145,8 @@ $(document).ready(function() {
 			map.addControl(g1_gridControl5);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(10);
 	});
 	
 	
@@ -155,6 +165,8 @@ $(document).ready(function() {
 			map.addControl(g2_gridControl1);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(11);
 	});
 	
 	$("#g2-layer2").click( function () {
@@ -171,6 +183,8 @@ $(document).ready(function() {
 			map.addControl(g2_gridControl2);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(11);
 	});
 	
 	$("#g2-layer3").click( function () {
@@ -187,6 +201,8 @@ $(document).ready(function() {
 			map.addControl(g2_gridControl3);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(11);
 	});
 	
 	$("#g2-layer4").click( function () {
@@ -203,6 +219,8 @@ $(document).ready(function() {
 			map.addControl(g2_gridControl4);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(11);
 	});
 	
 	$("#g2-layer5").click( function () {
@@ -219,6 +237,8 @@ $(document).ready(function() {
 			map.addControl(g2_gridControl5);
 			this.className = 'active';
 		}
+		
+		map.maxZoom(10);
 	});
 });
 
