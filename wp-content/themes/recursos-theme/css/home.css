@@ -893,4 +893,4 @@ div.cuad, ul.cuad {
 .d-left { float: left; font-size: 13px; margin-top: 10px; width: 930px; text-align:justify; padding:4px; }
 
 
-.text-afect { height: 100px; overflow-y: none; overflow-x: none;}
+.text-afect { height: 700px; overflow: auto; }
