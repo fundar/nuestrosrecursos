@@ -621,7 +621,7 @@ div.cuad, ul.cuad {
     float: left;
 }
 
-#ingresos #ingr-propuestas{
+#ingr-propuestas{
     min-width: 920px;
     height: 200px;
     -moz-border-radius: 30px;
@@ -690,7 +690,7 @@ div.cuad, ul.cuad {
 }
 
 
-#publicaciones, #visualizaciones {
+#ingresos, #publicaciones, #visualizaciones {
      background:url('../img/back2.png') repeat left top;
     min-width: 930px;
     max-width: 930px;

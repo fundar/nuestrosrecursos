@@ -210,7 +210,7 @@
 		</div>
 	</li>
 
-	<li id="visualizaciones" class="section cover">
+	<li id="ingresos" class="section cover">
 		<h1>Ingresos Petroleros</h1>
 		
 		<div class="controls">
