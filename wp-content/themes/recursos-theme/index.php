@@ -381,12 +381,6 @@
 	</li>
 	
 	<li id="publicaciones" class="section cover">
-		<h1>Publicaciones</h1>
-		
-	</li>
-	
-	<!--
-	<li id="publicaciones" class="section cover">
 		<h1>Publicaciones y Multimedia</h1>
 		<div class="slideshow" id="multiple_slides_visible"></div>
 		<div class="nivel slider-vertical cuad">
@@ -442,7 +436,6 @@
 			</div>
 		</div>
 	</li>
-	-->
 
 	<li id="acerca" class="section cover"> 
 		<h1>Sobre nuestros recursos</h1>
