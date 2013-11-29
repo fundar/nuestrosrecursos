@@ -227,7 +227,8 @@ h2{
 		filter:alpha(opacity=40);
 		margin-left: 4px;
     }
-
+	
+	#desc-back a { text-decoration:none; float:right; margin-right:10px; color:#F8941D; font-weight:bold; }
     #afectaciones #pet{
         background: url('../img/desc.png') no-repeat left top;
         min-width: 78px;
