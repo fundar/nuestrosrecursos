@@ -347,7 +347,7 @@
 		<h1>Visualizaciones</h1>
 		
 		<div class="controls">
-			<a id="next"><</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="prev">></a>
+			<a id="prev">prev</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="next">next</a>
 		</p>
 		
 		<div id="content-charts">
