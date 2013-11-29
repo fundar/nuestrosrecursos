@@ -347,13 +347,12 @@
 		<h1>Visualizaciones</h1>
 		
 		<p class="mover-slider-vertical">
-			<a class="subir-slider" >Subir noticia</a>
-			<a class="bajar-slider">Bajar noticia</a>
+			<a id="next"><</a>&nbsp;&nbsp;&nbsp;&nbsp;<a id="prev">></a>
 		</p>
 		
 		<div id="content-charts">
 			<div id="chart_1">
-				<div id="chart1" class="show" style="width: 940px; height: 400px; float:left;"></div>
+				<div id="chart1" style="width: 940px; height: 400px; float:left;"></div>
 				
 				<br/><br/>
 				<div id="left">
@@ -363,33 +362,33 @@
 				</div>
 			</div>
 			
-			<div id="chart_3">
-				<div id="chart3" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+			<div id="chart_3" class="hide">
+				<div id="chart3" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_4">
-				<div id="chart4" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+			<div id="chart_4" class="hide">
+				<div id="chart4" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_5">
-				<div id="chart5" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+			<div id="chart_5" class="hide">
+				<div id="chart5" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_6">
-				<div id="chart6" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+			<div id="chart_6" class="hide">
+				<div id="chart6" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_7">
-				<div id="chart7" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+			<div id="chart_7" class="hide">
+				<div id="chart7" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_7-1">
-				<div id="chart7-1" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+			<div id="chart_8" class="hide">
+				<div id="chart7-1" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 		</div>
