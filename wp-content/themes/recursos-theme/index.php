@@ -98,17 +98,6 @@
 				</div>
 			</div>
 		</div>
-
-		<div class="line"></div>
-		
-		<ul id="campanias">
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-		</ul>
-		
-		<div class="line"></div>
 	</li>
 	
 	<li id="indpetrolera" class="section cover">      
