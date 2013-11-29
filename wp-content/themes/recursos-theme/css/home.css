@@ -900,4 +900,4 @@ div.cuad, ul.cuad {
 .d-left { float: left; font-size: 13px; margin-top: 10px; width: 930px; text-align:justify; padding:4px; }
 
 
-.text-afect { height: 540px; overflow: auto; }
+.text-afect { width: 420px; height: 540px; overflow: auto; }
