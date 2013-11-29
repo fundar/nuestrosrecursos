@@ -82,13 +82,9 @@
 					A todo ello se une que los recursos que el petróleo genera y que ingresan al erario público tienen poco impacto en las comunidades que se ven afectadas por los proyectos petroleros. En muchas de ellas, no existen los servicios públicos mínimos necesarios para asegurar un nivel de vida adecuado a sus habitantes. Así, no cuentan con escuelas ni centros de salud, las vías de acceso están en malas condiciones, no existe canalización de agua potable, electricidad, etc. De esta manera, la actividad petrolera no tiene un impacto directo en la calidad de vida de una buena parte de la población que habita las regiones petroleras, quien, por el contrario, padece las secuelas de dicha actividad. Por lo tanto, se hace urgente que el Estado implemente políticas públicas adecuadas para hacer frente a esta problemática y asegurar el bienestar y el desarrollo adecuado a la población que se encuentra en las regiones petroleras. 
 				</div>
 				<div id="desc-bar">
-					<div id="desc-back"></div>
-					
-					<a href="#" title="Leer más">
-						
-					</a>
-					
-					<div id="desc-back2"></div>
+					<div id="desc-back">
+						<a href="#" title="Leer más">Ver Testimonios</a>
+					</div>
 				</div>
 			</div>
 
