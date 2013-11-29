@@ -887,3 +887,5 @@ div.cuad, ul.cuad {
 #map { position:absolute; top:0; bottom:0; }
 
 .map-tooltip { color:#3887BE !important; }
+
+.hide { display:none; }
