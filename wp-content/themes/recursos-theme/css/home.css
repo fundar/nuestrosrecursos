@@ -172,7 +172,6 @@ h2{
         min-width: 900px;
         min-height: 810px;
         max-height: 810px;
-        padding: 0px 40px;
         margin: 0px auto;
         background:#FFF url('../img/back2.png') repeat left top;
 		
@@ -228,7 +227,9 @@ h2{
 		margin-left: 4px;
     }
 	
-	#desc-back a { text-decoration:none; float:right; margin-right:10px; color:#F8941D; font-weight:bold; }
+	#desc-back a { text-decoration:none; float:right; margin-top:4px; margin-right:4px; color:#000; font-weight:bold; }
+	
+	
     #afectaciones #pet{
         background: url('../img/desc.png') no-repeat left top;
         min-width: 78px;
