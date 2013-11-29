@@ -83,7 +83,7 @@
 				</div>
 				<div id="desc-bar">
 					<div id="desc-back">
-						<a href="#" title="Leer más">Ver Testimonios</a>
+						<a href="#indpetrolera" title="Casos de afectaciones">Casos de afectaciones</a>
 					</div>
 				</div>
 			</div>
@@ -107,7 +107,6 @@
 	</li>
 	
 	<li id="indpetrolera" class="section cover">      
-		<!-- <div id="min-head"></div> -->
 		<h1>Testimonios sobre impactos de la industria petrolera</h1>
 		<div class="line"></div>
 
