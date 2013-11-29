@@ -348,14 +348,41 @@
 
 		<div id="content-charts">
 			<div id="chart_1">
-				<div id="chart1" class="show" style="width: 900px; height: 400px; float:left;"></div><br/><br/>
-				<p>*  Cifras preliminares Enero-junio. Informes sobre la Situación Económica, las Finanzas Públicas y la Deuda Pública</p>
-				<p>** Incluye los ingresos propios de PEMEX, derechos por hidrocarburos, aprovechamientos sobre rendimientos excedentes y IEPS de gasolinas y diesel</p>
-				<p>Como puede observarse en la gráfica, desde 2006 los ingresos petroleros han supuesto alrededor de la tercera parte de los ingresos totales del sector público. Ello supone que alrededor del 30% de los recursos que financian el presupuesto público provienen de la explotación de un recurso natural no renovable, es decir, que eventualmente se agotará (PEMEX estima que las reservas existentes alcanzará para 31 años más). Además, el precio del petróleo es altamente volátil, lo que supone que puede aumentar y disminuir en función de factores externos, lo que puede llegar a poner en riego la sostenibilidad del gasto público.</p>
+				<div id="chart1" class="show" style="width: 900px; height: 400px; float:left;"></div>
+				<div id="left">
+					<p>*  Cifras preliminares Enero-junio. Informes sobre la Situación Económica, las Finanzas Públicas y la Deuda Pública</p>
+					<p>** Incluye los ingresos propios de PEMEX, derechos por hidrocarburos, aprovechamientos sobre rendimientos excedentes y IEPS de gasolinas y diesel</p>
+					<p>Como puede observarse en la gráfica, desde 2006 los ingresos petroleros han supuesto alrededor de la tercera parte de los ingresos totales del sector público. Ello supone que alrededor del 30% de los recursos que financian el presupuesto público provienen de la explotación de un recurso natural no renovable, es decir, que eventualmente se agotará (PEMEX estima que las reservas existentes alcanzará para 31 años más). Además, el precio del petróleo es altamente volátil, lo que supone que puede aumentar y disminuir en función de factores externos, lo que puede llegar a poner en riego la sostenibilidad del gasto público.</p>
+				</div>
 			</div>
 			
-			<div id="chart_2">
-				<div id="chart2" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+			<div id="chart_3">
+				<div id="chart3" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+				<p></p>
+			</div>
+			
+			<div id="chart_4">
+				<div id="chart4" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+				<p></p>
+			</div>
+			
+			<div id="chart_5">
+				<div id="chart5" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+				<p></p>
+			</div>
+			
+			<div id="chart_6">
+				<div id="chart6" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+				<p></p>
+			</div>
+			
+			<div id="chart_7">
+				<div id="chart7" class="hide" style="width: 900px; height: 400px; float:left;"></div>
+				<p></p>
+			</div>
+			
+			<div id="chart_7-1">
+				<div id="chart7-1" class="hide" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 		</div>
