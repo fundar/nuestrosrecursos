@@ -8,7 +8,7 @@ $(function () {
 			counter+=1;
 		}
 		
-		$('.charts').fadeOut();
+		$('.charts').hide();
 		$('#chart_' + counter).show().fadeIn();
 	});
 	
@@ -19,7 +19,7 @@ $(function () {
 			counter-=1;
 		}
 		
-		$('.charts').fadeOut();
+		$('.charts').hide();
 		$('#chart_' + counter).show().fadeIn();
 	});
 	
