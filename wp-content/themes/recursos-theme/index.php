@@ -50,17 +50,33 @@
 				<h2>Industria Petrolera</h2>
 				<div id="c1" class="circle2"></div>
 				<div id="c2" class="circle"></div>
-				
-				México es un país rico en hidrocarburos. Sus reservas 3P se calculan en 
-				43,100 millones de barriles de petróleo crudo equivalente (mbpce). Según 
-				las previsiones esta reservas alcanzarán para seguir produciendo petróleo 
-				durante los próximos 31 años, al ritmo actual de producción de 2.9 millones 
-				de barriles diarios de hidrocarburos líquidos y 6.7 millones de pies cúbicos 
-				diarios de gas natural. Nueve estados de la república concentran el 99.9% de 
-				la producción nacional de crudo y el 99.6% de la de gas. De ellos, tres 
-				estados son especialmente relevantes: Campeche concentra el 24.6% de la 
-				actividad petrolera, Veracruz el 24 % y Tabasco el 12%.
-				
+				<div class="text-afect">
+					México es un país rico en hidrocarburos. Sus reservas 3P se calculan en 
+					43,100 millones de barriles de petróleo crudo equivalente (mbpce). Según 
+					las previsiones esta reservas alcanzarán para seguir produciendo petróleo 
+					durante los próximos 31 años, al ritmo actual de producción de 2.9 millones 
+					de barriles diarios de hidrocarburos líquidos y 6.7 millones de pies cúbicos 
+					diarios de gas natural. Nueve estados de la república concentran el 99.9% de 
+					la producción nacional de crudo y el 99.6% de la de gas. De ellos, tres 
+					estados son especialmente relevantes: Campeche concentra el 24.6% de la 
+					actividad petrolera, Veracruz el 24 % y Tabasco el 12%.
+					
+					<br/><br/>
+					
+					Actualmente, la explotación de este recurso representa el 16% de las exportaciones y los ingresos que genera su explotación suponen el 7% del PIB y, lo que es muy importante, representan más del 30% de los ingresos del sector público presupuestario. Todo ello indica la relevancia que la actividad petrolera tiene para el país, especialmente para el gasto público. 
+					
+					<br/><br/>
+					
+					En principio, se puede considerar que el petróleo contribuye al desarrollo nacional y el bienestar de la población a través del financiamiento de la política pública –salud, educación, desarrollo social, vivienda, infraestructura, etc.-. Asimismo, en la actualidad los hidrocarburos son la principal fuente energética y materia prima de un gran número de productos con un papel fundamental en el desarrollo y la calidad de vida de la población.
+					
+					<br/><br/>
+					
+					Sin embargo, es innegable que la explotación de los hidrocarburos genera impactos negativos en los lugares en que se desarrolla. De esta manera, la exploración y extracción de estos recursos, así como el procesamiento de los mismos –refinación y petroquímica-, provoca daños ambientales y afectaciones sociales que pueden llegar a ser de gran envergadura y de consecuencias dramáticas. Por ello, para que el aprovechamiento de estos recursos se haga efectivamente a favor de la población mexicana, el Estado debe implementar acciones dirigidas a prevenir, mitigar, remediar, resarcir y compensar los potenciales daños de la actividad petrolera. Para ello, es necesaria una política pública holística, multisectorial y coordinada que integre a los tres niveles de gobierno y a los tres poderes de la unión.
+					
+					<br/><br/>
+					
+					En México, buena parte de los estados petroleros tienen índices altos y muy altos de marginación, pese a la riqueza petrolera que día a día se genera en su territorio. Sin bien los problemas de desarrollo de estas regiones no proceden únicamente de la industria petrolera, la actividad extractiva ha agudizado los problemas de marginación y exclusión social. Ello se debe, principalmente, a la afectación de las actividades productivas tradicionales, los daños al medio ambiente, la contaminación y el incremento de los precios que la actividad petrolera ha traído consigo.
+				</div>
 				<div id="desc-bar">
 					<div id="desc-back"></div>
 					
@@ -76,32 +92,6 @@
 				<h2>Industria Minera</h2>
 				<div id="c3" class="circle2"></div>
 				<div id="c4" class="circle"></div>
-				
-				México es un país rico en hidrocarburos. Sus reservas 3P se calculan en 
-				43,100 millones de barriles de petróleo crudo equivalente (mbpce). Según 
-				las previsiones esta reservas alcanzarán para seguir produciendo petróleo 
-				durante los próximos 31 años, al ritmo actual de producción de 2.9 millones 
-				de barriles diarios de hidrocarburos líquidos y 6.7 millones de pies cúbicos 
-				diarios de gas natural. Nueve estados de la república concentran el 99.9% de 
-				la producción nacional de crudo y el 99.6% de la de gas. De ellos, tres 
-				estados son especialmente relevantes: Campeche concentra el 24.6% de la 
-				actividad petrolera, Veracruz el 24 % y Tabasco el 12%.
-				
-				<br/><br/>
-				
-				Actualmente, la explotación de este recurso representa el 16% de las exportaciones y los ingresos que genera su explotación suponen el 7% del PIB y, lo que es muy importante, representan más del 30% de los ingresos del sector público presupuestario. Todo ello indica la relevancia que la actividad petrolera tiene para el país, especialmente para el gasto público. 
-				
-				<br/><br/>
-				
-				En principio, se puede considerar que el petróleo contribuye al desarrollo nacional y el bienestar de la población a través del financiamiento de la política pública –salud, educación, desarrollo social, vivienda, infraestructura, etc.-. Asimismo, en la actualidad los hidrocarburos son la principal fuente energética y materia prima de un gran número de productos con un papel fundamental en el desarrollo y la calidad de vida de la población.
-				
-				<br/><br/>
-				
-				Sin embargo, es innegable que la explotación de los hidrocarburos genera impactos negativos en los lugares en que se desarrolla. De esta manera, la exploración y extracción de estos recursos, así como el procesamiento de los mismos –refinación y petroquímica-, provoca daños ambientales y afectaciones sociales que pueden llegar a ser de gran envergadura y de consecuencias dramáticas. Por ello, para que el aprovechamiento de estos recursos se haga efectivamente a favor de la población mexicana, el Estado debe implementar acciones dirigidas a prevenir, mitigar, remediar, resarcir y compensar los potenciales daños de la actividad petrolera. Para ello, es necesaria una política pública holística, multisectorial y coordinada que integre a los tres niveles de gobierno y a los tres poderes de la unión.
-				
-				<br/><br/>
-				
-				En México, buena parte de los estados petroleros tienen índices altos y muy altos de marginación, pese a la riqueza petrolera que día a día se genera en su territorio. Sin bien los problemas de desarrollo de estas regiones no proceden únicamente de la industria petrolera, la actividad extractiva ha agudizado los problemas de marginación y exclusión social. Ello se debe, principalmente, a la afectación de las actividades productivas tradicionales, los daños al medio ambiente, la contaminación y el incremento de los precios que la actividad petrolera ha traído consigo. 
 				
 				<div id="desc-bar">
 					<div id="desc-back"></div>

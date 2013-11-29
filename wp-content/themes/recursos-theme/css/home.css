@@ -891,3 +891,6 @@ div.cuad, ul.cuad {
 .hide { display:none; }
 .controls a { cursor:pointer; }
 .d-left { float: left; font-size: 13px; margin-top: 10px; width: 930px; text-align:justify; padding:4px; }
+
+
+.text-afect { height: 100px; overflow-y: none; overflow-x: none;}
