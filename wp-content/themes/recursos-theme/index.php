@@ -372,23 +372,6 @@
 		</div>
 
 		<div class="nivel slider-vertical cuad">
-			<h2>Audio</h2>
-			<div class="contenedor-slider">
-				<div class="bloque-slider">
-					<div class="modulo-slider"><br>
-						<object id="playerList373" width="260" height="180" type="application/x-shockwave-flash" data="http://www.ivoox.com/playeriVoox_em_241_373_1.html">
-							<param name="movie" value="http://www.ivoox.com/playeriVoox_em_241_373_1.html"></param>
-							<param name="allowFullScreen" value="true"></param>
-							<param name="wmode" value="transparent"></param>
-							<param name="AllowScriptAccess" value="always"></param>
-							<embed src="http://www.ivoox.com/playeriVoox_em_241_373_1.html" type="application/x-shockwave-flash" allowfullscreen="true" wmode="transparent" allowscriptaccess="always" width="206" height="182"></embed>
-						</object>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="nivel slider-vertical cuad">
 			<h2>Salidas en Medios</h2>
 			<div class="contenedor-slider">
 				<div class="bloque-slider">
