@@ -889,4 +889,4 @@ div.cuad, ul.cuad {
 .map-tooltip { color:#3887BE !important; }
 
 .hide { display:none; }
-#controls a { cursor:pointer; }
+.controls a { cursor:pointer; }
