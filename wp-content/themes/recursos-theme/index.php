@@ -363,37 +363,65 @@
 			
 			<div id="chart_2" class="hide charts">
 				<div id="chart1-1" style="width: 900px; height: 400px; float:left;"></div>
-				<p></p>
+				
+				<div class="d-left">
+					<p>*  Cifras preliminares Enero-junio. Informes sobre la Situación Económica, las Finanzas Públicas y la Deuda Pública</p>
+					<p>** Incluye los ingresos propios de PEMEX, derechos por hidrocarburos, aprovechamientos sobre rendimientos excedentes y IEPS de gasolinas y diesel</p>
+					<p>Como puede observarse en la gráfica, desde 2006 los ingresos petroleros han supuesto alrededor de la tercera parte de los ingresos totales del sector público. Ello supone que alrededor del 30% de los recursos que financian el presupuesto público provienen de la explotación de un recurso natural no renovable, es decir, que eventualmente se agotará (PEMEX estima que las reservas existentes alcanzará para 31 años más). Además, el precio del petróleo es altamente volátil, lo que supone que puede aumentar y disminuir en función de factores externos, lo que puede llegar a poner en riego la sostenibilidad del gasto público.</p>
+					<p>Como puede observarse en la gráfica, desde 2006 los ingresos petroleros han supuesto alrededor de la tercera parte de los ingresos totales del sector público. Ello supone que alrededor del 30% de los recursos que financian el presupuesto público provienen de la explotación de un recurso natural no renovable, es decir, que eventualmente se agotará (PEMEX estima que las reservas existentes alcanzará para 31 años más). Además, el precio del petróleo es altamente volátil, lo que supone que puede aumentar y disminuir en función de factores externos, lo que puede llegar a poner en riego la sostenibilidad del gasto público.</p>
+				</div>
 			</div>
 			
 			<div id="chart_3" class="hide charts">
 				<div id="chart3" style="width: 900px; height: 400px; float:left;"></div>
-				<p></p>
+				
+				<div class="d-left">
+					<p>* Datos a junio de 2013</p>
+					<p>El Fondo de Estabilización de los Ingresos Petroleros (FEIP) fue creado en el año 2000 como un mecanismo de ahorro en épocas de alto precio del petróleo que sirviese para contar con recursos hacer frente a una eventual caída en el mismo. Dado que los ingresos del sector público depende en un tercio de la explotación del petróleo, el FEIP reviste una gran importancia para asegurar el equilibrio de las finanzas públicas del país. El fondo recibe recursos del derecho para el fondo de estabilización, así como un porcentaje de los excedentes Pese a que el precio del petróleo ha estado en máximos históricos durante los últimos años, a día de hoy el FEIP cuenta con un cantidad recursos que dificilmente compensaría una caída en el precio internacional del petróleo. La salidas del año 2009 corresponden justamente a la caída de los ingresos que se dio ese año a raíz de la crisis financiera internacional.</p>
+				</div>
 			</div>
 			
 			<div id="chart_4" class="hide charts">
 				<div id="chart4" style="width: 900px; height: 400px; float:left;"></div>
-				<p></p>
+				
+				<div class="d-left">
+					<p>Como se puede observar en la gráfica, los últimos años se han caracterizado por un precio real del petróleo por encima del precio de referencia establecido por el gobierno para calcular los ingresos del sector público. Ello significa que la mayoría de los años han habido ingresos petroleros por encima de los estimados. La excepción es el año 2009, donde, debido a la crisis financiera internacional, hubo una caída en el precio del petróleo, lo que supuso un déficit en los ingresos petroleros.</p>
+				</div>
 			</div>
 			
 			<div id="chart_5" class="hide charts">
 				<div id="chart5" style="width: 900px; height: 400px; float:left;"></div>
-				<p></p>
+				<div class="d-left">
+					<p>* Cifras preliminares para el periodo Enero - Junio 2013</p>
+					<p>Esta tabla muestra el estado patrimonial de Petróleos Mexicanos (Pemex), el cual está en función de sus activos y su pasivos. Dentro de los activos se consideran la infraestructura que posee la paraestatal, así como sus recursos líquidos. En cuanto a los pasivos, se trata de deuda, cuyo vencimiento pude ser de corto o largo plazo. Como se puede observar, durante los últimos cinco años el monto de pasivos ha superado el de activos, lo que ha supuesto que Pemex tenga un patrimonio negativo. Ello amenaza seriamente la sostenibilidad de Pemex y lo pone en dificultades financieras.</p>
+				</div>
 			</div>
 			
 			<div id="chart_6" class="hide charts">
 				<div id="chart6" style="width: 900px; height: 400px; float:left;"></div>
-				<p></p>
+				
+				<div class="d-left">
+					<p>* Cifras preliminares para el periodo Enero - Junio 2013</p>
+					<p>La presente gráfica muestra los ingresos, costos de operación y pagos de impuestos y derechos de Petróleos Mexicanos (Pemex). Como puede observarse, los costos de operación suponen aproximadamente la mitad de los ingresos de la paraestatal, por lo que obtiene importantes ganancias como resultado de su operación. Sin embargo, una vez que realiza los pagos de impuestos y derechos correspondientes, la paraestatal reporta pérdidas. Esto se debe a que Pemex está sujeto a un honeroso régimen fiscal que tiene como consecuencia que deba endeudarse año tras año para poder operar.</p>
+				</div>
 			</div>
 			
 			<div id="chart_7" class="hide charts">
 				<div id="chart7" style="width: 900px; height: 400px; float:left;"></div>
-				<p></p>
+				
+				<div class="d-left">
+					<p>* Cifras enero-marzo 2013</p>
+					<p>En esta gráfica se observa la participación de las exportaciones petroleras en la exportaciones totales del país. Este dato es útil para conocer la dependencia petrolera de la economía. Como puede observarse, la canasta de exportaciones está moderedamente diversificada y el rol del petróleo en la misma no es central si se compara con las manufacturas.</p>
+				</div>
 			</div>
 			
 			<div id="chart_8" class="hide charts">
 				<div id="chart7-1" style="width: 900px; height: 400px; float:left;"></div>
-				<p></p>
+				
+				<div class="d-left">
+					<p>* Cifras enero-marzo 2013</p>
+					<p>En esta gráfica se observa la participación de las exportaciones petroleras en la exportaciones totales del país. Este dato es útil para conocer la dependencia petrolera de la economía. Como puede observarse, la canasta de exportaciones está moderedamente diversificada y el rol del petróleo en la misma no es central si se compara con las manufacturas.</p>
+				</div>
 			</div>
 		</div>
 	</li>
