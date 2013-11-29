@@ -1,5 +1,5 @@
 $(function () {
-	$('#char5').highcharts({
+	$('#chart5').highcharts({
 		chart: {
 		},
 		title: {

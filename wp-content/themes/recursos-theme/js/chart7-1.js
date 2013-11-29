@@ -1,5 +1,5 @@
 $(function () {
-	$('#char7-1').highcharts({
+	$('#chart7-1').highcharts({
 		chart: {
 			type: 'bar'
 		},

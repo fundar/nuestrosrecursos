@@ -9,7 +9,7 @@ $(function () {
 		}
 		
 		$('.charts').fadeOut();
-		$('#chart_' + counter).show().fadeIn();
+		$('#chart_' + counter).fadeIn();
 	});
 	
 	$('#prev').click( function() {
@@ -20,7 +20,7 @@ $(function () {
 		}
 		
 		$('.charts').fadeOut();
-		$('#chart_' + counter).show().fadeIn();
+		$('#chart_' + counter).fadeIn();
 	});
 	
 });
