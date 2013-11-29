@@ -348,7 +348,9 @@
 
 		<div id="content-charts">
 			<div id="chart_1">
-				<div id="chart1" class="show" style="width: 900px; height: 400px; float:left;"></div>
+				<div id="chart1" class="show" style="width: 940px; height: 400px; float:left;"></div>
+				
+				<br/><br/>
 				<div id="left">
 					<p>*  Cifras preliminares Enero-junio. Informes sobre la Situación Económica, las Finanzas Públicas y la Deuda Pública</p>
 					<p>** Incluye los ingresos propios de PEMEX, derechos por hidrocarburos, aprovechamientos sobre rendimientos excedentes y IEPS de gasolinas y diesel</p>
