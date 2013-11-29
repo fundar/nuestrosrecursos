@@ -351,7 +351,7 @@
 			<br><br>
 			<h2>Conoce más sobre el sector extractivo</h2>
 			<br><br>
-			<a href="">Imnagen de la info...</a>
+			<a href="">Contrataciones petroleras</a>
 			<a href="">Link a base de datos</a>
 		</div>
 	</li>
