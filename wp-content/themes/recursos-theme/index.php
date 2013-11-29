@@ -348,6 +348,9 @@
 			y todos podamos conocer en mayor medida cómo el gobierno gestiona nuestros recursos 
 			naturales. De esta manera, podremos participar, dar seguimiento y evaluar de mejor 
 			manera en las decisiones públicas sobre este tema que nos afectan.
+			<br><br>
+			<a href="">Imnagen de la info...</a>
+			<a href="">Link a base de datos</a>
 		</div>
 	</li>
 	
