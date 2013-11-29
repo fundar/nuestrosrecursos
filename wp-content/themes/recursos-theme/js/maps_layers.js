@@ -24,8 +24,8 @@ var g1_gridLayer4   = L.mapbox.gridLayer('fundarmexico.cuxwp14i');
 var g1_gridControl4 = L.mapbox.gridControl(g1_gridLayer4, {follow: true});
 
 //lenguas
-var g1_tileLayer5   = L.mapbox.tileLayer('fundarmexico.lenguas_indigenas');
-var g1_gridLayer5   = L.mapbox.gridLayer('fundarmexico.lenguas_indigenas');
+var g1_tileLayer5   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr');
+var g1_gridLayer5   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
 var g1_gridControl5 = L.mapbox.gridControl(g1_gridLayer5, {follow: true});
 
 
@@ -52,8 +52,8 @@ var g2_gridLayer4   = L.mapbox.gridLayer('fundarmexico.cuxwp14i');
 var g2_gridControl4 = L.mapbox.gridControl(g2_gridLayer4, {follow: true});
 
 //lenguas
-var g2_tileLayer5   = L.mapbox.tileLayer('fundarmexico.lenguas_indigenas');
-var g2_gridLayer5   = L.mapbox.gridLayer('fundarmexico.lenguas_indigenas');
+var g2_tileLayer5   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr');
+var g2_gridLayer5   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
 var g2_gridControl5 = L.mapbox.gridControl(g2_gridLayer5, {follow: true});
 
 
