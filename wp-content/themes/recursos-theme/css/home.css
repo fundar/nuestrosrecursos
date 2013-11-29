@@ -852,7 +852,7 @@ div.cuad, ul.cuad {
     cursor:pointer;
 }
 
-#g1-layer1:hover, #g2-layer1:hover, #g1-layer1.active, #g2-layer1.active { background: #C3ECAF; }
+#g1-layer1:hover, #g2-layer1:hover, #g1-layer1.active, #g2-layer1.active { background: #FF6500; }
 #g1-layer2:hover, #g2-layer2:hover, #g1-layer2.active, #g2-layer2.active { background: #DABBAF; }
 #g1-layer3:hover, #g2-layer3:hover, #g1-layer3.active, #g2-layer3.active { background: #B37377; }
 #g1-layer4:hover, #g2-layer4:hover, #g1-layer4.active, #g2-layer4.active { background: #27415D; }
