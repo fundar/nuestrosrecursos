@@ -190,6 +190,7 @@
 	<!-- Charts -->
 		<script src="http://code.highcharts.com/highcharts.js"></script>
 		<script src="http://code.highcharts.com/modules/exporting.js"></script>
+		<script src='<?php bloginfo('template_url');?>/js/controls.js' type="text/javascript"></script>
 		<script src='<?php bloginfo('template_url');?>/js/chart1.js' type="text/javascript"></script>
 		<script src='<?php bloginfo('template_url');?>/js/chart1-1.js' type="text/javascript"></script>
 		<script src='<?php bloginfo('template_url');?>/js/chart3.js' type="text/javascript"></script>
