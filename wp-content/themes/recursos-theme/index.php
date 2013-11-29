@@ -85,7 +85,7 @@
 					<div id="desc-back"></div>
 					
 					<a href="#" title="Leer más">
-						<img src="<?php bloginfo('template_url');?>/img/arrow.png" alt="Leer más"/>
+						
 					</a>
 					
 					<div id="desc-back2"></div>

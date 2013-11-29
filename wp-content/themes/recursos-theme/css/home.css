@@ -166,11 +166,11 @@ h2{
     z-index: -10;
 }
 
-#afectaciones{
+#afectaciones {
     background:#FFF url('../img/back2.png') repeat left top;
     color:#000;
-    min-height: 980px;
-    max-height: 980px;
+    min-height: 810px !important;
+    max-height: 810px !important;
 }
 
     #afectaciones #industrias{
