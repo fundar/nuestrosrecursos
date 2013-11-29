@@ -347,7 +347,15 @@
 		<h1>Visualizaciones</h1>
 
 		<div id="content-charts">
-			<div id="chart1" style="width: 900px; height: 400px; float:left;"></div>
+			<div id="chart_1">
+				<div id="chart1" style="width: 900px; height: 400px; float:left;"></div>
+				<p></p>
+			</div>
+			
+			<div id="chart_2">
+				<div id="chart2" style="width: 900px; height: 400px; float:left;"></div>
+				<p></p>
+			</div>
 		</div>
 	</li>
 	
