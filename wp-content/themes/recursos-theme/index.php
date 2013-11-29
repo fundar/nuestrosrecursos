@@ -354,7 +354,7 @@
 			<div id="chart_1" class="charts">
 				<div id="chart1" style="width: 940px; height: 400px; float:left;"></div>
 				
-				<div class="d-left">
+				<div class="d-left cuad ab-txt"> 
 					<p>*  Cifras preliminares Enero-junio. Informes sobre la Situación Económica, las Finanzas Públicas y la Deuda Pública</p>
 					<p>** Incluye los ingresos propios de PEMEX, derechos por hidrocarburos, aprovechamientos sobre rendimientos excedentes y IEPS de gasolinas y diesel</p>
 					<p>Como puede observarse en la gráfica, desde 2006 los ingresos petroleros han supuesto alrededor de la tercera parte de los ingresos totales del sector público. Ello supone que alrededor del 30% de los recursos que financian el presupuesto público provienen de la explotación de un recurso natural no renovable, es decir, que eventualmente se agotará (PEMEX estima que las reservas existentes alcanzará para 31 años más). Además, el precio del petróleo es altamente volátil, lo que supone que puede aumentar y disminuir en función de factores externos, lo que puede llegar a poner en riego la sostenibilidad del gasto público.</p>
