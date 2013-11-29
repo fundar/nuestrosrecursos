@@ -1,10 +1,27 @@
 $(function () {
+	var counter = 1;
+	
 	$('#next').click( function() {
-		console.log("next");
+		if(counter==8) {
+			counter=1;
+		} else {
+			counter+=1;
+		}
+		
+		$('.charts').fadeOut();
+		$('#chart_' + counter).fadeIn();
 	});
 	
 	$('#prev').click( function() {
-		console.log("prev");
+		if(counter==1) {
+			counter=8;
+		} else {
+			counter-=1;
+		}
+		
+		$('.charts').fadeOut();
+		$('#chart_' + counter).fadeIn();
 	});
+	
 });
     

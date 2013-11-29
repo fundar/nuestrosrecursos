@@ -351,7 +351,7 @@
 		</p>
 		
 		<div id="content-charts">
-			<div id="chart_1">
+			<div id="chart_1" class="charts">
 				<div id="chart1" style="width: 940px; height: 400px; float:left;"></div>
 				
 				<br/><br/>
@@ -362,32 +362,32 @@
 				</div>
 			</div>
 			
-			<div id="chart_3" class="hide">
+			<div id="chart_3" class="hide charts">
 				<div id="chart3" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_4" class="hide">
+			<div id="chart_4" class="hide charts">
 				<div id="chart4" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_5" class="hide">
+			<div id="chart_5" class="hide charts">
 				<div id="chart5" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_6" class="hide">
+			<div id="chart_6" class="hide charts">
 				<div id="chart6" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_7" class="hide">
+			<div id="chart_7" class="hide charts">
 				<div id="chart7" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
 			
-			<div id="chart_8" class="hide">
+			<div id="chart_8" class="hide charts">
 				<div id="chart7-1" style="width: 900px; height: 400px; float:left;"></div>
 				<p></p>
 			</div>
