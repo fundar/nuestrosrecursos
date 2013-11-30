@@ -219,6 +219,8 @@ $(document).ready(function() {
 			map.addControl(g2_gridControl5);
 			this.className = 'active';
 		}
+		
+		map.maxZoom = 10;
 	});
 });
 
