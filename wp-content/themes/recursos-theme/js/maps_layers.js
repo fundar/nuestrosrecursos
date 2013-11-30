@@ -137,6 +137,11 @@ $(document).ready(function() {
 			map.addControl(g1_gridControl5);
 			this.className = 'active';
 		}
+		
+		var z = Math.round(map.getZoom());
+		if(z==11) {
+			map.setZoom(10);
+		}
 	});
 	
 	
@@ -221,10 +226,11 @@ $(document).ready(function() {
 		}
 		
 		var z = Math.round(map.getZoom());
-		console.log(z);
-		
+		if(z==11) {
+			map.setZoom(10);
+		}
 		//map.maxZoom = 10;
-		map.setZoom(10);
+		
 	});
 });
 
