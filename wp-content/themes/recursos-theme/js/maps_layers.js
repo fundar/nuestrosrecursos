@@ -220,8 +220,11 @@ $(document).ready(function() {
 			this.className = 'active';
 		}
 		
-		map.maxZoom = 10;
-		 map.setZoom(10);
+		var z = Math.round(map.getZoom());
+		console.log(z);
+		
+		//map.maxZoom = 10;
+		map.setZoom(10);
 	});
 });
 
