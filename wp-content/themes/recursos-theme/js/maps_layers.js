@@ -221,6 +221,7 @@ $(document).ready(function() {
 		}
 		
 		map.maxZoom = 10;
+		 map.setZoom(10);
 	});
 });
 
