@@ -37,22 +37,22 @@ var g1_gridControl5 = L.mapbox.gridControl(g1_gridLayer5, {follow: true});
 
 /*Grupo 2*/
 //concesiones
-var g2_tileLayer1   = L.mapbox.tileLayer('fundarmexico.lwzy3nmi');
+var g2_tileLayer1   = L.mapbox.tileLayer('fundarmexico.lwzy3nmi').setZIndex(8);
 var g2_gridLayer1   = L.mapbox.gridLayer('fundarmexico.lwzy3nmi');
 var g2_gridControl1 = L.mapbox.gridControl(g2_gridLayer1, {follow: true});
 
 //federal
-var g2_tileLayer2   = L.mapbox.tileLayer('fundarmexico.fuu40a4i').addTo(map);
+var g2_tileLayer2   = L.mapbox.tileLayer('fundarmexico.fuu40a4i').setZIndex(8).addTo(map);
 var g2_gridLayer2   = L.mapbox.gridLayer('fundarmexico.fuu40a4i').addTo(map);
 var g2_gridControl2 = L.mapbox.gridControl(g2_gridLayer2, {follow: true}).addTo(map);
 
 //estatal
-var g2_tileLayer3   = L.mapbox.tileLayer('fundarmexico.2ittke29');
+var g2_tileLayer3   = L.mapbox.tileLayer('fundarmexico.2ittke29').setZIndex(8);
 var g2_gridLayer3   = L.mapbox.gridLayer('fundarmexico.2ittke29');
 var g2_gridControl3 = L.mapbox.gridControl(g2_gridLayer3, {follow: true});
 
 //municipal
-var g2_tileLayer4   = L.mapbox.tileLayer('fundarmexico.cuxwp14i');
+var g2_tileLayer4   = L.mapbox.tileLayer('fundarmexico.cuxwp14i').setZIndex(8);
 var g2_gridLayer4   = L.mapbox.gridLayer('fundarmexico.cuxwp14i');
 var g2_gridControl4 = L.mapbox.gridControl(g2_gridLayer4, {follow: true});
 
