@@ -432,11 +432,11 @@
 	
 	<li id="publicaciones" class="section cover">
 		<h1>Publicaciones y Multimedia</h1>
-		<div class="slideshow" id="">
+		
+		<div class="slideshow">
+			<h2>Publicaciones</h2>
 			
 			<ul>
-				<h2>Publicaciones</h2>
-				
 				<li>
 					<a href="http://www.fundar.org.mx/mexico/wp-content/uploads/publicaciones/pemexALL.pdf" title="El Acceso a la Información para la Contraloría Social. El caso de las Donaciones y Donativos de Pemex a Tabasco" target="_blank">
 						El Acceso a la Información para la Contraloría Social. El caso de las Donaciones y Donativos de Pemex a Tabasco
@@ -477,72 +477,97 @@
 			<h2>Artículos</h2>
 			<ul>
 				<li>
-					<a href="" title="" target="_blank">
-					
+					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle19361.html" title="Extractivismo abierto, México despierto" class="el_universal" target="_blank">
+						Extractivismo abierto, México despierto
 					</a>
 				</li>
 				<li>
-					<a href="" title="" target="_blank">
-					
+					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle19221.html" title="Nuevo régimen petrolero: contratos en lo oscurito" class="el_universal" target="_blank">
+						Nuevo régimen petrolero: contratos en lo oscurito
 					</a>
 				</li>
 				<li>
-					<a href="" title="" target="_blank">
-					
+					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle19045.html" title="De las bondades del gas shale y otras falacias" class="el_universal" target="_blank">
+						De las bondades del gas shale y otras falacias
 					</a>
 				</li>
 				<li>
-					<a href="" title="" target="_blank">
-					
+					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle18933.html" title="Reforma Energética a debate" class="el_universal" target="_blank">
+						Reforma Energética a debate
 					</a>
 				</li>
 				<li>
-					<a href="" title="" target="_blank">
-					
+					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle18560.html" title="Replantear la reforma a la Ley Minera" class="el_universal" target="_blank">
+						Replantear la reforma a la Ley Minera
 					</a>
 				</li>
 				<li>
-					<a href="" title="" target="_blank">
-					
+					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle18369.html" title="Hojalatería y pintura para la Ley Minera" class="el_universal" target="_blank">
+						Hojalatería y pintura para la Ley Minera
+					</a>
+				</li>
+				<li>
+					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle17922.html" title="El gas esquisto y el canto de las sirenas" class="el_universal" target="_blank">
+						El gas esquisto y el canto de las sirenas
+					</a>
+				</li>
+				<li>
+					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle17772.html" title="Sí a la vida, no a la minería" class="el_universal" target="_blank">
+						Sí a la vida, no a la minería
+					</a>
+				</li>
+				<li>
+					<a href="http://www.animalpolitico.com/blogueros-res-publica/2013/08/08/porque-tenemos-derecho-a-elegir/#axzz2i6kqqMfy" title="Porque tenemos derecho a elegir" class="animal_politico" target="_blank">
+						Porque tenemos derecho a elegir
+					</a>
+				</li>
+				<li>
+					<a href="http://www.animalpolitico.com/blogueros-res-publica/2013/07/24/opacidad-en-el-subsuelo/#axzz2i6kqqMfy" title="Opacidad en el subsuelo" class="animal_politico" target="_blank">
+						Opacidad en el subsuelo
+					</a>
+				</li>
+				<li>
+					<a href="http://www.animalpolitico.com/blogueros-res-publica/2013/07/22/la-explotacion-del-gas-shale-una-decision-racional/#axzz2i6kqqMfy" title="La explotación del gas shale, ¿una decisión racional?" class="animal_politico" target="_blank">
+						La explotación del gas shale, ¿una decisión racional?
+					</a>
+				</li>
+				<li>
+					<a href="http://www.animalpolitico.com/blogueros-res-publica/2013/05/16/de-petroleo-mineria-y-buenas-practicas/#axzz2i6kqqMfy" title="De petróleo, minería y buenas prácticas" class="animal_politico" target="_blank">
+						De petróleo, minería y buenas prácticas
+					</a>
+				</li>
+				<li>
+					<a href="http://www.animalpolitico.com/blogueros-res-publica/2013/04/19/que-tipo-de-desarrollo-queremos/#axzz2i6kqqMfy" title="¿Qué tipo de desarrollo queremos?" class="animal_politico" target="_blank">
+						¿Qué tipo de desarrollo queremos?
+					</a>
+				</li>
+				<li>
+					<a href="http://www.animalpolitico.com/blogueros-res-publica/2013/03/23/de-energia-y-desarrollo/#axzz2i6kqqMfy" title="No más petróleo ni gas shale" class="animal_politico" target="_blank">
+						No más petróleo ni gas shale
+					</a>
+				</li>
+				
+				<li>
+					<a href="http://www.sinembargo.mx/opinion/07-10-2013/18019 " title="Les tomamos la palabra" class="sin_embargo" target="_blank">
+						Les tomamos la palabra
+					</a>
+				</li>
+				<li>
+					<a href="http://www.fundar.org.mx/mexico/pdf/extractivas17022013.pdf " title="Pancha de Conchos: punta del iceberg" class="enfoque_reforma" target="_blank">
+						Pancha de Conchos: punta del iceberg
+					</a>
+				</li>
+				<li>
+					<a href="http://publimetroblogs.com/trapitosalsol/2013/02/20/hacia-un-modelo-energetico-justo-y-sustentable/" title="Hacia un modelo energético justo y sustentable" class="publimetro" target="_blank">
+						Hacia un modelo energético justo y sustentable
+					</a>
+				</li>
+				<li>
+					<a href="http://www.iniciativaciudadana.org.mx/brujula-ciudadana/1367-brujula-ciudadana-48.html " title="La Reforma Energética que el país necesita" class="otros_articulos" target="_blank">
+						La Reforma Energética que el país necesita
 					</a>
 				</li>
 			</ul>
-			
-		</div>
-		<div class="nivel slider-vertical cuad">
-			<h2>Video</h2>
-			
-			<div class="contenedor-slider">
-				<div class="bloque-slider">
-					<div class="modulo-slider"><br>
-						<iframe src="//player.vimeo.com/video/41712105" width="293" height="165" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/41712105">Crudo "Documental- Fundar"</a> from <a href="http://vimeo.com/user6767365">Fundar</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="nivel slider-vertical cuad">
-			<h2>Salidas en Medios</h2>
-			<div class="contenedor-slider">
-				<div class="bloque-slider">
-					<div class="modulo-slider"><br><br>
-						<img src="">
-						<p>
-							<a href="#">Lorem ipsum dolor sit amet</a>
-						</p><br>
-					
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.
-					</div>
-					
-					<div class="modulo-slider"></div>
-				</div>
-				
-				<p class="mover-slider-vertical">
-					<a class="subir-slider" >Subir noticia</a>
-					<a class="bajar-slider">Bajar noticia</a>
-				</p>
-			</div>
 		</div>
 	</li>
 
