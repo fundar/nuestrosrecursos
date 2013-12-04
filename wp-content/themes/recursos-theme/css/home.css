@@ -562,6 +562,10 @@ div.cuad, ul.cuad {
 		text-align:center;
 		width:99%;
     }
+    
+    #marco-propuestas p a {
+		text-align:center;
+    }
 
 #ingresos{
     min-height: 1200px;
