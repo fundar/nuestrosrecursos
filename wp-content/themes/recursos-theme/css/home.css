@@ -488,7 +488,7 @@ div.cuad, ul.cuad {
     top: 30px;
 }
 
-##marco-constitucion li { margin-right: 50px; }
+#marco-constitucion li { margin-right: 50px; }
 #marco-constitucion li a span:after{
     content: '';
     position: absolute;
