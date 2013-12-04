@@ -34,8 +34,8 @@ var g1_gridLayer5   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
 var g1_gridControl5 = L.mapbox.gridControl(g1_gridLayer5, {follow: true});
 
 //Nucleos agrarios
-var g1_tileLayer6   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr').setZIndex(8);
-var g1_gridLayer6   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
+var g1_tileLayer6   = L.mapbox.tileLayer('fundarmexico.iiugcik9').setZIndex(8);
+var g1_gridLayer6   = L.mapbox.gridLayer('fundarmexico.iiugcik9');
 var g1_gridControl6 = L.mapbox.gridControl(g1_gridLayer6, {follow: true});
 
 
@@ -66,8 +66,8 @@ var g2_gridLayer5   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
 var g2_gridControl5 = L.mapbox.gridControl(g2_gridLayer5, {follow: true});
 
 //Nucleos agrarios
-var g2_tileLayer6   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr').setZIndex(8);
-var g2_gridLayer6   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
+var g2_tileLayer6   = L.mapbox.tileLayer('fundarmexico.iiugcik9').setZIndex(8);
+var g2_gridLayer6   = L.mapbox.gridLayer('fundarmexico.iiugcik9');
 var g2_gridControl6 = L.mapbox.gridControl(g2_gridLayer6, {follow: true});
 
 
