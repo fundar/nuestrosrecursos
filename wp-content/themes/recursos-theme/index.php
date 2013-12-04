@@ -434,9 +434,9 @@
 		<h1>Publicaciones y Multimedia</h1>
 		
 		<div class="slideshow">
-			<h2>Publicaciones</h2>
-			
 			<ul class="ul-publicaciones">
+				<h2>Publicaciones</h2>
+				
 				<li>
 					<a href="http://www.fundar.org.mx/mexico/wp-content/uploads/publicaciones/pemexALL.pdf" title="El Acceso a la Información para la Contraloría Social. El caso de las Donaciones y Donativos de Pemex a Tabasco" target="_blank">
 						El Acceso a la Información para la Contraloría Social. El caso de las Donaciones y Donativos de Pemex a Tabasco
@@ -474,8 +474,9 @@
 				</li>
 			</ul>
 			
-			<h2>Artículos</h2>
 			<ul class="ul-articulos">
+				<h2>Artículos</h2>
+				
 				<li>
 					<a href="http://blogs.eluniversal.com.mx/weblogs_detalle19361.html" title="Extractivismo abierto, México despierto" class="el_universal" target="_blank">
 						Extractivismo abierto, México despierto
