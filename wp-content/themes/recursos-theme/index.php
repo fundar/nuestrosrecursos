@@ -433,9 +433,10 @@
 	<li id="publicaciones" class="section cover">
 		<h1>Publicaciones y Multimedia</h1>
 		<div class="slideshow" id="">
-			<h2>Publicaciones</h2>
 			
 			<ul>
+				<h2>Publicaciones</h2>
+				
 				<li>
 					<a href="http://www.fundar.org.mx/mexico/wp-content/uploads/publicaciones/pemexALL.pdf" title="El Acceso a la Información para la Contraloría Social. El caso de las Donaciones y Donativos de Pemex a Tabasco" target="_blank">
 						El Acceso a la Información para la Contraloría Social. El caso de las Donaciones y Donativos de Pemex a Tabasco
