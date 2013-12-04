@@ -563,8 +563,8 @@ div.cuad, ul.cuad {
 		width:99%;
     }
     
-    #marco-propuestas p a {
-		text-align:center;
+    #marco-propuestas p a:hover {
+		color:#000;
     }
 
 #ingresos{
