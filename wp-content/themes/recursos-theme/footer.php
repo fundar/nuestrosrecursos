@@ -55,7 +55,7 @@
 			  };
 			}
 
-			secciones = ["#inicio", "#infografia", "#afectaciones", "#marcolegal", "#ingresos", "#mapainteractivo", "#transparencia", '#visualizaciones', "#publicaciones", "#acerca"]
+			secciones = ["#inicio", "#infografia", "#afectaciones", "#marcolegal", "#ingresos", "#mapainteractivo", "#transparencia", "#publicaciones", "#acerca"]
 			sec_idx = 0;   
 
 			function sections_elevator(action) {
