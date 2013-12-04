@@ -164,21 +164,33 @@
 			   $("#res-marco-petrolera").text( $(this).attr("href") )
 			   $("#res-marco-petrolera").fadeIn();
 			   return false;
-			})
+			}, 
+		    function () {
+				$("#res-marco-petrolera").fadeOut();
+			}
+			)
 
 			$("#marco-comun a").hover(function(e){
 			   $("#res-marco-comun").empty()
 			   $("#res-marco-comun").text( $(this).attr("href") )
 			   $("#res-marco-comun").fadeIn();
 			   return false;
-			})
+			}, 
+		    function () {
+				$("#res-marco-comun").fadeOut();
+			}
+			)
 
 			$("#marco-minera a").hover(function(e){
 			   $("#res-marco-minera").empty()
 			   $("#res-marco-minera").text( $(this).attr("href") )
 			   $("#res-marco-minera").fadeIn();
 			   return false;
-			})
+			}, 
+		    function () {
+				$("#res-marco-minera").fadeOut();
+			}
+			)
 			
 			
 			
