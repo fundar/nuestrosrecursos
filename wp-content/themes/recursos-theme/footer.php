@@ -179,6 +179,19 @@
 			   $("#res-marco-minera").fadeIn();
 			   return false;
 			})
+			
+			
+			
+			$("#marco-petrolera a").click(function(e){
+			   return false;
+			})
+			$("#marco-comun a").click(function(e){
+			   return false;
+			})
+			
+			$("#marco-minera a").click(function(e){
+			   return false;
+			})
 		});
 	</script>
 	
