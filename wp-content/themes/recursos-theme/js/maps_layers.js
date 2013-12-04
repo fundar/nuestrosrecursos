@@ -9,27 +9,27 @@ L.control.layers({
 
 /*Grupo 1*/
 //concesiones
-var g1_tileLayer1   = L.mapbox.tileLayer('fundarmexico.lwzy3nmi').addTo(map);
+var g1_tileLayer1   = L.mapbox.tileLayer('fundarmexico.lwzy3nmi').setZIndex(8).addTo(map);
 var g1_gridLayer1   = L.mapbox.gridLayer('fundarmexico.lwzy3nmi').addTo(map);
 var g1_gridControl1 = L.mapbox.gridControl(g1_gridLayer1, {follow: true}).addTo(map);
 
 //federal
-var g1_tileLayer2   = L.mapbox.tileLayer('fundarmexico.fuu40a4i');
+var g1_tileLayer2   = L.mapbox.tileLayer('fundarmexico.fuu40a4i').setZIndex(8);
 var g1_gridLayer2   = L.mapbox.gridLayer('fundarmexico.fuu40a4i');
 var g1_gridControl2 = L.mapbox.gridControl(g1_gridLayer2, {follow: true});
 
 //estatal
-var g1_tileLayer3   = L.mapbox.tileLayer('fundarmexico.2ittke29');
+var g1_tileLayer3   = L.mapbox.tileLayer('fundarmexico.2ittke29').setZIndex(8);
 var g1_gridLayer3   = L.mapbox.gridLayer('fundarmexico.2ittke29');
 var g1_gridControl3 = L.mapbox.gridControl(g1_gridLayer3, {follow: true});
 
 //municipal
-var g1_tileLayer4   = L.mapbox.tileLayer('fundarmexico.cuxwp14i');
+var g1_tileLayer4   = L.mapbox.tileLayer('fundarmexico.cuxwp14i').setZIndex(8);
 var g1_gridLayer4   = L.mapbox.gridLayer('fundarmexico.cuxwp14i');
 var g1_gridControl4 = L.mapbox.gridControl(g1_gridLayer4, {follow: true});
 
 //lenguas
-var g1_tileLayer5   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr');
+var g1_tileLayer5   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr').setZIndex(8);
 var g1_gridLayer5   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
 var g1_gridControl5 = L.mapbox.gridControl(g1_gridLayer5, {follow: true});
 
@@ -57,7 +57,7 @@ var g2_gridLayer4   = L.mapbox.gridLayer('fundarmexico.cuxwp14i');
 var g2_gridControl4 = L.mapbox.gridControl(g2_gridLayer4, {follow: true});
 
 //lenguas
-var g2_tileLayer5   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr');
+var g2_tileLayer5   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr').setZIndex(8);
 var g2_gridLayer5   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
 var g2_gridControl5 = L.mapbox.gridControl(g2_gridLayer5, {follow: true});
 
@@ -73,7 +73,7 @@ $(document).ready(function() {
 			map.removeControl(g1_gridControl1);
 			this.className = '';
 		} else {
-			map.addLayer(g1_tileLayer1).setZIndex(7);
+			map.addLayer(g1_tileLayer1);
 			map.addLayer(g1_gridLayer1);
 			map.addControl(g1_gridControl1);
 			this.className = 'active';
