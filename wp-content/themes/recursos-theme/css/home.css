@@ -857,7 +857,7 @@ div.cuad, ul.cuad {
 
 #map-ui {
     position: absolute;
-    top: 10px;
+    top: 50px;
     right: 10px;
     z-index: 100;
 }

@@ -73,7 +73,7 @@ $(document).ready(function() {
 			map.removeControl(g1_gridControl1);
 			this.className = '';
 		} else {
-			map.addLayer(g1_tileLayer1);
+			map.addLayer(g1_tileLayer1).setZIndex(7);
 			map.addLayer(g1_gridLayer1);
 			map.addControl(g1_gridControl1);
 			this.className = 'active';
