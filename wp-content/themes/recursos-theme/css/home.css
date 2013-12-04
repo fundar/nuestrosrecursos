@@ -911,3 +911,6 @@ div.cuad, ul.cuad {
 
 .ul-publicaciones h2  { position: static; }
 .ul-articulos h2 { position: static; }
+
+.ul-publicaciones li { margin-top:8px; }
+.ul-articulos li { margin-top:8px; }
