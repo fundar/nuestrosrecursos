@@ -901,3 +901,7 @@ div.cuad, ul.cuad {
 
 
 .text-afect { width: 420px; height: 540px; overflow: auto; }
+
+
+.ul-publicaciones { width:50%; float:left; }
+.ul-articulos { width:50%; float:left; }
