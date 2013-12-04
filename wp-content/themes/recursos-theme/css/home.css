@@ -538,6 +538,12 @@ div.cuad, ul.cuad {
         margin-right:100px;
     }
 
+	#marco-minera a { 
+		width:24px;
+		height:24px;
+		background: url('images/library-24.png') no-repeat;
+	}
+	
     #marco-comun{
         display: block;
         background: rgba(100, 100, 255, 0.15);
