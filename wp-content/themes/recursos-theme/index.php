@@ -432,7 +432,67 @@
 	
 	<li id="publicaciones" class="section cover">
 		<h1>Publicaciones y Multimedia</h1>
-		<div class="slideshow" id="multiple_slides_visible"></div>
+		<div class="slideshow" id="multiple_slides_visible">
+			Publicaciones (por orden alfabético)
+- El Acceso a la Información para la Contraloría Social. El caso de las Donaciones y Donativos de Pemex a Tabasco
+http://www.fundar.org.mx/mexico/wp-content/uploads/publicaciones/pemexALL.pdf
+- Estado de la Transparencia y el Acceso a la Información en las Contrataciones de Pemex 
+http://www.fundar.org.mx/mexico/pdf/transyaccesopemex.pdf
+- Ingresos Petroleros y gasto público
+http://www.fundar.org.mx/pdfavancesyretrocesos/06.pdf
+- La importancia del Fondo de Estabilización de Ingresos Petroleros
+http://www.fundar.org.mx/secciones/publicaciones/pdf/La%20importancia%20del%20FEIP.pdf
+- Mecanismos de transparencia y rendición de cuentas de Pemex: retos y propuestas para su fortalecimiento
+http://www.fundar.org.mx/mexico/pdf/mecanismosdecontrol.pdf
+- Minería, comunidades y medio ambiente. Investigaciones sobre el impacto de la inversión canadiense en México
+http://www.fundar.org.mx/mexico/pdf/mineria.pdf
+- Recursos Naturales e Ingresos Fiscales en México
+http://www.fundar.org.mx/secciones/publicaciones/pdf/Ingresos_Petroleros.pdf
+Artículos (por fecha, sólo de este año)
+El Universal
+- Extractivismo abierto, México despierto
+http://blogs.eluniversal.com.mx/weblogs_detalle19361.html 
+- Nuevo régimen petrolero: contratos en lo oscurito
+http://blogs.eluniversal.com.mx/weblogs_detalle19221.html 
+- De las bondades del gas shale y otras falacias
+http://blogs.eluniversal.com.mx/weblogs_detalle19045.html 
+- Reforma Energética a debate
+http://blogs.eluniversal.com.mx/weblogs_detalle18933.html 
+- Replantear la reforma a la Ley Minera
+http://blogs.eluniversal.com.mx/weblogs_detalle18560.html 
+- Hojalatería y pintura para la Ley Minera
+http://blogs.eluniversal.com.mx/weblogs_detalle18369.html 
+- El gas esquisto y el canto de las sirenas
+http://blogs.eluniversal.com.mx/weblogs_detalle17922.html 
+- Sí a la vida, no a la minería
+http://blogs.eluniversal.com.mx/weblogs_detalle17772.html 
+Animal Político
+- Porque tenemos derecho a elegir
+http://www.animalpolitico.com/blogueros-res-publica/2013/08/08/porque-tenemos-derecho-a-elegir/#axzz2i6kqqMfy 
+- Opacidad en el subsuelo
+http://www.animalpolitico.com/blogueros-res-publica/2013/07/24/opacidad-en-el-subsuelo/#axzz2i6kqqMfy 
+- La explotación del gas shale, ¿una decisión racional?
+http://www.animalpolitico.com/blogueros-res-publica/2013/07/22/la-explotacion-del-gas-shale-una-decision-racional/#axzz2i6kqqMfy 
+- De petróleo, minería y buenas prácticas
+http://www.animalpolitico.com/blogueros-res-publica/2013/05/16/de-petroleo-mineria-y-buenas-practicas/#axzz2i6kqqMfy 
+- ¿Qué tipo de desarrollo queremos?
+http://www.animalpolitico.com/blogueros-res-publica/2013/04/19/que-tipo-de-desarrollo-queremos/#axzz2i6kqqMfy
+- No más petróleo ni gas shale
+http://www.animalpolitico.com/blogueros-res-publica/2013/03/23/de-energia-y-desarrollo/#axzz2i6kqqMfy
+Sin embargo
+- Les tomamos la palabra
+http://www.sinembargo.mx/opinion/07-10-2013/18019 
+Enfoque Reforma
+- Pancha de Conchos: punta del iceberg
+http://www.fundar.org.mx/mexico/pdf/extractivas17022013.pdf 
+Publimetro
+- Hacia un modelo energético justo y sustentable
+http://publimetroblogs.com/trapitosalsol/2013/02/20/hacia-un-modelo-energetico-justo-y-sustentable/
+Otros artículos
+- La Reforma Energética que el país necesita
+http://www.iniciativaciudadana.org.mx/brujula-ciudadana/1367-brujula-ciudadana-48.html 
+		
+		</div>
 		<div class="nivel slider-vertical cuad">
 			<h2>Video</h2>
 			
