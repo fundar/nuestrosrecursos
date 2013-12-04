@@ -382,6 +382,7 @@
 					<li><span id='g1-layer3'>&Aacute;reas Naturales Protegidas Estatales</span></li>
 					<li><span id='g1-layer4'>&Aacute;reas Naturales Protegidas Municipales</span></li>
 					<li><span id='g1-layer5'>Lenguas Indígenas</span></li>
+					<li><span id='g1-layer6'>Núcleos agrarios</span></li>
 				</ul>
 				
 				 <ul class="margin20">
@@ -390,7 +391,7 @@
 					<li><span id='g2-layer3'>&Aacute;reas Naturales Protegidas Estatales</span></li>
 					<li><span id='g2-layer4'>&Aacute;reas Naturales Protegidas Municipales</span></li>
 					<li><span id='g2-layer5'>Lenguas Indígenas</span></li>
-					
+					<li><span id='g2-layer6'>Núcleos agrarios</span></li>
 				</ul>
 			</div>
 		</div>

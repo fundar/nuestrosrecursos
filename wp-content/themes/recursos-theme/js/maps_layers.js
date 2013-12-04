@@ -33,6 +33,10 @@ var g1_tileLayer5   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr').setZIndex(8);
 var g1_gridLayer5   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
 var g1_gridControl5 = L.mapbox.gridControl(g1_gridLayer5, {follow: true});
 
+//Nucleos agrarios
+var g1_tileLayer6   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr').setZIndex(8);
+var g1_gridLayer6   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
+var g1_gridControl6 = L.mapbox.gridControl(g1_gridLayer6, {follow: true});
 
 
 /*Grupo 2*/
@@ -60,6 +64,11 @@ var g2_gridControl4 = L.mapbox.gridControl(g2_gridLayer4, {follow: true});
 var g2_tileLayer5   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr').setZIndex(8);
 var g2_gridLayer5   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
 var g2_gridControl5 = L.mapbox.gridControl(g2_gridLayer5, {follow: true});
+
+//Nucleos agrarios
+var g2_tileLayer6   = L.mapbox.tileLayer('fundarmexico.ulpfzuxr').setZIndex(8);
+var g2_gridLayer6   = L.mapbox.gridLayer('fundarmexico.ulpfzuxr');
+var g2_gridControl6 = L.mapbox.gridControl(g2_gridLayer6, {follow: true});
 
 
 $(document).ready(function() {
@@ -149,6 +158,26 @@ $(document).ready(function() {
 		}
 	});
 	
+	$("#g1-layer6").click( function () {
+		removeLayersG1();
+		
+		if(this.className === 'active') {
+			map.removeLayer(g1_tileLayer6);
+			map.removeLayer(g1_gridLayer6);
+			map.removeControl(g1_gridControl6);
+			this.className = '';
+		} else {
+			map.addLayer(g1_tileLayer6);
+			map.addLayer(g1_gridLayer6);
+			map.addControl(g1_gridControl6);
+			this.className = 'active';
+		}
+		
+		var z = Math.round(map.getZoom());
+		if(z==11) {
+			map.setZoom(10);
+		}
+	});
 	
 	//********* G2 ********
 	$("#g2-layer1").click( function () {
@@ -237,6 +266,27 @@ $(document).ready(function() {
 		//map.maxZoom = 10;
 		
 	});
+	
+	$("#g2-layer6").click( function () {
+		removeLayersG1();
+		
+		if(this.className === 'active') {
+			map.removeLayer(g2_tileLayer6);
+			map.removeLayer(g2_gridLayer6);
+			map.removeControl(g2_gridControl6);
+			this.className = '';
+		} else {
+			map.addLayer(g2_tileLayer6);
+			map.addLayer(g2_gridLayer6);
+			map.addControl(g2_gridControl6);
+			this.className = 'active';
+		}
+		
+		var z = Math.round(map.getZoom());
+		if(z==11) {
+			map.setZoom(10);
+		}
+	});
 });
 
 function removeLayersG1() {
@@ -274,6 +324,13 @@ function removeLayersG1() {
 		map.removeControl(g1_gridControl5);
 		$("#g1-layer5").removeClass('active');
 	}
+	
+	if(map.hasLayer(g1_tileLayer6)) {
+		map.removeLayer(g1_tileLayer6);
+		map.removeLayer(g1_gridLayer6);
+		map.removeControl(g1_gridControl6);
+		$("#g1-layer6").removeClass('active');
+	}
 }
 
 function removeLayersG2() {
@@ -310,5 +367,12 @@ function removeLayersG2() {
 		map.removeLayer(g2_gridLayer5);
 		map.removeControl(g2_gridControl5);
 		$("#g2-layer5").removeClass('active');
+	}
+	
+	if(map.hasLayer(g2_tileLayer6)) {
+		map.removeLayer(g2_tileLayer6);
+		map.removeLayer(g2_gridLayer6);
+		map.removeControl(g2_gridControl6);
+		$("#g2-layer6").removeClass('active');
 	}
 }
