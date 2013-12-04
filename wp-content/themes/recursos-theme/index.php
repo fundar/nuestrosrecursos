@@ -252,7 +252,7 @@
 		<div id="marco-minera" class="marco"> 
 			<h2>Industria Minera</h2>
 			<ul>
-				<li><a href="Código Fiscal de la Federación">1</a></li>
+				<li><a href="Código Fiscal de la Federación"><img src="wp-content/themes/recursos-theme/css/images/library-24.png" alt="img"/></a></li>
 				<li><a href="Ley Orgánica de la Administración Pública Federal">2</a></li>
 				<li><a href="Ley Federal de Responsabilidades Administrativas de los Servidores  Públicos">3</a></li>
 				<li><a href="Ley General de Bienes Nacionales">4</a></li>
