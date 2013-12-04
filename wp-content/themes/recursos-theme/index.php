@@ -281,6 +281,7 @@
 
 		<div id="marco-propuestas" class="marco">
 			<h2> Propuestas de Reforma </h2>
+			<p>Propuesta de modificación a la Ley General de Equilibrio Ecológico y Protección al Ambiente en materia de Evaluación de Impacto Ambiental</p>
 		</div>
 	</li>
 
