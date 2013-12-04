@@ -547,8 +547,8 @@ div.cuad, ul.cuad {
 
     #marco-propuestas{
         margin-top: 20px;
-        max-height: 300px;
-        min-height: 300px;
+        max-height: 215px;
+        min-height: 215px;
         min-width: 925px;
         max-width: 925px;
     }
@@ -560,7 +560,7 @@ div.cuad, ul.cuad {
     
     #marco-propuestas p {
 		text-align:center;
-		width:100px;
+		width:99%;
     }
 
 #ingresos{
