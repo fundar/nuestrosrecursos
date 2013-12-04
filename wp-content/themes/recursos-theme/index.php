@@ -431,7 +431,7 @@
 	</li>
 	
 	<li id="publicaciones" class="section cover">
-		<h1>Publicaciones y Multimedia</h1>
+		<h1>Publicaciones y Artículos</h1>
 		
 		<div class="slideshow">
 			<ul class="ul-publicaciones">
