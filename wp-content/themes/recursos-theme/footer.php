@@ -179,10 +179,6 @@
 			   $("#res-marco-minera").fadeIn();
 			   return false;
 			})
-
-			$(".marco a").click(function(e){
-			   return false;
-			})
 		});
 	</script>
 	
