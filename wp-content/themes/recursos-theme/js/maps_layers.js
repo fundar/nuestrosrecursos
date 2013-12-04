@@ -268,7 +268,7 @@ $(document).ready(function() {
 	});
 	
 	$("#g2-layer6").click( function () {
-		removeLayersG1();
+		removeLayersG2();
 		
 		if(this.className === 'active') {
 			map.removeLayer(g2_tileLayer6);
