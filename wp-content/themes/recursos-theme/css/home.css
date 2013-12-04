@@ -914,3 +914,6 @@ div.cuad, ul.cuad {
 
 .ul-publicaciones li { margin-top:8px; }
 .ul-articulos li { margin-top:8px; }
+
+.ul-publicaciones li a:hover { color:#000; }
+.ul-articulos li a:hover { color:#000; }
