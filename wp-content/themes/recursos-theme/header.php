@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
-		<title>Nuestros Recursos - Inicio</title>
+		<title>Minería y petroleo</title>
 		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/sources/css/base.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/sources/css/curtain.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_url');?>/css/home.css">
