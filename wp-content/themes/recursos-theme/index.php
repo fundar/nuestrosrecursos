@@ -375,6 +375,10 @@
 	<li id="mapainteractivo" class="section cover">
 		<h1>Mapas</h1>
 		<div id='map'>
+			<div class='my-legend'>
+				<div class='legend-source'>Fuente: <a href="/uploads/fuentes_de_informacion_del_mapa.docx" target="_blank" title="Fuentes de Información del Mapa">Fuentes de Información del Mapa</a></div>
+			</div>
+			
 			<div id='map-ui'>
 				<ul>
 					<li><span id='g1-layer1' class='active'>Concesiones mineras</span></li>
