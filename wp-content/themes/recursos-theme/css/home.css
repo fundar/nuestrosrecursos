@@ -1015,11 +1015,19 @@ float: left;
 height: 15px;
 width: 50px;
 }
+
 .my-legend .legend-source {
-font-size: 70%;
-color: #999;
-clear: both;
+    clear: both;
+    color: #999999;
+    font-size: 70%;
+    position: absolute;
+    margin-bottom: 8px;
+    z-index: 5;
+    bottom: 2px;
+    float: right;
+    left: 7px;
 }
+
 .my-legend a {
 color: #777;
 }
