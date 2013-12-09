@@ -599,38 +599,34 @@
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</div>
 	
-		<h2>Nuestros Recursos</h2>
+		<h2>Fuentes de información del mapa</h2>
 		<div class="cuad ab-txt">
-			Fuentes de información del mapa
+			La informació que puede visualizarse en el mapa procede de diferentes bases de datos, obtenidas de las siguientes fuentes.<br/><br/>
 
-			La información que puede visualizarse en el mapa procede de diferentes bases de datos, obtenidas de las siguientes fuentes.
+			1.- Concesiones mineras, 2012.<br/>
+			Llano, Manuel. 2012. Concesiones mineras. Reconstrucción y digitalización a partir del portal del Sistema Integral de Administración Minera (SIAM) de la Secretaría de Economía, así como en base a solicitudes de información pública. Conservación Humana, A.C.<br/><br/>
+			
+			2-. Núcleos agrarios, 2009<br/>
+			CIESAS. 2009. Núcleos agrarios. Descarga digital del sitio AntropoSIG del Centro de Investigaciones y Estudios Superiores en Antropología Social (CIESAS).<br/><br/>
+			
+			3.- Áreas Naturales Protegidas (Federal), 2013<br/>
+			CONANP. 2013. Cobertura de las Áreas Naturales Protegidas Federales de México.<br/><br/>
+			
+			4.-Áreas Naturales Protegidas (Estatal y Municipal), 2012<br/>
+			Bezaury-Creel J.E., J.Fco. Torres-Origel, L.M. Ochoa-Ochoa, Marco Castro-Campos, N. Moreno-Díaz. 2012. Bases de Datos Geográficas de las Áreas Naturales Protegidas Estatales, del Distrito Federal, Municipales y Áreas de Valor Ambiental en México - Versión 3.0, Diciembre 31 2011. The Nature Conservancy / Comisión Nacional para el Conocimiento y Uso de la Biodiversidad / Comisión Nacional de Áreas Naturales Protegidas. <br/><br/>
+			
+			5.-Lenguas Indígenas, 2008<br/>
+			Ávila Blomberg, Alejandro de, Norma Gpe. Moreno Díaz. 2008. Distribución de las lenguas indígenas de México. Jardín Etnobotánico de Oaxaca- Comisión Nacional para el Conocimiento y Uso de la Biodiversidad.<br/><br/>
 
-			Concesiones mineras, 2012.
-			Llano, Manuel. 2012. Concesiones mineras. Reconstrucción y digitalización a partir del portal del Sistema Integral de Administración Minera (SIAM) de la Secretaría de Economía, así como en base a solicitudes de información pública. Conservación Humana, A.C.
-			Núcleos agrarios, 2009
-			CIESAS. 2009. Núcleos agrarios. Descarga digital del sitio AntropoSIG del Centro de Investigaciones y Estudios Superiores en Antropología Social (CIESAS). 
-			Estados y municipios, 2010
-			INEGI. 2010. Marco geoestadístico 2010 versión 5.0, Áreas Geoestadísticas Estatales. 
-			INEGI. 2010. Marco geoestadístico 2010 versión 5.0, Áreas Geoestadísticas Municipales. 
-			Áreas Naturales Protegidas (Federal), 2013
-			CONANP. 2013. Cobertura de las Áreas Naturales Protegidas Federales de México.
-			Áreas Naturales Protegidas (Estatal y Municipal), 2012
-			Bezaury-Creel J.E., J.Fco. Torres-Origel, L.M. Ochoa-Ochoa, Marco Castro-Campos, N. Moreno-Díaz. 2012. Bases de Datos Geográficas de las Áreas Naturales Protegidas Estatales, del Distrito Federal, Municipales y Áreas de Valor Ambiental en México - Versión 3.0, Diciembre 31 2011. The Nature Conservancy / Comisión Nacional para el Conocimiento y Uso de la Biodiversidad / Comisión Nacional de Áreas Naturales Protegidas. 
-			Lenguas Indígenas, 2008
-			Ávila Blomberg, Alejandro de, Norma Gpe. Moreno Díaz. 2008. Distribución de las lenguas indígenas de México. Jardín Etnobotánico de Oaxaca- Comisión Nacional para el Conocimiento y Uso de la Biodiversidad.
-
-
-
-			Nota metodológica sobre información de concesiones mineras
-
-			Es posible que la información presentada en el mapa sobre la extensión de las concesiones mineras discrepe con la información presente en otras fuentes, ya que los diferentes estudios e información oficiales han presentado distintos resultados.
-
+			Nota metodológica sobre información de concesiones mineras<br/>
+			Es posible que la información presentada en el mapa sobre la extensión de las concesiones mineras discrepe con la información presente en otras fuentes, ya que los diferentes estudios e información oficiales han presentado distintos resultados.<br/>
 
 			Estas discrepancias se originan por:
-
-			Diferencias en la fecha de corte de la información
-			Traslape entre concesiones
-Concesiones que se extienden fuera del territorio nacional
+			<ul>
+				<li>Diferencias en la fecha de corte de la información</li>
+				<li>Traslape entre concesiones</li>
+				<li>Concesiones que se extienden fuera del territorio nacional</li>
+			</ul>
 		</div>
     </li>
 <?php get_footer(); ?>
