@@ -362,12 +362,21 @@ h2{
 /******************************/
 
 #marcolegal, #ingresos, #mapainteractivo, 
-#transparencia, #acerca{   
+#transparencia{   
     background:url('../img/back2.png') repeat left top;
     min-width: 930px;
     max-width: 930px;
     min-height:960px;
     max-height:960px;
+    padding: 0px 15px;
+}
+
+#acerca{   
+    background:url('../img/back2.png') repeat left top;
+    min-width: 930px;
+    max-width: 930px;
+    min-height:1050px;
+    max-height:1050px;
     padding: 0px 15px;
 }
 

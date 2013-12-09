@@ -619,9 +619,9 @@
 			Ávila Blomberg, Alejandro de, Norma Gpe. Moreno Díaz. 2008. Distribución de las lenguas indígenas de México. Jardín Etnobotánico de Oaxaca- Comisión Nacional para el Conocimiento y Uso de la Biodiversidad.<br/><br/>
 
 			Nota metodológica sobre información de concesiones mineras<br/>
-			Es posible que la información presentada en el mapa sobre la extensión de las concesiones mineras discrepe con la información presente en otras fuentes, ya que los diferentes estudios e información oficiales han presentado distintos resultados.<br/>
+			Es posible que la información presentada en el mapa sobre la extensión de las concesiones mineras discrepe con la información presente en otras fuentes, ya que los diferentes estudios e información oficiales han presentado distintos resultados.<br/><br/>
 
-			Estas discrepancias se originan por:
+			Estas discrepancias se originan por:<br/>
 			<ul>
 				<li>Diferencias en la fecha de corte de la información</li>
 				<li>Traslape entre concesiones</li>
