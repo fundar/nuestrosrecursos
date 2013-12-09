@@ -433,6 +433,7 @@
 			<br><br>
 			<a href="">Contrataciones petroleras</a>
 			<a href="">Link a base de datos</a>
+			<a href="/uploads/fuentes_de_informacion_del_mapa.docx" target="_blank" title="Fuentes de Información del Mapa">Fuentes de Información del Mapa</a>
 		</div>
 	</li>
 	
