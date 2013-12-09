@@ -601,7 +601,7 @@
 	
 		<h2>Fuentes de información del mapa</h2>
 		<div class="cuad ab-txt">
-			La informació que puede visualizarse en el mapa procede de diferentes bases de datos, obtenidas de las siguientes fuentes.<br/><br/>
+			La información que puede visualizarse en el mapa procede de diferentes bases de datos, obtenidas de las siguientes fuentes.<br/><br/>
 
 			1.- Concesiones mineras, 2012.<br/>
 			Llano, Manuel. 2012. Concesiones mineras. Reconstrucción y digitalización a partir del portal del Sistema Integral de Administración Minera (SIAM) de la Secretaría de Economía, así como en base a solicitudes de información pública. Conservación Humana, A.C.<br/><br/>
