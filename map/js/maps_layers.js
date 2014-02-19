@@ -1,11 +1,12 @@
 var map = L.mapbox.map('map', 'fundarmexico.map-4jhimt0g', {attributionControl: false, minZoom: 5, maxZoom:11}).setView([24.577, -100.876], 5);
 
 map.scrollWheelZoom.disable();
+/*
 L.control.layers({
     'Calles'  : L.mapbox.tileLayer('fundarmexico.gf65gggk').addTo(map),
     'Terreno' : L.mapbox.tileLayer('fundarmexico.map-4jhimt0g')
 }).addTo(map);
-
+*/
 
 /*Grupo 1*/
 //concesiones
@@ -376,3 +377,17 @@ function removeLayersG2() {
 		$("#g2-layer6").removeClass('active');
 	}
 }
+
+
+$(document).ready( function () {
+	//$('.leaflet-control-layers').click(toggle);
+	$('.leaflet-control-layers').hover(toggle);
+
+	function toggle() {
+		if($(this).hasClass("leaflet-control-layers-expanded")) {
+			$(this).removeClass('leaflet-control-layers-expanded');
+		} else {
+			$(this).addClass('leaflet-control-layers-expanded');
+		}
+	}
+});
