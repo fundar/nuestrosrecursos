@@ -361,7 +361,7 @@ h2{
 /******** Marco Legal *********/
 /******************************/
 
-#marcolegal, #ingresos, #mapainteractivo, 
+#marcolegal, #ingresos, #mapainteractivo,#mapainteractivo-2, 
 #transparencia{   
     background:url('../img/back2.png') repeat left top;
     min-width: 930px;
@@ -381,6 +381,9 @@ h2{
 }
 
 #mapainteractivo { min-height:855px; }
+
+#mapainteractivo-2 { min-height:550px; max-height:550px; }
+
 #marcolegal{   
     min-height: 1200px;
     color:#000;             
@@ -1031,3 +1034,25 @@ width: 50px;
 .my-legend a {
 color: #777;
 }
+
+.estado-altas { margin-top:20px; height:360px; width:100%; float:left; overflow-y:auto; overflow-x: hidden; }
+
+.thumb-single { float:left; position:relative; margin-bottom:10px; margin-right:65px; width:240px; height:168px; }
+.thumb-single img { width:240px; height:168px; }
+
+.thumb-single:after {
+    content:attr(title);
+    color:#fff;
+    width:240px; height:168px; 
+    background:rgba(0,0,0,0.6);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    position:absolute;
+    top:0; left:0;
+    text-align:center;
+}
+.thumb-single:hover:after {
+    opacity:1;
+}
+
