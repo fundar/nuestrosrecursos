@@ -445,9 +445,15 @@
 			</select>
 		</p>
 		
+		<div id="state-2" class="hide estado-altas img-thumb">
+			<a href="<?php bloginfo('template_url');?>/atlas/big/imageeeee.jpg" title="titleeeee" class="thumb-single">
+				<img src="<?php bloginfo('template_url');?>/atlas/thumb/imageeeee.jpg" alt="titleeeee" class="image-thumb"/>
+			</a>
+		</div>
+		
 		<div id="state-1" class="estado-altas img-thumb">
 			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="ANP y concesiones" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb" class="image-thumb"/>
+				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="titleeeee" class="image-thumb"/>
 			</a>
 			
 			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="ANP y concesiones" class="thumb-single">
@@ -480,12 +486,6 @@
 			
 			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="big" class="thumb-single">
 				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb"/>
-			</a>
-		</div>
-		
-		<div id="state-2" class="hide estado-altas img-thumb">
-			<a href="" title="big">
-				<img src="" alt="thumb"/>
 			</a>
 		</div>
 	</li>
