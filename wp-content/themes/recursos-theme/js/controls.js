@@ -180,7 +180,7 @@ $(function () {
 	/*Only on load*/
 	var html = "";
 		
-	estados["nacional"].forEach(function(entry) {
+	estados[$('#estados-atlas option:selected').val()].forEach(function(entry) {
 		html += '<a href="'+template_url+'/atlas/big/'+entry.image+'.jpg" title="'+entry.title+'" class="thumb-single">';
 			html += '<img src="'+template_url+'/atlas/thumb/'+entry.image+'.jpg" alt="'+entry.title+'" class="image-thumb"/>';
 		html += '</a>';
