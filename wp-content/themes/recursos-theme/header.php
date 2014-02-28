@@ -20,6 +20,9 @@
 		<style>
 			body { margin:0; padding:0; }
 		</style>
+		<script type="text/javascript">
+			var template_url = "<?php bloginfo('template_url');?>";
+		</script>
 	</head>
 	<body>
 		<ul class="menu">

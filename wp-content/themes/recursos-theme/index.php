@@ -407,87 +407,43 @@
 		<h1>Atlas de miner&iacute;a</h1>
 		
 		<p>
-			<label>Comparte el mapa de tu estado: </label>
+			<label>Descarga el mapa de tu estado: </label>
 			<select name="estados-atlas" id="estados-atlas">
-				<option value="1">Aguascalientes</option>
-				<option value="2">Baja California</option>
-				<option value="3">Baja California Sur</option>
-				<option value="4">Campeche</option>
-				<option value="5">Chiapas</option>
-				<option value="6">Chihuahua</option>
-				<option value="6">Coahuila</option>
-				<option value="7">Colima</option>
-				<option value="8">Distrito Federal</option>
-				<option value="10">Durango</option>
-				<option value="11">México</option>
-				<option value="2003">Guanajuato</option>
-				<option value="2004">Guerrero</option>
-				<option value="2005">Hidalgo</option>
-				<option value="2006">Jalisco</option>
-				<option value="2007">Michoacán</option>
-				<option value="2008">Morelos</option>
-				<option value="2009">Nayarit</option>
-				<option value="2010">Nuevo León</option>
-				<option value="2011">Oaxaca</option>
-				<option value="2012">Puebla</option>
-				<option value="2013">Querétaro</option>
-				<option value="2014">Quintana Roo</option>
-				<option value="2015">San Luis Potosí</option>
-				<option value="2016">Sinaloa</option>
-				<option value="2017">Sonora</option>
-				<option value="2018">Tabasco</option>
-				<option value="20019">Tamaulipas</option>
-				<option value="2020">Tlaxcala</option>
-				<option value="2021">Veracruz</option>
-				<option value="2022">Yucatán</option>
-				<option value="2023">Zacatecas</option>
-				<option value="Nacional" selected="selected">Nacional</option>
+				<option value="nacional" selected="selected">Nacional</option>
+				<option value="aguascalientes">Aguascalientes</option>
+				<option value="baja-california">Baja California</option>
+				<option value="baja-california-sur">Baja California Sur</option>
+				<option value="campeche">Campeche</option>
+				<option value="coahuila">Coahuila</option>
+				<option value="colima">Colima</option>
+				<option value="chiapas">Chiapas</option>
+				<option value="chihuahua">Chihuahua</option>
+				<option value="durango">Durango</option>
+				<option value="guanajuato">Guanajuato</option>
+				<option value="guerrero">Guerrero</option>
+				<option value="hidalgo">Hidalgo</option>
+				<option value="jalisco">Jalisco</option>
+				<option value="estado-de-mexico">México</option>
+				<option value="michoacan">Michoacán</option>
+				<option value="morelos">Morelos</option>
+				<option value="nayarit">Nayarit</option>
+				<option value="nuevo-leon">Nuevo Léon</option>
+				<option value="oaxaca">Oaxaca</option>
+				<option value="puebla">Puebla</option>
+				<option value="queretaro">Querétaro</option>
+				<option value="san-luis-potosi">San Luis Potosí</option>
+				<option value="sinaloa">Sinaloa</option>
+				<option value="sonora">Sonora</option>
+				<option value="tabasco">Tabasco</option>
+				<option value="tamaulipas">Tamaulipas</option>
+				<option value="tlaxcala">Tlaxcala</option>
+				<option value="veracruz">Veracruz</option>
+				<option value="yucatan">Yucatán</option>
+				<option value="zacatecas">Zacatecas</option>
 			</select>
 		</p>
 		
-		<div id="state-2" class="hide estado-altas img-thumb">
-			<a href="<?php bloginfo('template_url');?>/atlas/big/imageeeee.jpg" title="titleeeee" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/imageeeee.jpg" alt="titleeeee" class="image-thumb"/>
-			</a>
-		</div>
-		
-		<div id="state-1" class="estado-altas img-thumb">
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="ANP y concesiones" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="titleeeee" class="image-thumb"/>
-			</a>
-			
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="ANP y concesiones" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb" class="image-thumb"/>
-			</a>
-			
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="ANP y concesiones" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb" class="image-thumb"/>
-			</a>
-			
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="ANP y concesiones" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb" class="image-thumb"/>
-			</a>
-			
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="big" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb" class="image-thumb"/>
-			</a>
-			
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="big" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb" class="image-thumb"/>
-			</a>
-			
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="big" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb" class="image-thumb"/>
-			</a>
-			
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="big" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb" class="image-thumb"/>
-			</a>
-			
-			<a href="<?php bloginfo('template_url');?>/atlas/big/ANP_y_concesiones.jpg" title="big" class="thumb-single">
-				<img src="<?php bloginfo('template_url');?>/atlas/thumb/ANP_y_concesiones.jpg" alt="thumb"/>
-			</a>
-		</div>
+		<div id="altas-section" class="estado-altas img-thumb"></div>
 	</li>
 	
 	<li id="transparencia" class="section cover">
